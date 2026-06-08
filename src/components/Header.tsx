@@ -1,0 +1,346 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { Search, Heart, User, ShoppingBag, Menu, X, ChevronDown, Calendar } from "lucide-react";
+import { useCart } from "../context/CartContext";
+import { useApp } from "../context/AppContext";
+import { motion, AnimatePresence } from "framer-motion";
+
+export const Header: React.FC = () => {
+  const pathname = usePathname();
+  const router = useRouter();
+  const { cart, setIsCartOpen } = useCart();
+  const { wishlist, searchQuery, setSearchQuery } = useApp();
+
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [localSearch, setLocalSearch] = useState("");
+
+  // Tracks scroll behavior to add luxury sticky background blur
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (localSearch.trim()) {
+      setSearchQuery(localSearch);
+      setIsSearchOpen(false);
+      router.push(`/shop?search=${encodeURIComponent(localSearch)}`);
+    }
+  };
+
+  const totalCartQty = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+  // Styling helpers
+  const isHome = pathname === "/";
+  const headerBg = isScrolled 
+    ? "bg-white/95 backdrop-blur-md shadow-xs border-b border-zinc-100" 
+    : isHome 
+      ? "bg-transparent text-white" 
+      : "bg-white border-b border-zinc-100";
+      
+  const textClass = isScrolled 
+    ? "text-luxury-charcoal hover:text-luxury-gold" 
+    : isHome 
+      ? "text-white hover:text-luxury-champagne" 
+      : "text-luxury-charcoal hover:text-luxury-gold";
+
+  const iconClass = isScrolled 
+    ? "text-luxury-charcoal hover:text-luxury-gold" 
+    : isHome 
+      ? "text-white hover:text-luxury-champagne" 
+      : "text-luxury-charcoal hover:text-luxury-gold";
+
+  return (
+    <>
+      <header className={`fixed top-10 left-0 right-0 z-40 transition-all duration-300 ${headerBg}`}>
+        {/* Navigation Wrapper */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+          
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-2">
+            <img 
+              src="https://www.sammrenaissance.com/cdn/shop/files/Samm_logo_png.png?v=1745690099&width=300" 
+              alt="SAMM Renaissance" 
+              className={`h-12 w-auto object-contain transition-all duration-300 ${isScrolled || !isHome ? "" : "brightness-0 invert"}`} 
+            />
+          </Link>
+
+          {/* Desktop Navigation Links */}
+          <nav className="hidden lg:flex items-center space-x-8 font-medium text-xs uppercase tracking-widest">
+            <Link href="/" className={`transition-colors ${textClass}`}>
+              Home
+            </Link>
+
+            {/* Shop with Mega Menu */}
+            <div className="relative group py-4">
+              <Link href="/shop" className={`flex items-center gap-1 transition-colors ${textClass}`}>
+                Shop <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
+              </Link>
+              
+              {/* Mega Menu Panel */}
+              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[700px] bg-white text-luxury-charcoal p-8 grid grid-cols-3 gap-8 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 rounded-b-xl border border-zinc-100">
+                <div>
+                  <h3 className="font-serif text-sm font-semibold tracking-wider border-b border-zinc-100 pb-2 mb-3 text-luxury-gold-dark">
+                    Designer Apparel
+                  </h3>
+                  <ul className="space-y-2 text-xs tracking-wider normal-case font-normal text-zinc-600">
+                    <li><Link href="/shop?category=jumpsuits" className="hover:text-luxury-gold transition">Women's Corset Jumpsuits</Link></li>
+                    <li><Link href="/shop?category=coords" className="hover:text-luxury-gold transition">Sleeveless Blazer Co-Ords</Link></li>
+                    <li><Link href="/shop?category=coords" className="hover:text-luxury-gold transition">Vibrant Pink Co-Ord Sets</Link></li>
+                    <li><Link href="/shop?category=tops" className="hover:text-luxury-gold transition">Designer Waist Coats & Tops</Link></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-serif text-sm font-semibold tracking-wider border-b border-zinc-100 pb-2 mb-3 text-luxury-gold-dark">
+                    Fairy Gowns & Accessories
+                  </h3>
+                  <ul className="space-y-2 text-xs tracking-wider normal-case font-normal text-zinc-650">
+                    <li><Link href="/shop?category=gowns" className="hover:text-luxury-gold transition">Kids Fairy-Style Gowns</Link></li>
+                    <li><Link href="/shop?category=dresses" className="hover:text-luxury-gold transition">Toddler & Baby Tulle Dresses</Link></li>
+                    <li><Link href="/kikis-hair" className="hover:text-luxury-gold transition">Satin Luxe Scrunchies (Kikis Hair)</Link></li>
+                    <li><Link href="/shop?category=accessories" className="hover:text-luxury-gold transition">Textured Hair Bows</Link></li>
+                  </ul>
+                </div>
+                <div className="bg-luxury-nude p-4 rounded-lg flex flex-col justify-between">
+                  <div>
+                    <h4 className="font-serif text-xs font-bold text-luxury-charcoal uppercase tracking-widest mb-1">
+                      New Launch
+                    </h4>
+                    <p className="text-[10px] text-zinc-500 normal-case mb-3 leading-relaxed">
+                      Discover our new premium printed velvet corset jumpsuits for instant elegance.
+                    </p>
+                  </div>
+                  <Link
+                    href="/shop?category=jumpsuits"
+                    className="inline-block text-[10px] uppercase font-bold tracking-widest text-luxury-gold-dark hover:text-luxury-charcoal transition"
+                  >
+                    View Collection &rarr;
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* Solutions Dropdown */}
+            <div className="relative group py-4">
+              <span className={`flex items-center gap-1 cursor-pointer transition-colors ${textClass}`}>
+                Shop By Style <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
+              </span>
+              
+              <div className="absolute top-full left-0 w-56 bg-white text-luxury-charcoal p-4 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 border border-zinc-100 rounded-md">
+                <ul className="space-y-3 text-xs tracking-widest uppercase font-medium">
+                  <li><Link href="/shop?solution=partywear" className="hover:text-luxury-gold transition block">Party Wear</Link></li>
+                  <li><Link href="/shop?solution=casual" className="hover:text-luxury-gold transition block">Casual Luxury</Link></li>
+                  <li><Link href="/shop?solution=kids" className="hover:text-luxury-gold transition block">Kids Collections</Link></li>
+                  <li><Link href="/shop?solution=festive" className="hover:text-luxury-gold transition block">Festive Wear</Link></li>
+                  <li><Link href="/shop?solution=styling" className="hover:text-luxury-gold transition block">Designer Accents</Link></li>
+                </ul>
+              </div>
+            </div>
+
+            <Link href="/kikis-hair" className={`transition-colors ${textClass} font-semibold text-luxury-gold-dark`}>
+              Kikis Hair
+            </Link>
+            <Link href="/#reviews" className={`transition-colors ${textClass}`}>
+              Reviews
+            </Link>
+            <Link href="/#transformations" className={`transition-colors ${textClass}`}>
+              Transformations
+            </Link>
+            <Link href="/account" className={`transition-colors ${textClass}`}>
+              Dashboard
+            </Link>
+          </nav>
+
+          {/* Header Action Icons */}
+          <div className="flex items-center space-x-5 sm:space-x-6">
+            {/* Search Toggle */}
+            <button
+              onClick={() => setIsSearchOpen(true)}
+              className={`p-1.5 transition-colors ${iconClass}`}
+              aria-label="Open Search"
+            >
+              <Search size={20} />
+            </button>
+
+            {/* Wishlist */}
+            <Link
+              href="/account?tab=wishlist"
+              className={`p-1.5 transition-colors relative ${iconClass}`}
+              aria-label="Wishlist"
+            >
+              <Heart size={20} />
+              {wishlist.length > 0 && (
+                <span className="absolute -top-1 -right-1 bg-luxury-gold text-white text-[8px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center border border-white">
+                  {wishlist.length}
+                </span>
+              )}
+            </Link>
+
+            {/* Account Dashboard */}
+            <Link
+              href="/account"
+              className={`p-1.5 transition-colors ${iconClass}`}
+              aria-label="Account Dashboard"
+            >
+              <User size={20} />
+            </Link>
+
+            {/* Shopping Bag Trigger */}
+            <button
+              onClick={() => setIsCartOpen(true)}
+              className={`p-1.5 transition-colors relative ${iconClass}`}
+              aria-label="Open Cart"
+            >
+              <ShoppingBag size={20} />
+              {totalCartQty > 0 && (
+                <span className="absolute -top-1 -right-1 bg-luxury-charcoal text-luxury-nude text-[8px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center border border-white animate-pulse">
+                  {totalCartQty}
+                </span>
+              )}
+            </button>
+
+            {/* Mobile Menu Icon */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`lg:hidden p-1.5 transition-colors ${iconClass}`}
+              aria-label="Toggle Menu"
+            >
+              <Menu size={22} />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile Drawer Navigation */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <div className="fixed inset-0 z-50 overflow-hidden lg:hidden">
+            {/* Backdrop overlay */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="absolute inset-0 bg-black/50"
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
+            
+            {/* Drawer side panel */}
+            <motion.div
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ type: "spring", damping: 25, stiffness: 220 }}
+              className="absolute inset-y-0 right-0 max-w-xs w-full bg-white text-luxury-charcoal shadow-2xl flex flex-col p-6"
+            >
+              <div className="flex items-center justify-between border-b border-zinc-100 pb-4">
+                <span className="font-serif font-bold tracking-widest text-sm">SAMM MENU</span>
+                <button onClick={() => setIsMobileMenuOpen(false)} className="text-zinc-500 hover:text-luxury-charcoal">
+                  <X size={22} />
+                </button>
+              </div>
+              
+              <nav className="flex-1 flex flex-col space-y-5 text-sm uppercase tracking-widest font-semibold pt-6">
+                <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
+                  Home
+                </Link>
+                <Link href="/shop" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition border-b border-zinc-50 pb-2">
+                  Shop Collection
+                </Link>
+                <div className="space-y-2 pl-4">
+                  <p className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider">Style Finder</p>
+                  <Link href="/shop?solution=partywear" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Party Wear</Link>
+                  <Link href="/shop?solution=casual" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Casual Luxury</Link>
+                  <Link href="/shop?solution=kids" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Kids Collections</Link>
+                </div>
+                <Link href="/kikis-hair" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition text-luxury-gold-dark">
+                  Kikis Hair
+                </Link>
+                <Link href="/#reviews" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
+                  Reviews
+                </Link>
+                <Link href="/account" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
+                  My Dashboard
+                </Link>
+              </nav>
+              
+              <div className="border-t border-zinc-100 pt-4 text-center">
+                <p className="text-xs text-zinc-500 italic">Luxury Apparel & Hair Accessories</p>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
+
+      {/* Floating Fullscreen Search Overlay */}
+      <AnimatePresence>
+        {isSearchOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            className="fixed inset-0 z-50 bg-white/95 backdrop-blur-md flex items-center justify-center p-6"
+          >
+            <button
+              onClick={() => setIsSearchOpen(false)}
+              className="absolute top-6 right-6 text-zinc-500 hover:text-luxury-charcoal transition-colors p-2"
+              aria-label="Close search"
+            >
+              <X size={26} />
+            </button>
+            
+            <motion.div
+              initial={{ scale: 0.95, y: 10 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.95, y: 10 }}
+              transition={{ type: "spring", damping: 20, stiffness: 200 }}
+              className="max-w-2xl w-full text-center"
+            >
+              <h3 className="font-serif text-2xl font-medium text-luxury-charcoal mb-8 tracking-wide">
+                What hair solution are you searching for?
+              </h3>
+              <form onSubmit={handleSearchSubmit} className="relative border-b-2 border-luxury-charcoal pb-3 flex items-center">
+                <input
+                  type="text"
+                  placeholder="Search extensions, toppers, wigs, volume..."
+                  value={localSearch}
+                  onChange={(e) => setLocalSearch(e.target.value)}
+                  className="w-full text-xl md:text-3xl font-light text-luxury-charcoal bg-transparent placeholder-zinc-300 focus:outline-none"
+                  autoFocus
+                />
+                <button type="submit" className="text-luxury-charcoal hover:text-luxury-gold transition-colors p-1" aria-label="Submit search">
+                  <Search size={28} />
+                </button>
+              </form>
+              <div className="flex flex-wrap gap-2 justify-center mt-6 text-xs text-zinc-500 font-medium">
+                <span className="uppercase tracking-widest mr-2">Suggestions:</span>
+                <button type="button" onClick={() => { setLocalSearch("Toppers"); }} className="underline hover:text-luxury-gold bg-transparent border-0 cursor-pointer">Toppers</button>
+                <span>•</span>
+                <button type="button" onClick={() => { setLocalSearch("Clip-In"); }} className="underline hover:text-luxury-gold bg-transparent border-0 cursor-pointer">Clip-Ins</button>
+                <span>•</span>
+                <button type="button" onClick={() => { setLocalSearch("Bangs"); }} className="underline hover:text-luxury-gold bg-transparent border-0 cursor-pointer">Bangs</button>
+                <span>•</span>
+                <button type="button" onClick={() => { setLocalSearch("Volume"); }} className="underline hover:text-luxury-gold bg-transparent border-0 cursor-pointer">Volume</button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
+  );
+};
+export default Header;

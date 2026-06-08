@@ -1,0 +1,157 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique
+  passwordHash  String
+  fullName      String?
+  phone         String?
+  gender        String?
+  dateOfBirth   DateTime?
+  profilePhoto  String?
+  role          String    @default("customer")
+  resetToken    String?
+  resetExpires  DateTime?
+  addresses     Address[]
+  orders        Order[]
+  cartItems     CartItem[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model Address {
+  id          Int      @id @default(autoincrement())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      Int
+  fullName    String
+  phone       String
+  line1       String   @map("address_line_1")
+  line2       String?  @map("address_line_2")
+  city        String
+  state       String
+  country     String
+  postalCode  String   @map("postal_code")
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model Product {
+  id               Int          @id @default(autoincrement())
+  name             String
+  slug             String       @unique
+  description      String?
+  price            Float
+  salePrice        Float?
+
+  sku              String?      @unique
+  categoryId       Int?
+  category         Category?    @relation(fields: [categoryId], references: [id])
+  imageUrl         String?
+  stock            Int          @default(0)
+  featured         Boolean      @default(false)
+  featuredImageId  Int? @unique
+  featuredImage    ProductImage? @relation("FeaturedImage", fields: [featuredImageId], references: [id])
+  images           ProductImage[] @relation("ProductImages")
+  variants         Variant[]
+  tags             String?
+
+  specifications   String?
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+  cartItems        CartItem[]
+  reviews          Review[]
+}
+
+model Category {
+  id        Int       @id @default(autoincrement())
+  name      String
+  slug      String    @unique
+  products  Product[]
+}
+
+model ProductImage {
+  id        Int      @id @default(autoincrement())
+  url       String
+  product   Product? @relation("ProductImages", fields: [productId], references: [id])
+  productId Int?
+  // opposite side for FeaturedImage relation
+  featuredIn Product? @relation("FeaturedImage")
+}
+
+model Variant {
+  id          Int      @id @default(autoincrement())
+  sku         String   @unique
+  price       Float
+  salePrice   Float?
+  attributes  String?
+
+  product     Product  @relation(fields: [productId], references: [id])
+  productId   Int
+}
+
+model Order {
+  id            String   @id
+  user          User     @relation(fields: [userId], references: [id])
+  userId        Int
+  totalAmount   Float
+  orderStatus   String   @default("Processing")
+  paymentStatus String   @default("Pending")
+  address       String
+  paymentMethod String   @default("RAZORPAY")
+  items         String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model CartItem {
+  id          Int      @id @default(autoincrement())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      Int
+  product     Product  @relation(fields: [productId], references: [id])
+  productId   Int
+  quantity    Int      @default(1)
+  selectedColor String?
+  selectedSize  String?
+  createdAt   DateTime @default(now())
+}
+
+
+
+model Review {
+  id           Int      @id @default(autoincrement())
+  product      Product  @relation(fields: [productId], references: [id])
+  productId    Int
+  productName  String
+  userName     String
+  rating       Int
+  title        String
+  text         String
+  verified     Boolean  @default(true)
+  helpfulCount Int      @default(0)
+  createdAt    DateTime @default(now())
+}
+
+model Setting {
+  setting_key   String @id @map("key")
+  setting_value String   @map("value")
+}
+
+model Booking {
+  id           String   @id
+  customerName String
+  email        String
+  phone        String
+  date         String
+  timeSlot     String
+  location     String
+  notes        String?
+  status       String   @default("confirmed")
+  createdAt    DateTime @default(now())
+}

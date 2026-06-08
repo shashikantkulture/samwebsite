@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "one",
+    "slug": "one"
+  },
+  {
+    "id": 2,
+    "name": "uncategorized",
+    "slug": "uncategorized"
+  },
+  {
+    "id": 3,
+    "name": "Woman Top",
+    "slug": "woman-top"
+  },
+  {
+    "id": 4,
+    "name": "Combo",
+    "slug": "combo"
+  },
+  {
+    "id": 5,
+    "name": "Woman co-ords-set",
+    "slug": "woman-co-ords-set"
+  }
+]

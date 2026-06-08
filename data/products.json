@@ -1,0 +1,3491 @@
+[
+  {
+    "id": 1,
+    "name": "Azure Bliss Scrunchie",
+    "slug": "azure-bliss-scrunchie",
+    "description": "Azure Bliss Scrunchie by KIKI'S Hair\nElevate your everyday hairstyles with the Azure Bliss Scrunchie. Crafted from premium georgette fabric, this scrunchie is lightweight, soft, and gentle on your hair, ensuring a comfortable hold without tugging or breakage. Its deep azure blue shade adds a pop of color to any look, making it a must-have accessory for both casual and elegant outfits. Designed for maximum stretch and durability, this scrunchie keeps your hair secure while maintaining its stylish, airy texture.\nMaterial: Soft GeorgetteColor: Deep Azure BlueDesign: Solid, Flowy TextureSize: Regular\nHandmade with love, just for you! 💙\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "azure-bliss-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/azure-bliss-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 5,
+    "tags": "[\"bow\",\"hair accessories\",\"Scrunchie\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:40:38.914Z",
+    "updatedAt": "2026-06-08T00:40:38.914Z",
+    "images": [
+      {
+        "id": 5,
+        "url": "/../../public/images/products/one/azure-bliss-scrunchie-1@1x.webp",
+        "productId": 1
+      },
+      {
+        "id": 6,
+        "url": "/../../public/images/products/one/azure-bliss-scrunchie-2@1x.webp",
+        "productId": 1
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Berry Belle Set – 2 Mini Red Leather Textured Hair Bows",
+    "slug": "berry-belle-set-2-mini-red-leather-textured-hair-bows",
+    "description": "Berry Belle Set – 2 Mini Red Leather-Look Hair Bows\nAdd a pop of charm to your look with the Berry Belle Set, featuring two beautifully crafted mini bows in a rich berry red faux leather finish. These small yet striking accessories are perfect for minimal styling with maximum impact.\nWhy You'll Love It:✔ Set of 2 Matching Bows – Ideal for pigtails, half-up styles, or symmetrical looks✔ Sleek Leather-Look Finish – Soft faux leather texture that adds a modern, luxe touch✔ Berry Red Color – A bold yet versatile shade perfect for all seasons and occasions✔ Lightweight &amp; Comfortable – Gentle on hair, secure grip without tugging✔ Perfect for All Ages – Great for kids, teens, and women\nSimple, stylish, and effortlessly cute — the Berry Belle Set is your go-to for everyday elegance.",
+    "price": 449,
+    "salePrice": 699,
+    "sku": "berry-belle-set-2-mini-red-leather-textured-hair-bows",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/berry-belle-set-2-mini-red-leather-textured-hair-bows-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 9,
+    "tags": "[]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:03.797Z",
+    "updatedAt": "2026-06-08T00:41:03.797Z",
+    "images": [
+      {
+        "id": 9,
+        "url": "/../../public/images/products/uncategorized/berry-belle-set-2-mini-red-leather-textured-hair-bows-1@1x.webp",
+        "productId": 2
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Berry Blush Flexi Scrunchie",
+    "slug": "berry-blush-flexi-scrunchie",
+    "description": "Berry Blush Flexi Scrunchie by KIKI'S Hair\nElevate your everyday hairstyles with the Berry Blush Flexi Scrunchie, crafted from premium soft georgette and designed for both style and strength. this scrunchie offers 3X the stretch for a secure yet comfortable hold. Whether you're styling a sleek ponytail or a casual bun, enjoy the perfect blend of durability, elegance, and all-day comfort.\nMaterial: Soft Satin Color: PinkDesign: SolidSize: Regular\nHandmade with love, just for you! 💕\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "berry-blush-flexi-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/berry-blush-flexi-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 10,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:14.009Z",
+    "updatedAt": "2026-06-08T00:41:14.009Z",
+    "images": [
+      {
+        "id": 10,
+        "url": "/../../public/images/products/one/berry-blush-flexi-scrunchie-1@1x.webp",
+        "productId": 3
+      },
+      {
+        "id": 11,
+        "url": "/../../public/images/products/one/berry-blush-flexi-scrunchie-2@1x.webp",
+        "productId": 3
+      },
+      {
+        "id": 12,
+        "url": "/../../public/images/products/one/berry-blush-flexi-scrunchie-3@1x.webp",
+        "productId": 3
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Blazer Neck Waist Coat For Women",
+    "slug": "blazer-neck-waist-coat-for-women",
+    "description": "Got it ✅ Here’s a sleek description for your Blazer Neck Waist Coat in blue nylon lycra:\n\nElevate your style with this sleeveless blazer-neck waist coat, designed in premium nylon lycra fabric for a polished yet comfortable fit. Its structured neckline and tailored cut add a touch of sophistication, making it perfect for both workwear and chic outings. Available in Blue, this versatile piece blends modern design with timeless elegance.\nFabric &amp; Care\n\n\nNylon Lycra fabric\n\n\nSleeveless, tailored finish\n\n\nGentle hand wash or machine wash safe",
+    "price": 1099,
+    "salePrice": 1799,
+    "sku": "blazer-neck-waist-coat-for-women",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/blazer-neck-waist-coat-for-women-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 13,
+    "tags": "[]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:41:19.523Z",
+    "updatedAt": "2026-06-08T00:41:19.523Z",
+    "images": [
+      {
+        "id": 13,
+        "url": "/../../public/images/products/woman-top/blazer-neck-waist-coat-for-women-1@1x.webp",
+        "productId": 4
+      },
+      {
+        "id": 14,
+        "url": "/../../public/images/products/woman-top/blazer-neck-waist-coat-for-women-2@1x.webp",
+        "productId": 4
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bloom Scrunchie Set",
+    "slug": "bloom-scrunchie-set",
+    "description": "Scrunchie Set by KIKI'S Hair\nPresenting the Velvet Bloom Scrunchie Set — luxurious satin-textured scrunchies that wrap your hair in pure elegance with rich, jewel-toned colors.\nSet Includes:\n\n\nEmerald Forest — Deep, enchanting green\n\n\nCrimson Dream — Bold, rich wine red\n\n\nIvory Luxe — Timeless, pure white\n\n\nWhy You’ll Love It:Gentle on Hair – Reduces breakage and frizzRich Color Play – Perfect for day or evening looksStretchy &amp; Strong – Comfortably holds any hairstyleFestive Vibes – Ideal for celebrations or gifting!\nPerfect for adding a royal finish to every outfit.\nKIKI'S Hair – Wrap Your Hair in Beauty.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "bloom-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/bloom-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 15,
+    "tags": "[\"Scrunchie\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:21.568Z",
+    "updatedAt": "2026-06-08T00:41:21.568Z",
+    "images": [
+      {
+        "id": 15,
+        "url": "/../../public/images/products/combo/bloom-scrunchie-set-1@1x.webp",
+        "productId": 5
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Blossom Bloom Co-Ord Set",
+    "slug": "blossom-bloom-co-ord-set",
+    "description": "Color: Deep Blue with Multicolor Floral PrintPattern: All-over FloralFabric: Soft Cotton BlendSet Includes: Sleeveless Top &amp; Matching ShortsNeckline (Top): Round NeckFit Type: Relaxed FitStyle: Casual Co-Ord Se\nIdeal For: WomenOccasion: Brunch, Casual Day Out, Summer Events\nDescription Example:Step into effortless style with our Blossom Bloom Co-Ord Set – a vibrant floral ensemble that’s equal parts cute and comfy. The sleeveless top features a round neck and ruffle detailing on the sides, while the high-waist shorts complete the coordinated look with a flattering fit. Whether you're heading to brunch or enjoying a summer day out, this set keeps you feeling fresh and fashionable.",
+    "price": 2999,
+    "salePrice": 4899,
+    "sku": "blossom-bloom-co-ord-set",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/blossom-bloom-co-ord-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 16,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:41:31.610Z",
+    "updatedAt": "2026-06-08T00:41:31.610Z",
+    "images": [
+      {
+        "id": 16,
+        "url": "/../../public/images/products/one/blossom-bloom-co-ord-set-1@1x.webp",
+        "productId": 6
+      },
+      {
+        "id": 17,
+        "url": "/../../public/images/products/one/blossom-bloom-co-ord-set-2@1x.webp",
+        "productId": 6
+      },
+      {
+        "id": 18,
+        "url": "/../../public/images/products/one/blossom-bloom-co-ord-set-3@1x.webp",
+        "productId": 6
+      },
+      {
+        "id": 19,
+        "url": "/../../public/images/products/one/blossom-bloom-co-ord-set-4@1x.webp",
+        "productId": 6
+      },
+      {
+        "id": 20,
+        "url": "/../../public/images/products/one/blossom-bloom-co-ord-set-5@1x.webp",
+        "productId": 6
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Blue Mist Grip Scrunchie",
+    "slug": "blue-mist-grip-scrunchie",
+    "description": "Blue Mist Grip Scrunchie by KIKI'S Hair\nAdd a touch of elegance to your hairstyles with the Blue Mist Grip Scrunchie. Crafted from luxuriously soft satin, this scrunchie offers a 3X stretch for a secure yet gentle hold, keeping your hair in place all day without creases or tension. Perfect for both casual and chic looks, it combines durability, comfort, and timeless style.\nMaterial: Soft SatinColor: BlueDesign: SolidSize: Regular\nHandmade with love, just for you! 💙\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "blue-mist-grip-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/blue-mist-grip-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 21,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:35.368Z",
+    "updatedAt": "2026-06-08T00:41:35.368Z",
+    "images": [
+      {
+        "id": 21,
+        "url": "/../../public/images/products/one/blue-mist-grip-scrunchie-1@1x.webp",
+        "productId": 7
+      },
+      {
+        "id": 22,
+        "url": "/../../public/images/products/one/blue-mist-grip-scrunchie-2@1x.webp",
+        "productId": 7
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Blush Bloom Georgette Scrunchie",
+    "slug": "blush-bloom-georgette-scrunchie",
+    "description": "Blush Bloom Georgette Scrunchie by KIKI'S Hair\nAdd a touch of romance and elegance to your hairstyle with the Blush Bloom Georgette Scrunchie. Designed for comfort and style, this scrunchie is crafted from luxurious georgette fabric, ensuring a soft, lightweight, and gentle hold on your hair. The rosy pink hue evokes a feminine, graceful, and chic vibe, making it the perfect accessory for casual brunches, date nights, or everyday elegance.\nMaterial: Soft GeorgetteColor: Rosy PinkStyle: Airy, Flowing &amp; ChicSize: Regular\nSoft on your hair, stunning in your style – because you deserve the best!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "blush-bloom-georgette-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/blush-bloom-georgette-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 23,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:39.295Z",
+    "updatedAt": "2026-06-08T00:41:39.295Z",
+    "images": [
+      {
+        "id": 23,
+        "url": "/../../public/images/products/one/blush-bloom-georgette-scrunchie-1@1x.webp",
+        "productId": 8
+      },
+      {
+        "id": 24,
+        "url": "/../../public/images/products/one/blush-bloom-georgette-scrunchie-2@1x.webp",
+        "productId": 8
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Blush Bloom Scrunchie",
+    "slug": "blush-bloom-scrunchie",
+    "description": "Blush Bloom Scrunchie by KIKI'S Hair\nEmbrace the delicate charm of the Blush Bloom Scrunchie! Crafted from lightweight and airy georgette fabric, this scrunchie is as soft as a petal, offering a comfortable yet secure grip for all hair types.\nWhy You’ll Love It:Color: Soft Blush Pink – A timeless, feminine hueMaterial: Lightweight &amp; breathable GeorgetteStyle: Gentle on hair, prevents breakage &amp; adds volumePerfect for: Ponytails, buns, or as a chic wrist accessory\nAdd a touch of soft elegance to your hair game with Blush Bloom – because every hairstyle deserves a little romance!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "blush-bloom-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/blush-bloom-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 25,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:44.892Z",
+    "updatedAt": "2026-06-08T00:41:44.892Z",
+    "images": [
+      {
+        "id": 25,
+        "url": "/../../public/images/products/one/blush-bloom-scrunchie-1@1x.webp",
+        "productId": 9
+      },
+      {
+        "id": 26,
+        "url": "/../../public/images/products/one/blush-bloom-scrunchie-2@1x.webp",
+        "productId": 9
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Blush Royale Bow",
+    "slug": "blush-royale-bow",
+    "description": "Blush Royale Bow by KIKI'S Hair\nStep into timeless grace with the Blush Royale Bow — where elegance meets everyday wear. Crafted in luxurious champagne blush satin, this oversized statement piece exudes royal glam without trying too hard. The rich folds and soft sheen make it a classic favorite for those who love sophistication in every detail.\nFeatures to Adore:✔ Smooth Satin Finish – Soft glow that catches the light just right✔ Voluminous Design – Adds drama and charm to simple hairstyles✔ Subtle Color Pop – Nude-pink that pairs effortlessly with any outfit✔ Perfect for Celebrations – Think brunches, weddings, or high-tea vibes\nThis bow doesn’t whisper—it speaks softly with poise. Your ultimate go-to for when you want to feel like the queen you are.\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 499,
+    "salePrice": 699,
+    "sku": "blush-royale-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/blush-royale-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 27,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:54.869Z",
+    "updatedAt": "2026-06-08T00:41:54.869Z",
+    "images": [
+      {
+        "id": 27,
+        "url": "/../../public/images/products/one/blush-royale-bow-1@1x.webp",
+        "productId": 10
+      },
+      {
+        "id": 28,
+        "url": "/../../public/images/products/one/blush-royale-bow-2@1x.webp",
+        "productId": 10
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Blush Tones Scrunchies Combo",
+    "slug": "blush-tones-scrunchies-combo",
+    "description": "Soft hues. Smooth satin. Everyday elegance.\nThe Blush Tones Combo is a curated set of satin scrunchies in delicate blush-inspired shades—perfect for adding a gentle, feminine touch to your hair. With their silky texture and gentle hold, these scrunchies are made to style your day with comfort and grace.\n\nWhy You'll Love It:\n✔️ Elegant Blush Shades – A romantic mix of soft pinks, nudes, and pastels✔️ Satin-Smooth Finish – Glossy, soft fabric that’s kind to your hair✔️ Comfortable Hold – Secure without pulling or creasing✔️ Perfect for All Hair Types – Stretchy, lightweight, and long-lasting✔️ Ideal for Daily Wear &amp; Gifting – Pretty enough to style, thoughtful enough to gift\nWrap your hair in softness with these dreamy tones—because blush is always in style.",
+    "price": 179,
+    "salePrice": 249,
+    "sku": "blush-tones-scrunchies-combo",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/blush-tones-scrunchies-combo-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 29,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:41:56.765Z",
+    "updatedAt": "2026-06-08T00:41:56.765Z",
+    "images": [
+      {
+        "id": 29,
+        "url": "/../../public/images/products/combo/blush-tones-scrunchies-combo-1@1x.webp",
+        "productId": 11
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Boho-Inspired Sleeveless Jumpsuit with Tribal Print",
+    "slug": "boho-inspired-sleeveless-jumpsuit-with-tribal-print",
+    "description": "Color: Blue &amp; Black MultitonePattern: Ethnic/Tribal StripesFit: Relaxed FitNeckline: V-NeckClosure: Front ButtonSleeve Type: SleevelessLength: Full LengthIdeal For: Women\nDescription Example:Step into effortless style with this Boho-Inspired Sleeveless Jumpsuit, featuring bold tribal patterns in blue and black tones. Designed with a flattering V-neckline and front-button detailing, this relaxed-fit piece is perfect for brunch dates, casual Fridays, or laid-back vacations. Pair it with sneakers for an easy-going street-style vibe or dress it up with wedges and a sling bag for a chic boho look.",
+    "price": 1499,
+    "salePrice": 3999,
+    "sku": "boho-inspired-sleeveless-jumpsuit-with-tribal-print",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/boho-inspired-sleeveless-jumpsuit-with-tribal-print-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 30,
+    "tags": "[\"Jumpsuit\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:42:01.914Z",
+    "updatedAt": "2026-06-08T00:42:01.914Z",
+    "images": [
+      {
+        "id": 30,
+        "url": "/../../public/images/products/one/boho-inspired-sleeveless-jumpsuit-with-tribal-print-1@1x.webp",
+        "productId": 12
+      },
+      {
+        "id": 31,
+        "url": "/../../public/images/products/one/boho-inspired-sleeveless-jumpsuit-with-tribal-print-2@1x.webp",
+        "productId": 12
+      },
+      {
+        "id": 32,
+        "url": "/../../public/images/products/one/boho-inspired-sleeveless-jumpsuit-with-tribal-print-3@1x.webp",
+        "productId": 12
+      },
+      {
+        "id": 33,
+        "url": "/../../public/images/products/one/boho-inspired-sleeveless-jumpsuit-with-tribal-print-4@1x.webp",
+        "productId": 12
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bold Elegance Scrunchie Set",
+    "slug": "bold-elegance-scrunchie-set",
+    "description": "Bold Elegance Scrunchie Set by KIKI'S Hair \nUnleash your bold &amp; confident style with the Bold Elegance Scrunchie Set! Crafted from soft georgette fabric, these scrunchies add a touch of sophistication while ensuring a comfortable hold for your hair. Perfect for everyday wear or special occasions, this set features deep, rich tones that make a statement.\nSet Includes:Scarlet Desire (Red) – Passionate, vibrant, and full of energy.Midnight Noir (Black) – Classic, elegant, and always in style.Royal Charm (Purple) – A regal shade that exudes confidence.Blush Fuchsia (Bright Pink) – A fun and flirty pop of color.Ocean Mist (Teal Blue) – A refreshing and stylish hue.\nWhy You'll Love It:✔ Soft &amp; Lightweight Georgette Fabric – Feels gentle on your hair✔ No Hair Damage – Prevents breakage &amp; creases✔ Versatile &amp; Stylish – Wear it as a ponytail holder, wrist accessory, or bun enhancer✔ Perfect for All Occasions – Elevate your daily hair game effortlessly\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 299,
+    "salePrice": 499,
+    "sku": "bold-elegance-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/bold-elegance-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 34,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:08.594Z",
+    "updatedAt": "2026-06-08T00:42:08.594Z",
+    "images": [
+      {
+        "id": 34,
+        "url": "/../../public/images/products/combo/bold-elegance-scrunchie-set-1@1x.webp",
+        "productId": 13
+      },
+      {
+        "id": 35,
+        "url": "/../../public/images/products/combo/bold-elegance-scrunchie-set-2@1x.webp",
+        "productId": 13
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Celestial Shine Scrunchies Set",
+    "slug": "celestial-shine-scrunchies-set",
+    "description": "Mystic glow. Starry shimmer. Timeless beauty.\nThe Celestial Shine Collection is a stunning set of satin scrunchies inspired by the sparkling night sky. Each piece features a luminous satin finish with subtle shimmer, designed to add a touch of celestial elegance to your everyday hairstyles.\nWhy You'll Love It:✔️ Ethereal Colors – Deep midnight blues, soft silvers, and cosmic hues✔️ Satin Smooth Texture – Luxuriously gentle with a radiant sheen✔️ Damage-Free Hold – Flexible stretch that protects your hair✔️ Suitable for All Hair Types – Comfort and style for every strand✔️ Perfect Gift Idea – Wrapped with starry charm, ready to shine\nBring the magic of the cosmos to your look with the Celestial Shine Collection.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "celestial-shine-scrunchies-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/celestial-shine-scrunchies-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 36,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:10.736Z",
+    "updatedAt": "2026-06-08T00:42:10.736Z",
+    "images": [
+      {
+        "id": 36,
+        "url": "/../../public/images/products/combo/celestial-shine-scrunchies-set-1@1x.webp",
+        "productId": 14
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Champagne Bliss Scrunchie",
+    "slug": "champagne-bliss-scrunchie",
+    "description": "Champagne Bliss Scrunchie by KIKI'S Hair\nExperience the luxury of understated elegance with the Champagne Bliss Scrunchie. Crafted from lightweight and airy georgette fabric, this scrunchie offers a gentle yet secure hold, making it a must-have for effortless styling.\nWhy You’ll Love It:Color: Soft Champagne Beige – Elegant &amp; versatileMaterial: Soft, breathable GeorgetteStyle: Prevents breakage &amp; adds effortless volumePerfect for: Ponytails, buns, or as a stylish wrist accessory\nStep into a world of timeless grace with the Champagne Bliss Scrunchie—because elegance is always in style!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "champagne-bliss-scrunchie",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/champagne-bliss-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 37,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:18.198Z",
+    "updatedAt": "2026-06-08T00:42:18.198Z",
+    "images": [
+      {
+        "id": 37,
+        "url": "/../../public/images/products/uncategorized/champagne-bliss-scrunchie-1@1x.webp",
+        "productId": 15
+      },
+      {
+        "id": 38,
+        "url": "/../../public/images/products/uncategorized/champagne-bliss-scrunchie-2@1x.webp",
+        "productId": 15
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Cherry Crown – Red Leather Textured Hair Bow with Triple Small Leaf Ends",
+    "slug": "cherry-crown-red-leather-textured-hair-bow-with-triple-small-leaf-ends",
+    "description": "Cherry Crown – Red Leather Textured Hair Bow with Triple Small Leaf Ends\nStep into effortless elegance with the Cherry Crown, a bold yet graceful accessory crafted in rich red faux leather. Featuring three delicately shaped leaf ends, this statement bow brings a regal charm to your everyday and occasion wear.\nWhy You’ll Love It:✔ Triple Leaf Design – Three small leaf-style tails create a crown-like silhouette✔ Luxurious Leather Texture – Smooth, premium faux leather with a soft matte finish✔ Cherry Red Hue – Vibrant yet classic, perfect for all skin tones✔ Versatile &amp; Lightweight – Ideal for ponytails, half-updos, and buns✔ Secure Grip – Stays in place without slipping, perfect for long wear\nWhether it's a festive function or a casual day out, the Cherry Crown adds a polished, queen-like finish to your hairstyle — because every detail matters.",
+    "price": 599,
+    "salePrice": 799,
+    "sku": "cherry-crown-red-leather-textured-hair-bow-with-triple-small-leaf-ends",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/cherry-crown-red-leather-textured-hair-bow-with-triple-small-leaf-ends-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 39,
+    "tags": "[]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:25.730Z",
+    "updatedAt": "2026-06-08T00:42:25.730Z",
+    "images": [
+      {
+        "id": 39,
+        "url": "/../../public/images/products/uncategorized/cherry-crown-red-leather-textured-hair-bow-with-triple-small-leaf-ends-1@1x.webp",
+        "productId": 16
+      },
+      {
+        "id": 40,
+        "url": "/../../public/images/products/uncategorized/cherry-crown-red-leather-textured-hair-bow-with-triple-small-leaf-ends-2@1x.webp",
+        "productId": 16
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Cherry Luxe – Leather Textured Hair Bow For Girls",
+    "slug": "cherry-luxe-leather-textured-hair-bow-for-girls",
+    "description": "Step into bold elegance with the Cherry Luxe Bow — where luxe texture meets statement style. Crafted in rich red faux leather, this oversized accessory brings depth, character, and modern flair to any hairstyle.\nFeatures to Adore:✔ Premium Leather-Look Finish – Sleek, refined texture that stands out✔ Bold Red Hue – Vibrant crimson that elevates your look with confidence✔ Generous Proportions – Eye-catching size adds drama to ponytails, buns, and half-up styles✔ Versatile Style – Ideal for both casual outings and festive celebrations\nThis bow doesn’t just complement your outfit—it defines it, with a touch of edge and sophistication.",
+    "price": 549,
+    "salePrice": 699,
+    "sku": "cherry-luxe-leather-textured-hair-bow-for-girls",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/cherry-luxe-leather-textured-hair-bow-for-girls-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 41,
+    "tags": "[\"bow\",\"hair accessories\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:32.072Z",
+    "updatedAt": "2026-06-08T00:42:32.072Z",
+    "images": [
+      {
+        "id": 41,
+        "url": "/../../public/images/products/uncategorized/cherry-luxe-leather-textured-hair-bow-for-girls-1@1x.webp",
+        "productId": 17
+      },
+      {
+        "id": 42,
+        "url": "/../../public/images/products/uncategorized/cherry-luxe-leather-textured-hair-bow-for-girls-2@1x.webp",
+        "productId": 17
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Cherry Petal – Red Leather Textured Hair Bow with Twin Small Leaf Ends",
+    "slug": "cherry-petal-red-leather-textured-hair-bow-with-twin-small-leaf-ends",
+    "description": "Cherry Petal – Red Leather Textured Hair Bow with Twin Small Leaf Ends | Elegant Leather Textured Bow Clip for Girls &amp; Women | Stylish Hair Accessory for Ponytails, Buns &amp; Daily Wear\nDelicate yet striking, the Cherry Petal bow brings a graceful charm to your hair styling. Crafted from rich red faux leather, this accessory features two petite leaf-like tails that add a touch of softness and detail to its structured design.\nFeatures You'll Love:✔ Soft Leather Texture – A refined matte finish with a modern feel✔ Twin Petal Tails – Two small leaf-style ends for an elegant, floral-inspired look✔ Classic Cherry Red – Bright yet sophisticated, perfect for every occasion✔ Lightweight &amp; Secure – Designed for comfortable, all-day wear✔ Versatile Styling – Complements ponytails, half-ups, braids &amp; buns effortlessly\nThe Cherry Petal is your go-to bow for everything from casual brunches to evening outings — timeless, stylish, and beautifully feminine.",
+    "price": 549,
+    "salePrice": 699,
+    "sku": "cherry-petal-red-leather-textured-hair-bow-with-twin-small-leaf-ends",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/cherry-petal-red-leather-textured-hair-bow-with-twin-small-leaf-ends-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 43,
+    "tags": "[]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:36.191Z",
+    "updatedAt": "2026-06-08T00:42:36.191Z",
+    "images": [
+      {
+        "id": 43,
+        "url": "/../../public/images/products/uncategorized/cherry-petal-red-leather-textured-hair-bow-with-twin-small-leaf-ends-1@1x.webp",
+        "productId": 18
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Chic Animal Print Crop-Top for Women",
+    "slug": "chic-animal-print-crop-top-for-women",
+    "description": "Unleash your wild side with our stylish Animal Print Cropped Blouse. Designed for the modern woman, this trendy top features a bold animal print pattern that makes a striking fashion statement. The lapel collar and short puff sleeves add a touch of classic sophistication, while the cropped fit offers a chic and flattering silhouette.\nCrafted from a comfortable and lightweight Lycra fabric with a knitting weave, this top provides a great stretch, ensuring a perfect fit and all-day comfort. The fabric feels soft against your skin and is easy to care for.\nWhether you're heading out for a casual day with friends or looking to elevate your evening look, this versatile crop top pairs effortlessly with high-waisted skirts, jeans, or trousers.\n \nFeatures:\n \n\n\nPattern: All-over Animal Print\n\n\nStyle: Cropped blouse with lapel collar\n\n\nSleeves: Trendy short puff sleeves\n\n\nMaterial: Stretchable Lycra fabric with a soft, knitted weave\n\n\nFit: Flattering and comfortable cropped silhouette\n\n\nOccasion: Perfect for casual outings, parties, or everyday wear\n\n\n \nSizing &amp; Measurements:\n \nThis top is available in sizes S, M, and L. Please refer to the measurements below to find your ideal fit.\n\n\nSize S: Length 14\", Chest 34\", Waist 26\"\n\n\nSize M: Length 14\", Chest 36\", Waist 28\"\n\n\nSize L: Length 14\", Chest 38\", Waist 30\"\n\n\nNote: The half-sleeve length is 8.5\" and the shoulder is 14.5\" for all sizes.",
+    "price": 1299,
+    "salePrice": null,
+    "sku": "chic-animal-print-crop-top-for-women",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/chic-animal-print-crop-top-for-women-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 44,
+    "tags": "[\"Tops\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:42:39.771Z",
+    "updatedAt": "2026-06-08T00:42:39.771Z",
+    "images": [
+      {
+        "id": 44,
+        "url": "/../../public/images/products/woman-top/chic-animal-print-crop-top-for-women-1@1x.webp",
+        "productId": 19
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Cotton Candy Flexi Scrunchie",
+    "slug": "cotton-candy-flexi-scrunchie",
+    "description": "Cotton Candy Flex Scrunchie by KIKI'S Hair\nIndulge in the soft, dreamy charm of the Cotton Candy Flex Scrunchie—a perfect blend of style, comfort, and durability. Crafted from premium soft satin, this scrunchie features an ultra-stretchy design for 3X the flexibility, ensuring a flawless hold without compromising on comfort. Whether you're dressing up or keeping it casual, this scrunchie adds a touch of elegance to every look.\nMaterial: Soft SatinColor: PinkDesign: SolidSize: Regular\nHandmade with love, just for you! 💕\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "cotton-candy-flexi-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/cotton-candy-flexi-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 45,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:45.845Z",
+    "updatedAt": "2026-06-08T00:42:45.845Z",
+    "images": [
+      {
+        "id": 45,
+        "url": "/../../public/images/products/one/cotton-candy-flexi-scrunchie-1@1x.webp",
+        "productId": 20
+      },
+      {
+        "id": 46,
+        "url": "/../../public/images/products/one/cotton-candy-flexi-scrunchie-2@1x.webp",
+        "productId": 20
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Crimson Bloom Red Leather Textured Hair Bow with Long Leaf Tails",
+    "slug": "crimson-bloom-red-leather-textured-hair-bow-with-long-leaf-tails",
+    "description": "Crimson Bloom – Red Leather Textured Hair Bow with Long Leaf Tails\nGrace meets boldness in the Crimson Bloom, a luxurious hair accessory crafted for those who love to stand out. Designed in a striking red faux leather with two long, flowing leaf-style tails, this bow adds drama and sophistication to every hairstyle.\nWhy You'll Love It:✔ Premium Leather Texture – Rich, high-quality faux leather for a sleek, modern finish✔ Elegant Leaf Tails – Two long flowing ends that mimic floral leaves, adding graceful movement✔ Vibrant Crimson Color – A deep, bold red that commands attention✔ Versatile Styling – Perfect for ponytails, half-up styles, and festive occasions✔ Comfortable All-Day Wear – Lightweight and secure, stays in place without tugging\nWhether you're dressing up for a celebration or adding flair to everyday looks, the Crimson Bloom is your statement of timeless style.",
+    "price": 549,
+    "salePrice": 799,
+    "sku": "crimson-bloom-red-leather-textured-hair-bow-with-long-leaf-tails",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/crimson-bloom-red-leather-textured-hair-bow-with-long-leaf-tails-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 47,
+    "tags": "[]",
+    "specifications": "{\"Target gender\":[\"Female\"]}",
+    "createdAt": "2026-06-08T00:42:53.808Z",
+    "updatedAt": "2026-06-08T00:42:53.808Z",
+    "images": [
+      {
+        "id": 47,
+        "url": "/../../public/images/products/one/crimson-bloom-red-leather-textured-hair-bow-with-long-leaf-tails-1@1x.webp",
+        "productId": 21
+      },
+      {
+        "id": 48,
+        "url": "/../../public/images/products/one/crimson-bloom-red-leather-textured-hair-bow-with-long-leaf-tails-2@1x.webp",
+        "productId": 21
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Elegant Brown Sleeveless Tulle Gown for Baby & Toddler Girls (1-3Y)",
+    "slug": "elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y",
+    "description": "Product Overview\nIntroduce a touch of sophisticated charm to your little one’s wardrobe with this Elegant Brown Sleeveless Tulle Gown. Specifically designed for the 1–3 year age group, this dress features a rich, deep mocha hue that stands out from traditional pastels. The voluminous, ruffled bodice and multi-layered skirt create a stunning silhouette perfect for birthdays, weddings, or professional family portraits.\nKey Features &amp; Specifications\nAge Group: Tailored for Toddlers (Size 1T, 2T, and 3T).\nPremium Fabric Blend:\nOuter: High-quality, soft Net Tulle for maximum volume and a \"cloud-like\" feel.\nInner Lining: Smooth, breathable Satin to ensure comfort against sensitive skin.\nDesign Details: Intricate V-neck ruffles, sleeveless cut for easy movement, and a matching ruffled headband.\nColor: Deep Chocolate / Mocha Brown.",
+    "price": 3199,
+    "salePrice": 8999,
+    "sku": "elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 49,
+    "tags": "[\"baby\",\"kids\",\"Woman\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:42:59.510Z",
+    "updatedAt": "2026-06-08T00:42:59.510Z",
+    "images": [
+      {
+        "id": 49,
+        "url": "/../../public/images/products/one/elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y-1@1x.webp",
+        "productId": 22
+      },
+      {
+        "id": 50,
+        "url": "/../../public/images/products/one/elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y-2@1x.webp",
+        "productId": 22
+      },
+      {
+        "id": 51,
+        "url": "/../../public/images/products/one/elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y-3@1x.webp",
+        "productId": 22
+      },
+      {
+        "id": 52,
+        "url": "/../../public/images/products/one/elegant-brown-sleeveless-tulle-gown-for-baby-and-toddler-girls-1-3y-4@1x.webp",
+        "productId": 22
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Espresso Elegance Scrunchie",
+    "slug": "espresso-elegance-scrunchie",
+    "description": "Espresso Elegance Scrunchie by KIKI'S Hair\nIndulge in the warm, earthy elegance of the Espresso Elegance Scrunchie! Designed with lightweight and flowy georgette fabric, this scrunchie offers a luxurious feel and a secure hold, making it the perfect companion for everyday styling.\nWhy You’ll Love It:Color: Rich Mocha Brown – A classic, elegant shadeMaterial: Soft &amp; breathable GeorgetteStyle: Gentle on hair, prevents breakagePerfect for: Ponytails, buns, or a stylish wrist accessory\nElevate your hair game with Espresso Elegance – a must-have for every fashion-forward hair enthusiast!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "espresso-elegance-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/espresso-elegance-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 53,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:43:06.956Z",
+    "updatedAt": "2026-06-08T00:43:06.956Z",
+    "images": [
+      {
+        "id": 53,
+        "url": "/../../public/images/products/one/espresso-elegance-scrunchie-1@1x.webp",
+        "productId": 23
+      },
+      {
+        "id": 54,
+        "url": "/../../public/images/products/one/espresso-elegance-scrunchie-2@1x.webp",
+        "productId": 23
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Fancy Halter Neck Sleeveless Mimi Cropped Tank Top",
+    "slug": "fancy-halter-neck-sleeveless-mimi-cropped-tank-top",
+    "description": "Step up your style game with this Fancy Halter Neck Sleeveless Mini Cropped Tank Top, available in bold red and chic off-white shades. Featuring a flattering halter neckline and a trendy cropped length, this top is perfect for creating stylish, eye-catching outfits. The regular fit ensures comfort while keeping it party-ready, making it ideal for both casual days and glamorous western wear occasions. Pair it with high-waisted jeans, skirts, or shorts for a fashionable look.\nColor: Red / Off WhitePattern: Crop TopLength Type: CropSleeve: SleevelessFit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 899,
+    "salePrice": 1099,
+    "sku": "fancy-halter-neck-sleeveless-mimi-cropped-tank-top",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/fancy-halter-neck-sleeveless-mimi-cropped-tank-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 55,
+    "tags": "[\"Tops\"]",
+    "specifications": "{\"Color\":[\"Red\",\"off-white\"],\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:43:13.124Z",
+    "updatedAt": "2026-06-08T00:43:13.124Z",
+    "images": [
+      {
+        "id": 55,
+        "url": "/../../public/images/products/woman-top/fancy-halter-neck-sleeveless-mimi-cropped-tank-top-1@1x.webp",
+        "productId": 24
+      },
+      {
+        "id": 56,
+        "url": "/../../public/images/products/woman-top/fancy-halter-neck-sleeveless-mimi-cropped-tank-top-2@1x.webp",
+        "productId": 24
+      },
+      {
+        "id": 57,
+        "url": "/../../public/images/products/woman-top/fancy-halter-neck-sleeveless-mimi-cropped-tank-top-3@1x.webp",
+        "productId": 24
+      },
+      {
+        "id": 58,
+        "url": "/../../public/images/products/woman-top/fancy-halter-neck-sleeveless-mimi-cropped-tank-top-4@1x.webp",
+        "productId": 24
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Fierce Feline Cropped Shirt",
+    "slug": "fierce-feline-cropped-shirt",
+    "description": "Color: Wild Brown &amp; BlackPattern: Leopard PrintFabric: Satin BlendStyle: Cropped Button-Down ShirtSleeves: Short SleevesNeckline: CollaredFit Type: Relaxed FitIdeal For: Women\nDescription Example:Turn up the heat with our Fierce Feline Cropped Shirt, a sultry satin number that brings wild elegance to your wardrobe. With its bold leopard print, short sleeves, and relaxed silhouette, this cropped shirt is perfect for making a statement. Whether paired with high-rise pants or leather shorts, it’s your go-to for that edgy glam vibe.",
+    "price": 1199,
+    "salePrice": 1999,
+    "sku": "fierce-feline-cropped-shirt",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/fierce-feline-cropped-shirt-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 59,
+    "tags": "[\"shirt\",\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:43:23.412Z",
+    "updatedAt": "2026-06-08T00:43:23.412Z",
+    "images": [
+      {
+        "id": 59,
+        "url": "/../../public/images/products/one/fierce-feline-cropped-shirt-1@1x.webp",
+        "productId": 25
+      },
+      {
+        "id": 60,
+        "url": "/../../public/images/products/one/fierce-feline-cropped-shirt-2@1x.webp",
+        "productId": 25
+      },
+      {
+        "id": 61,
+        "url": "/../../public/images/products/one/fierce-feline-cropped-shirt-3@1x.webp",
+        "productId": 25
+      },
+      {
+        "id": 62,
+        "url": "/../../public/images/products/one/fierce-feline-cropped-shirt-4@1x.webp",
+        "productId": 25
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Floral Textured Twist-Front Crop Top",
+    "slug": "floral-textured-twist-front-crop-top",
+    "description": "Color: Beige &amp; BlackPattern: FloralFabric: Textured Knit (likely polyester or a blend)Neckline: V-NeckStyle: Twist-Front, Crop LengthSleeve: Short Flutter SleevesFit: Slim FitOccasion: Casual, Party, Day Out\nDescription Example:Turn heads effortlessly in this Floral Textured Twist-Front Crop Top, blending comfort with bold femininity. The intricate beige floral pattern over a black base adds a sophisticated touch, while the twist-front design enhances your silhouette. With flutter sleeves and a flattering V-neckline, it’s your go-to piece for casual brunches, coffee dates, or nights out with friends. Style it with high-waisted jeans or a sleek skirt for maximum impact.",
+    "price": 999,
+    "salePrice": 1699,
+    "sku": "floral-textured-twist-front-crop-top",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/floral-textured-twist-front-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 63,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:43:31.968Z",
+    "updatedAt": "2026-06-08T00:43:31.968Z",
+    "images": [
+      {
+        "id": 63,
+        "url": "/../../public/images/products/one/floral-textured-twist-front-crop-top-1@1x.webp",
+        "productId": 26
+      },
+      {
+        "id": 64,
+        "url": "/../../public/images/products/one/floral-textured-twist-front-crop-top-2@1x.webp",
+        "productId": 26
+      },
+      {
+        "id": 65,
+        "url": "/../../public/images/products/one/floral-textured-twist-front-crop-top-3@1x.webp",
+        "productId": 26
+      },
+      {
+        "id": 66,
+        "url": "/../../public/images/products/one/floral-textured-twist-front-crop-top-4@1x.webp",
+        "productId": 26
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Flowy Lantern Sleeve Butterfly Top with Textured Pattern",
+    "slug": "flowy-lantern-sleeve-butterfly-top-with-textured-pattern",
+    "description": "Unleash your inner free spirit with our stylish and comfortable Butterfly Top. This top features a relaxed, oversized fit that provides a breezy, effortless look, perfect for any casual occasion. The tie-front drawstring neckline allows you to adjust the fit and adds a playful, feminine detail.\nCrafted from a soft and lightweight Lycra fabric with a knitting weave, this top drapes beautifully and feels incredibly soft against your skin. It has a slight stretch for comfort and ease of movement. The unique textured pattern with multi-colored polka dots makes this top a standout piece.\nWith its cropped length and flowy silhouette, this top pairs perfectly with high-waisted shorts, jeans, or skirts. It's the ideal choice for a casual day out, a festival, or just lounging in style.\n \nFeatures:\n \n\n\nStyle: Tie-front neckline with a loose, oversized fit\n\n\nSleeves: Three-quarter length with a wide, \"butterfly\" style\n\n\nMaterial: Soft and stretchy knitted Lycra fabric\n\n\nPattern: Textured with multi-colored dots\n\n\nFit: Cropped, comfortable, and free-size\n\n\n \nSizing &amp; Measurements:\n \nThis top is a free-size item, designed to fit a range of body types. The length is approximately 18 inches.",
+    "price": 1099,
+    "salePrice": null,
+    "sku": "flowy-lantern-sleeve-butterfly-top-with-textured-pattern",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/flowy-lantern-sleeve-butterfly-top-with-textured-pattern-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 67,
+    "tags": "[]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:43:39.557Z",
+    "updatedAt": "2026-06-08T00:43:39.557Z",
+    "images": [
+      {
+        "id": 67,
+        "url": "/../../public/images/products/uncategorized/flowy-lantern-sleeve-butterfly-top-with-textured-pattern-1@1x.webp",
+        "productId": 27
+      },
+      {
+        "id": 68,
+        "url": "/../../public/images/products/uncategorized/flowy-lantern-sleeve-butterfly-top-with-textured-pattern-2@1x.webp",
+        "productId": 27
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Girls' Fairy-Style High-Low Gown in Blush Pink – Elegant Ruffle Party Dress (3-5 Years)",
+    "slug": "girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years",
+    "description": "Product Description\nLet her imagination take flight with our Blush Pink Fairy-Style Gown. Designed to capture the magic of a fairytale, this dress features a dramatic high-low silhouette that flows gracefully with every step. Perfect for little girls aged 3 to 5 years, this gown is the ultimate statement piece for birthdays, weddings, or professional \"enchanted garden\" photoshoots.\nPremium Fabric &amp; Craftsmanship\n\n\nWhimsical Net &amp; Organza: The voluminous skirt and intricate ruffles are crafted from a delicate blend of high-quality Net and Organza, providing a lightweight, ethereal look with a beautiful natural sheen.\n\n\nArtisan Ruffle Accents: Features hand-finished ruffles along the bodice and sleeves, creating a high-end boutique aesthetic.\n\n\nProduct Highlights\n\n\nAge Group: Perfectly sized for girls aged 3 to 5 years (Sizes 3T, 4T, 5T).\n\n\nSilhouette: Dramatic High-Low hemline with a sweeping tulle train.\n\n\nStyle: Fairy-inspired sleeveless bodice with statement ruffle detailing.\n\n\nColor: Soft and sophisticated Blush Pink.",
+    "price": 3699,
+    "salePrice": 8999,
+    "sku": "girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 69,
+    "tags": "[\"kids\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:43:45.531Z",
+    "updatedAt": "2026-06-08T00:43:45.531Z",
+    "images": [
+      {
+        "id": 69,
+        "url": "/../../public/images/products/one/girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years-1@1x.webp",
+        "productId": 28
+      },
+      {
+        "id": 70,
+        "url": "/../../public/images/products/one/girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years-2@1x.webp",
+        "productId": 28
+      },
+      {
+        "id": 71,
+        "url": "/../../public/images/products/one/girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years-3@1x.webp",
+        "productId": 28
+      },
+      {
+        "id": 72,
+        "url": "/../../public/images/products/one/girls-fairy-style-high-low-gown-in-blush-pink-elegant-ruffle-party-dress-3-5-years-4@1x.webp",
+        "productId": 28
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Glossy Scrunchies Combo",
+    "slug": "glossy-scrunchies-combo",
+    "description": "Silk shine. Soft elegance. Everyday charm.\nThe Glossy Bows Combo features a beautiful set of silk-finish hair bows that add a smooth, radiant touch to any hairstyle. Crafted with a subtle glossy sheen and gentle textures, these bows are perfect for both casual looks and dressy occasions.\n\nWhy You'll Love It:\n✔️ Silk-Feel Finish – Smooth and glossy with a luxurious soft touch✔️ Lightweight &amp; Gentle – Comfortable for all-day wear, even for little ones✔️ Versatile Styling – Ideal for ponytails, braids, buns, and open hair✔️ Perfect for Gifting – Comes in elegant shades and timeless designs\nWhether it's school, a celebration, or just a pretty day out—these bows add that perfect final touch.",
+    "price": 179,
+    "salePrice": 249,
+    "sku": "glossy-scrunchies-combo",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/glossy-scrunchies-combo-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 73,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:43:47.750Z",
+    "updatedAt": "2026-06-08T00:43:47.750Z",
+    "images": [
+      {
+        "id": 73,
+        "url": "/../../public/images/products/combo/glossy-scrunchies-combo-1@1x.webp",
+        "productId": 29
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Golden Glow Bow",
+    "slug": "golden-glow-bow",
+    "description": "Golden Glow Bow by KIKI'S Hair\nRadiate elegance with the Golden Glow Bow, a delicate and dreamy accessory designed to add a touch of vintage charm to your look. Crafted from lightweight georgette fabric, this bow offers a soft drape and graceful movement, making it the perfect choice for both casual and formal occasions.\nWhy You'll Love It:✔ Chic &amp; Feminine – Elevates any hairstyle effortlessly✔ Soft &amp; Lightweight – Comfortable for all-day wear✔ Versatile Styling – Perfect for braids, ponytails, or half-up styles✔ Secure Hold – Stays in place without damaging hair\nThis soft mustard yellow bow is a must-have for those who love subtle sophistication with a touch of whimsy. Pair it with flowy dresses, casual denim, or festive outfits for a graceful and timeless look!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 499,
+    "salePrice": 699,
+    "sku": "golden-glow-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/golden-glow-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 74,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:43:56.701Z",
+    "updatedAt": "2026-06-08T00:43:56.701Z",
+    "images": [
+      {
+        "id": 74,
+        "url": "/../../public/images/products/one/golden-glow-bow-1@1x.webp",
+        "productId": 30
+      },
+      {
+        "id": 75,
+        "url": "/../../public/images/products/one/golden-glow-bow-2@1x.webp",
+        "productId": 30
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Golden Hour Scrunchies Combo",
+    "slug": "golden-hour-scrunchies-combo",
+    "description": "Warm tones. Soft shine. Sunset vibes.\nThe Golden Hour Combo is a radiant collection of satin scrunchies inspired by the magic of golden hour. With rich, glowing hues and a smooth satin finish, this set adds effortless elegance and warmth to your everyday hairstyles.\n\nWhy You'll Love It:\n✔️ Golden-Inspired Tones – Think amber, bronze, peach, and soft gold✔️ Satin Smooth Texture – Gentle on hair with a luminous, glossy look✔️ No Damage Hold – Soft stretch that won’t tug or crease✔️ Perfect for All Hair Types – From fine to thick, always comfortable✔️ Makes a Lovely Gift – Wrapped in warmth, ready to give\nStyle your hair with the soft glow of sunset—every hour can be golden.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "golden-hour-scrunchies-combo",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/golden-hour-scrunchies-combo-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 76,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:43:59.845Z",
+    "updatedAt": "2026-06-08T00:43:59.845Z",
+    "images": [
+      {
+        "id": 76,
+        "url": "/../../public/images/products/combo/golden-hour-scrunchies-combo-1@1x.webp",
+        "productId": 31
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Indigo Crinkle Fringe Shirt",
+    "slug": "indigo-crinkle-fringe-shirt",
+    "description": "Color: Deep Indigo with Multicolor Polka AccentsFabric: Lightweight Crinkle Cotton BlendDesign Details: Sheer texture, playful dotted print, raw fringe hemNeckline: Open CollarSleeves: Short SleevesFit: Relaxed FitLength: Crop-Length with Fringe DetailOccasion: Casual Day Outs, Music Festivals, Chill Vibes, Layering Essential\nProduct Description:Turn heads with this Indigo Crinkle Fringe Shirt, where artsy meets effortless. Featuring a sheer textured fabric and colorful polka accents, it’s finished with a raw-edge fringe hem that gives major boho streetwear energy. Whether layered over a bralette or paired with denim shorts, this statement shirt is your go-to for cool-girl casuals or creative festival fits. Lightweight, breathable, and full of attitude!",
+    "price": 999,
+    "salePrice": 2199,
+    "sku": "indigo-crinkle-fringe-shirt",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/indigo-crinkle-fringe-shirt-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 77,
+    "tags": "[\"shirt\",\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:44:06.204Z",
+    "updatedAt": "2026-06-08T00:44:06.204Z",
+    "images": [
+      {
+        "id": 77,
+        "url": "/../../public/images/products/one/indigo-crinkle-fringe-shirt-1@1x.webp",
+        "productId": 32
+      },
+      {
+        "id": 78,
+        "url": "/../../public/images/products/one/indigo-crinkle-fringe-shirt-2@1x.webp",
+        "productId": 32
+      },
+      {
+        "id": 79,
+        "url": "/../../public/images/products/one/indigo-crinkle-fringe-shirt-3@1x.webp",
+        "productId": 32
+      },
+      {
+        "id": 80,
+        "url": "/../../public/images/products/one/indigo-crinkle-fringe-shirt-4@1x.webp",
+        "productId": 32
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Ivory Bliss Scrunchie",
+    "slug": "ivory-bliss-scrunchie",
+    "description": "Ivory Bliss Scrunchie by KIKI'S Hair\nEmbrace timeless elegance with the Ivory Bliss Scrunchie, a perfect blend of luxury and simplicity. Designed with soft, flowy georgette fabric, this scrunchie ensures a gentle yet secure hold, making it an essential accessory for effortless styling.\nWhy You’ll Love It:Color: Soft Ivory White – Classic &amp; timelessMaterial: Lightweight, breathable GeorgetteStyle: Gentle on hair, prevents breakagePerfect for: Ponytails, buns, or a stylish wrist accessory\nAdd a touch of sophistication to your look with the Ivory Bliss Scrunchie—because elegance never goes out of style!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "ivory-bliss-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/ivory-bliss-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 81,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:13.478Z",
+    "updatedAt": "2026-06-08T00:44:13.478Z",
+    "images": [
+      {
+        "id": 81,
+        "url": "/../../public/images/products/one/ivory-bliss-scrunchie-1@1x.webp",
+        "productId": 33
+      },
+      {
+        "id": 82,
+        "url": "/../../public/images/products/one/ivory-bliss-scrunchie-2@1x.webp",
+        "productId": 33
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Lavender Luxe Bow",
+    "slug": "lavender-luxe-bow",
+    "description": "Lavender Luxe Bow by KIKI'S Hair\nRadiate charm and elegance with the Lavender Luxe Bow, a dreamy accessory crafted to steal hearts. Its soft lavender fabric is delicately adorned with clustered pearl embellishments, making it a perfect blend of sweet and sophisticated.\nWhy You’ll Love It:✔ Elegant Embellishments – Pearl accents add a touch of glam✔ Smooth Finish – Satin-like feel with a luxurious sheen✔ Effortless Chic – Ideal for brunches, parties, or everyday sparkle✔ Gentle Hold – Secure fit that keeps your hairstyle intact\nTurn heads with this graceful bow – whether you’re styling a half-up hairdo or a sleek ponytail, the Lavender Luxe brings a feminine flair and fairy-tale elegance to your look.\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 499,
+    "salePrice": 699,
+    "sku": "lavender-luxe-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/lavender-luxe-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 83,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:22.989Z",
+    "updatedAt": "2026-06-08T00:44:22.989Z",
+    "images": [
+      {
+        "id": 83,
+        "url": "/../../public/images/products/one/lavender-luxe-bow-1@1x.webp",
+        "productId": 34
+      },
+      {
+        "id": 84,
+        "url": "/../../public/images/products/one/lavender-luxe-bow-2@1x.webp",
+        "productId": 34
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 35,
+    "name": "London Cherry Bows Combo Set",
+    "slug": "london-cherry-bows-combo-set",
+    "description": "London Cherry Bows Combo Set – Includes Berry Belle Set, Crimson Bloom, Cherry Petal, Cherry Crown &amp; Cherry Luxe\nElevate your hairstyle collection with the London Cherry Bows Combo Set, a carefully curated selection of five exquisite red leather-textured bows. This set features the playful Berry Belle Set (2 mini bows), the bold and elegant Crimson Bloom, the delicate Cherry Petal, the regal Cherry Crown, and the luxurious Cherry Luxe—each designed to bring timeless style and sophistication to your look.\nWhy Choose the London Cherry Bows Combo Set?✔ Variety of Styles &amp; Sizes – From petite twin bows to statement pieces with graceful leaf accents✔ Premium Faux Leather Finish – Smooth, vibrant red texture for a luxe appearance✔ Comfortable &amp; Secure – Lightweight design for all-day wear without slipping✔ Perfect for All Ages – Stylish options for girls, teens, and women✔ Ideal for Every Occasion – Casual outings, special events, weddings, and parties\nAdd a touch of elegance and flair to every hairstyle with the London Cherry Bows Combo Set — your ultimate red bow collection.",
+    "price": 2499,
+    "salePrice": 3494,
+    "sku": "london-cherry-bows-combo-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/london-cherry-bows-combo-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 85,
+    "tags": "[]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:25.687Z",
+    "updatedAt": "2026-06-08T00:44:25.687Z",
+    "images": [
+      {
+        "id": 85,
+        "url": "/../../public/images/products/combo/london-cherry-bows-combo-set-1@1x.webp",
+        "productId": 35
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Luminous Charm Scrunchies Set",
+    "slug": "luminous-charm-scrunchies-set",
+    "description": "Soft glow. Elegant shine. Subtle sparkle.\nThe Luminous Charm Set is a delicate collection of satin scrunchies designed to bring a gentle radiance to your hairstyles. Featuring a smooth satin finish with a hint of shimmer and charming accents, this set adds refined elegance and a touch of sparkle to any look.\nWhy You'll Love It:✔️ Soft, Radiant Colors – Hues that glow with understated charm✔️ Satin Smooth Texture – Gentle on hair with a silky, glossy finish✔️ No Damage Hold – Stretchy and kind to all hair types✔️ Versatile Elegance – Perfect for casual days or special occasions✔️ Thoughtful Gift Choice – Wrapped in charm and ready to impress\nAdd a luminous touch of grace to your everyday style with the Luminous Charm Set.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "luminous-charm-scrunchies-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/luminous-charm-scrunchies-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 86,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:27.782Z",
+    "updatedAt": "2026-06-08T00:44:27.782Z",
+    "images": [
+      {
+        "id": 86,
+        "url": "/../../public/images/products/combo/luminous-charm-scrunchies-set-1@1x.webp",
+        "productId": 36
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Luxury Silk Scrunchie Set",
+    "slug": "luxury-silk-scrunchie-set",
+    "description": "Scrunchie Set by KIKI'S Hair\nIntroducing the Luxury Silk Scrunchie Set — a dreamy collection designed for ultimate elegance and hair care! Crafted from the finest satin-silk blend for a glossy, gentle touch.\nSet Includes:\n\n\nMidnight Noir — Bold and classic black\n\n\nChampagne Glow — Elegant soft gold\n\n\nBlush Petal — Sweet, delicate pink\n\n\nPearl White — Pure, radiant perfection\n\n\nWhy They’re a Must-Have:✔ Silk-Smooth Protection – Minimizes friction, prevents breakage✔ Elastic &amp; Comfortable – Stretches without tugging✔ Perfect for All Hair Types – Fine, thick, curly, or straight✔ Chic Everyday Essential – Looks just as good on your wrist!\nAdd that extra touch of luxe to your hair game.\nKIKI'S Hair – Where Elegance Meets Everyday Beauty.",
+    "price": 249,
+    "salePrice": 439,
+    "sku": "luxury-silk-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/luxury-silk-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 87,
+    "tags": "[\"Scrunchie\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:29.867Z",
+    "updatedAt": "2026-06-08T00:44:29.867Z",
+    "images": [
+      {
+        "id": 87,
+        "url": "/../../public/images/products/combo/luxury-silk-scrunchie-set-1@1x.webp",
+        "productId": 37
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Midnight Bloom Halter Neck Mini Dress",
+    "slug": "midnight-bloom-halter-neck-mini-dress",
+    "description": "Color: Deep Blue with Multicolor Floral PrintPattern: Digital Floral PrintLength Type: MiniSleeve: Sleeveless / Halter NeckIdeal For: Women\nDescription Example:Turn heads and own the night in our Midnight Bloom Halter Neck Mini Dress. This deep blue dress bursts with vibrant floral prints, capturing the essence of a moonlit garden. Designed with a graceful cowl halter neckline and a flattering mini length, it's perfect for evening parties, club nights, or a bold brunch statement. Pair it with ankle boots or strappy heels for an effortlessly chic look.",
+    "price": 2099,
+    "salePrice": 3400,
+    "sku": "midnight-bloom-halter-neck-mini-dress",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/midnight-bloom-halter-neck-mini-dress-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 88,
+    "tags": "[\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:44:40.591Z",
+    "updatedAt": "2026-06-08T00:44:40.591Z",
+    "images": [
+      {
+        "id": 88,
+        "url": "/../../public/images/products/one/midnight-bloom-halter-neck-mini-dress-1@1x.webp",
+        "productId": 38
+      },
+      {
+        "id": 89,
+        "url": "/../../public/images/products/one/midnight-bloom-halter-neck-mini-dress-2@1x.webp",
+        "productId": 38
+      },
+      {
+        "id": 90,
+        "url": "/../../public/images/products/one/midnight-bloom-halter-neck-mini-dress-3@1x.webp",
+        "productId": 38
+      },
+      {
+        "id": 91,
+        "url": "/../../public/images/products/one/midnight-bloom-halter-neck-mini-dress-4@1x.webp",
+        "productId": 38
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Midnight Elegance Bow",
+    "slug": "midnight-elegance-bow",
+    "description": "Midnight Elegance Bow by KIKI'S Hair\nStep into a world of grace and sophistication with the Midnight Elegance Bow. This stunning accessory features a luxurious silver-grey base paired with delicate black lace detailing, creating a bold yet timeless contrast.\nWhy You'll Love It:✔ Classic Meets Contemporary – A fusion of vintage lace and modern hues✔ Premium Fabric – Soft, lightweight, and comfortable for all-day wear✔ Versatile Styling – Perfect for evening glam, festive occasions, or chic casual looks✔ Strong Grip – Holds securely without pulling or damaging hair\nWhether you're dressing up for a special event or elevating your everyday look, this bow is a statement piece that exudes elegance and mystery. Pair it with monochrome outfits or bold ensembles to channel your inner diva.\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 499,
+    "salePrice": 699,
+    "sku": "midnight-elegance-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/midnight-elegance-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 92,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:49.397Z",
+    "updatedAt": "2026-06-08T00:44:49.397Z",
+    "images": [
+      {
+        "id": 92,
+        "url": "/../../public/images/products/one/midnight-elegance-bow-1@1x.webp",
+        "productId": 39
+      },
+      {
+        "id": 93,
+        "url": "/../../public/images/products/one/midnight-elegance-bow-2@1x.webp",
+        "productId": 39
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Midnight Luxe Scrunchie",
+    "slug": "midnight-luxe-scrunchie",
+    "description": "Midnight Luxe Scrunchie by KIKI'S Hair\nTimeless, elegant, and effortlessly chic—the Midnight Luxe Scrunchie is the perfect go-to hair accessory for every occasion. Designed with lightweight and flowy georgette fabric, this scrunchie adds a touch of sophistication while keeping your hair secure and tangle-free\nWhy You’ll Love It:Color: Classic Black – A timeless fashion essentialMaterial: Soft &amp; breathable GeorgetteStyle: Gentle on hair, prevents breakage &amp; adds effortless volumePerfect for: Ponytails, buns, or as a trendy wrist accessory\nRedefine your hair game with the Midnight Luxe Scrunchie—where elegance meets comfort!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "midnight-luxe-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/midnight-luxe-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 94,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:44:55.709Z",
+    "updatedAt": "2026-06-08T00:44:55.709Z",
+    "images": [
+      {
+        "id": 94,
+        "url": "/../../public/images/products/one/midnight-luxe-scrunchie-1@1x.webp",
+        "productId": 40
+      },
+      {
+        "id": 95,
+        "url": "/../../public/images/products/one/midnight-luxe-scrunchie-2@1x.webp",
+        "productId": 40
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Midnight Rose Illusion Dress",
+    "slug": "midnight-rose-illusion-dress",
+    "description": "Color: Crimson Red with Black Net OverlayPattern: Black Floral EmbroideryFabric:\n\n\nInner Layer: Textured Cotton Blend (Short Dress)\n\n\nOuter Layer: Sheer Soft NetNeckline: Illusion Neck with Sheer Black MeshSilhouette: Fitted Inner Dress with Flowing OverlayHem Detail: Embroidered Floral Border on Net PanelFit Type: Slim Fit with Flared Mesh Extension\n\n\nOccasion: Red Carpet Events, Fashion Nights, Exclusive Parties\nDescription Sample:Own the night in our Midnight Rose Illusion Dress, a bold fusion of classic romance and contemporary edge. The crimson red base with intricate black embroidery exudes passion, while the flowing mesh overlay adds an ethereal touch. With its illusion neckline and layered design, this dress is a showstopper crafted for those who dare to dazzle.",
+    "price": 2499,
+    "salePrice": 3400,
+    "sku": "midnight-rose-illusion-dress",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/midnight-rose-illusion-dress-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 96,
+    "tags": "[\"midi\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\"]}",
+    "createdAt": "2026-06-08T00:45:07.413Z",
+    "updatedAt": "2026-06-08T00:45:07.413Z",
+    "images": [
+      {
+        "id": 96,
+        "url": "/../../public/images/products/one/midnight-rose-illusion-dress-1@1x.webp",
+        "productId": 41
+      },
+      {
+        "id": 97,
+        "url": "/../../public/images/products/one/midnight-rose-illusion-dress-2@1x.webp",
+        "productId": 41
+      },
+      {
+        "id": 98,
+        "url": "/../../public/images/products/one/midnight-rose-illusion-dress-3@1x.webp",
+        "productId": 41
+      },
+      {
+        "id": 99,
+        "url": "/../../public/images/products/one/midnight-rose-illusion-dress-4@1x.webp",
+        "productId": 41
+      },
+      {
+        "id": 100,
+        "url": "/../../public/images/products/one/midnight-rose-illusion-dress-5@1x.webp",
+        "productId": 41
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Misty Lavender Luxe Scrunchie",
+    "slug": "misty-lavender-luxe-scrunchie",
+    "description": "Misty Lavender Luxe Scrunchie by KIKI'S Hair\nElevate your hair game with the Misty Lavender Luxe Scrunchie, a perfect blend of elegance and sophistication. Made from lightweight and airy georgette fabric, this scrunchie provides a gentle grip without causing hair breakage. The soft misty lavender hue adds a touch of serenity and charm, making it ideal for both casual and special occasions. Whether you're styling a chic bun, a relaxed ponytail, or a voluminous updo, this scrunchie ensures a luxurious and effortless finish to your look.\nMaterial: Flowing &amp; Soft GeorgetteColor: Elegant Misty LavenderStyle: Graceful, Lightweight &amp; Hair-FriendlySize: Regular\nWrap your hair in luxury with KIKI’S Hair!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "misty-lavender-luxe-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/misty-lavender-luxe-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 101,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:13.080Z",
+    "updatedAt": "2026-06-08T00:45:13.080Z",
+    "images": [
+      {
+        "id": 101,
+        "url": "/../../public/images/products/one/misty-lavender-luxe-scrunchie-1@1x.webp",
+        "productId": 42
+      },
+      {
+        "id": 102,
+        "url": "/../../public/images/products/one/misty-lavender-luxe-scrunchie-2@1x.webp",
+        "productId": 42
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Monochrome Magic Scrunchie Set",
+    "slug": "monochrome-magic-scrunchie-set",
+    "description": "Scrunchie Set by KIKI'S Hair\nWhere classic meets cool — introducing the Monochrome Magic Scrunchie Set! Elegant black and crisp white scrunchies to perfect your everyday look.\nSet Includes:\n\n\n1 Midnight Black Scrunchie — sleek, bold, and powerful\n\n\n1 Snow White Scrunchie — pure, chic, and refreshing\n\n\nPerfect For:Minimalist fashion loversWorkdays, weekends, and everything in betweenWearing in your hair or styling on your wrist\nFeatures:\n\n\nSoft, high-shine satin fabric\n\n\nGentle on hair, no creases or damage\n\n\nStrong hold without pulling\n\n\nKIKI'S Hair – Elevate Your Everyday Elegance.\nWould you like a few tagline ideas too if you’re planning a product post? 🎀",
+    "price": 179,
+    "salePrice": 349,
+    "sku": "monochrome-magic-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/monochrome-magic-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 103,
+    "tags": "[\"bow\",\"hair accessories\",\"Scrunchie\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:14.689Z",
+    "updatedAt": "2026-06-08T00:45:14.689Z",
+    "images": [
+      {
+        "id": 103,
+        "url": "/../../public/images/products/combo/monochrome-magic-scrunchie-set-1@1x.webp",
+        "productId": 43
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Mystic Mauve Scrunchie",
+    "slug": "mystic-mauve-scrunchie",
+    "description": "Mystic Mauve Scrunchie by KIKI'S Hair\nStep into a world of elegance and grace with the Mystic Mauve Scrunchie. Crafted from lightweight georgette fabric, this scrunchie offers a breathable, soft, and gentle hold, keeping your hair secure without causing breakage or tension.\nWhy You’ll Love It:Color: Dusty Mauve – Soft &amp; ElegantMaterial: Lightweight, breathable GeorgetteStyle: Gentle on hair, prevents breakage &amp; adds volumePerfect for: Everyday wear, formal looks &amp; stylish wristwear\nAdd a touch of timeless beauty to your hair with the Mystic Mauve Scrunchie—because effortless style never fades!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "mystic-mauve-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/mystic-mauve-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 104,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:22.371Z",
+    "updatedAt": "2026-06-08T00:45:22.371Z",
+    "images": [
+      {
+        "id": 104,
+        "url": "/../../public/images/products/one/mystic-mauve-scrunchie-1@1x.webp",
+        "productId": 44
+      },
+      {
+        "id": 105,
+        "url": "/../../public/images/products/one/mystic-mauve-scrunchie-2@1x.webp",
+        "productId": 44
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Navy Blue Floral Bow-Tie Crop Top",
+    "slug": "navy-blue-floral-bow-tie-crop-top",
+    "description": "Color: Navy Blue with Red &amp; White Floral PrintFabric: Soft Lightweight CrepeNeckline: Sweetheart with Front Tie BowStyle: Strappy Crop Top with Center Knot DetailFit: Slim FitLength: CroppedOccasion: Summer Outings, Beach Days, Casual Hangouts, Vacay Vibes\nProduct Description:Bring the charm of blooming gardens to your wardrobe with this Navy Blue Floral Bow-Tie Crop Top. Designed with delicate straps and a flirty sweetheart neckline, this piece is all about playful femininity. The standout front bow adds drama and structure, making it perfect for pairing with high-waisted skirts or distressed denim. Whether you're heading out for a beach stroll or brunch with the girls, this top promises to keep things effortlessly stylish.",
+    "price": 1199,
+    "salePrice": 1999,
+    "sku": "navy-blue-floral-bow-tie-crop-top",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/navy-blue-floral-bow-tie-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 106,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:45:29.033Z",
+    "updatedAt": "2026-06-08T00:45:29.033Z",
+    "images": [
+      {
+        "id": 106,
+        "url": "/../../public/images/products/one/navy-blue-floral-bow-tie-crop-top-1@1x.webp",
+        "productId": 45
+      },
+      {
+        "id": 107,
+        "url": "/../../public/images/products/one/navy-blue-floral-bow-tie-crop-top-2@1x.webp",
+        "productId": 45
+      },
+      {
+        "id": 108,
+        "url": "/../../public/images/products/one/navy-blue-floral-bow-tie-crop-top-3@1x.webp",
+        "productId": 45
+      },
+      {
+        "id": 109,
+        "url": "/../../public/images/products/one/navy-blue-floral-bow-tie-crop-top-4@1x.webp",
+        "productId": 45
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Ocean Breeze Flex Scrunchie",
+    "slug": "ocean-breeze-flex-scrunchie",
+    "description": "Ocean Breeze Flex Scrunchie by KIKI'S Hair\nEmbrace the refreshing charm of the Ocean Breeze Flex Scrunchie, designed for a perfect blend of style, comfort, and durability. Made from luxuriously soft satin, this scrunchie features 3X the stretch for a secure yet gentle hold, ensuring a flawless look all day long. Whether for a casual day out or an elegant evening style, this scrunchie adds a touch of effortless grace to your hair.\nMaterial: SatinColor: GreenDesign: SolidSize: Regular\nHandmade with love, just for you! 💚\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "ocean-breeze-flex-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/ocean-breeze-flex-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 110,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:34.821Z",
+    "updatedAt": "2026-06-08T00:45:34.821Z",
+    "images": [
+      {
+        "id": 110,
+        "url": "/../../public/images/products/one/ocean-breeze-flex-scrunchie-1@1x.webp",
+        "productId": 46
+      },
+      {
+        "id": 111,
+        "url": "/../../public/images/products/one/ocean-breeze-flex-scrunchie-2@1x.webp",
+        "productId": 46
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Ocean Whispers Bow",
+    "slug": "ocean-whispers-bow",
+    "description": "Ocean Whispers Bow by KIKI'S Hair \nLet your hair flow with the serene grace of the sea. The Ocean Whispers Bow in a dreamy icy blue hue captures the elegance of ocean waves with its soft, sheer fabric and flowing tail design. Lightweight, delicate, and effortlessly chic — this bow is made to turn heads with a whisper, not a shout.\nWhy You’ll Love It:✔ Sheer &amp; Airy – Gives an ethereal and breezy appearance✔ Cool-Toned Elegance – Perfect for calm, fresh looks✔ Wavy Tails – Adds movement and fluidity to your hairstyle✔ Ideal for Day-to-Night – Slays at brunch or moonlit events alike\nWhether you’re styling a casual half-up look or dressing up for a special moment, the Ocean Whispers Bow adds a touch of tranquility and charm.\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 449,
+    "salePrice": 599,
+    "sku": "ocean-whispers-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/ocean-whispers-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 112,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:44.685Z",
+    "updatedAt": "2026-06-08T00:45:44.685Z",
+    "images": [
+      {
+        "id": 112,
+        "url": "/../../public/images/products/one/ocean-whispers-bow-1@1x.webp",
+        "productId": 47
+      },
+      {
+        "id": 113,
+        "url": "/../../public/images/products/one/ocean-whispers-bow-2@1x.webp",
+        "productId": 47
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Olive Bliss Scrunchie",
+    "slug": "olive-bliss-scrunchie",
+    "description": "Olive Bliss Scrunchie by KIKI'S Hair\nEmbrace the tranquil elegance of nature with the Olive Bliss Scrunchie. Crafted from delicate georgette fabric, this scrunchie offers a luxurious texture, a strong hold, and an effortless drape, making it a perfect addition to any hairstyle.\nWhy You’ll Love It:Color: Earthy Olive Green – Timeless &amp; sophisticatedMaterial: Lightweight, breathable GeorgetteStyle: Gentle on hair, prevents breakagePerfect for: Everyday wear, nature lovers &amp; minimalists\nAdd a touch of natural elegance to your look with the Olive Bliss Scrunchie—where beauty meets comfort!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "olive-bliss-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/olive-bliss-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 114,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:52.130Z",
+    "updatedAt": "2026-06-08T00:45:52.130Z",
+    "images": [
+      {
+        "id": 114,
+        "url": "/../../public/images/products/one/olive-bliss-scrunchie-1@1x.webp",
+        "productId": 48
+      },
+      {
+        "id": 115,
+        "url": "/../../public/images/products/one/olive-bliss-scrunchie-2@1x.webp",
+        "productId": 48
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Olive Mist Scrunchie",
+    "slug": "olive-mist-scrunchie",
+    "description": "Olive Mist Scrunchie by KIKI'S Hair\nAdd a touch of nature-inspired elegance to your look with the Olive Mist Scrunchie. Crafted from premium soft georgette, this scrunchie is lightweight, breathable, and ultra-gentle on your hair. Its pastel olive green hue exudes subtle sophistication, making it a versatile accessory for any outfit. Designed for a secure yet comfortable hold, it keeps your hair stylishly in place without pulling or causing creases.\nMaterial: Soft Georgetteolor: Pastel Olive GreenDesign: Solid, Flowy TextureSize: Regular\nHandmade with love, just for you! 💚\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "olive-mist-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/olive-mist-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 116,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:45:56.479Z",
+    "updatedAt": "2026-06-08T00:45:56.479Z",
+    "images": [
+      {
+        "id": 116,
+        "url": "/../../public/images/products/one/olive-mist-scrunchie-1@1x.webp",
+        "productId": 49
+      },
+      {
+        "id": 117,
+        "url": "/../../public/images/products/one/olive-mist-scrunchie-2@1x.webp",
+        "productId": 49
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Pastel Bloom Scrunchie Set",
+    "slug": "pastel-bloom-scrunchie-set",
+    "description": "Pastel Bloom Scrunchie Set by KIKI'S Hair\nIntroducing the Pastel Bloom Scrunchie Set, a dreamy collection of soft georgette scrunchies in delicate pastel hues. Designed for effortless elegance, these scrunchies provide a gentle hold while adding a chic, feminine touch to any hairstyle.\nSet Includes:Ivory Whisper (White) – A timeless classic, perfect for any outfit.Sunshine Glow (Yellow) – A cheerful pop of warmth and energy.Peach Blush (Soft Peach) – A delicate, romantic shade for a subtle touch of grace.Caramel Latte (Warm Brown) – A rich, earthy tone for effortless sophistication.Mystic Mauve (Dusty Purple) – A muted, elegant hue for a refined look.\nWhy You’ll Love It:✔ Premium Georgette Fabric – Lightweight &amp; breathable✔ Gentle on Hair – Prevents breakage &amp; reduces hair tension✔ Versatile Styling – Perfect for ponytails, buns, or wrist wear✔ Perfect Gift – A must-have for every scrunchie lover\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 299,
+    "salePrice": 499,
+    "sku": "pastel-bloom-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/pastel-bloom-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 118,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:03.280Z",
+    "updatedAt": "2026-06-08T00:46:03.280Z",
+    "images": [
+      {
+        "id": 118,
+        "url": "/../../public/images/products/combo/pastel-bloom-scrunchie-set-1@1x.webp",
+        "productId": 50
+      },
+      {
+        "id": 119,
+        "url": "/../../public/images/products/combo/pastel-bloom-scrunchie-set-2@1x.webp",
+        "productId": 50
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Peach Blush Dream Scrunchie",
+    "slug": "peach-blush-dream-scrunchie",
+    "description": "Peach Blush Dream Scrunchie by KIKI'S Hair\nAdd a touch of soft elegance to your hairstyle with the Peach Blush Dream Scrunchie, designed to bring a delicate and sophisticated charm to your look. Crafted from luxurious georgette fabric, this scrunchie offers a lightweight and breathable feel, making it perfect for all-day wear without damaging your hair. The warm peach hue complements all hair tones and is ideal for both casual and dressy occasions. Whether you’re styling a romantic updo, sleek ponytail, or effortless bun, this scrunchie is your go-to accessory for a polished and graceful finish.\nMaterial: Soft &amp; Flowing GeorgetteColor: Elegant Soft PeachStyle: Chic, Versatile &amp; Gentle on HairSize: Regular\nElevate your hair game with KIKI’S Hair!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "peach-blush-dream-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/peach-blush-dream-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 120,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:07.444Z",
+    "updatedAt": "2026-06-08T00:46:07.444Z",
+    "images": [
+      {
+        "id": 120,
+        "url": "/../../public/images/products/one/peach-blush-dream-scrunchie-1@1x.webp",
+        "productId": 51
+      },
+      {
+        "id": 121,
+        "url": "/../../public/images/products/one/peach-blush-dream-scrunchie-2@1x.webp",
+        "productId": 51
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Petal Whisper Co-Ord Set",
+    "slug": "petal-whisper-co-ord-set",
+    "description": "Color: Nude Beige with Navy Blue Floral EmbroideryPattern: Embroidered Floral Motif (Top)Fabric: Textured Stretch BlendSet Includes: Cap Sleeve Crop Top &amp; Fitted Pencil SkirtNeckline (Top): Boat NeckSkirt Detail: Knee-Length with Side SlitFit Type: Bodycon Fit\nIdeal For: WomenOccasion: Cocktail Parties, Elegant Evenings, Formal Social Events\nDescription Example:Elegance meets modern flair in the Petal Whisper Co-Ord Set. The embroidered crop top boasts intricate floral detailing that complements the structured boat neckline, while the fitted pencil skirt with a daring slit exudes sophistication and poise. Perfect for evening soirées, this co-ord turns heads with its minimal yet statement look.",
+    "price": 1499,
+    "salePrice": 4999,
+    "sku": "petal-whisper-co-ord-set",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/petal-whisper-co-ord-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 122,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:46:15.768Z",
+    "updatedAt": "2026-06-08T00:46:15.768Z",
+    "images": [
+      {
+        "id": 122,
+        "url": "/../../public/images/products/one/petal-whisper-co-ord-set-1@1x.webp",
+        "productId": 52
+      },
+      {
+        "id": 123,
+        "url": "/../../public/images/products/one/petal-whisper-co-ord-set-2@1x.webp",
+        "productId": 52
+      },
+      {
+        "id": 124,
+        "url": "/../../public/images/products/one/petal-whisper-co-ord-set-3@1x.webp",
+        "productId": 52
+      },
+      {
+        "id": 125,
+        "url": "/../../public/images/products/one/petal-whisper-co-ord-set-4@1x.webp",
+        "productId": 52
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Pink Bliss Hair Duo",
+    "slug": "pink-bliss-hair-duo",
+    "description": "Scrunchie &amp; Bow Set by KIKI'S Hair\nSay hello to effortless charm with the Pink Bliss Hair Duo! A dreamy match of a satin scrunchie and a flowing bow to sweeten every outfit.\nSet Includes:\n\n\nBlush Satin Scrunchie — Gentle, glossy, and soft on your hair\n\n\nBlush Ribbon Hair Bow — Flowy, romantic, and totally Instagrammable\n\n\nPerfect Pairing For:Denim days and girly getawaysSpecial brunches, dates, and celebrationsHair that loves gentle care and luxe style\nFeatures:\n\n\nSoft, no-tug satin fabric\n\n\nStretches perfectly for all hair types\n\n\nKeeps you looking polished &amp; pretty all day\n\n\nKIKI'S Hair – Where Everyday Moments Feel Magical.",
+    "price": 449,
+    "salePrice": 799,
+    "sku": "pink-bliss-hair-duo",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/pink-bliss-hair-duo-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 126,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:18.439Z",
+    "updatedAt": "2026-06-08T00:46:18.439Z",
+    "images": [
+      {
+        "id": 126,
+        "url": "/../../public/images/products/combo/pink-bliss-hair-duo-1@1x.webp",
+        "productId": 53
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Printed Women Jumpsuit",
+    "slug": "printed-women-jumpsuit",
+    "description": "Elevate your style with this Printed Blue Jumpsuit, designed for the modern woman who loves effortless fashion. Featuring a full-length silhouette and sleeveless design, it offers a perfect balance of comfort and elegance. The regular fit ensures ease of movement, while its chic print makes it ideal for both party wear and western wear occasions. Whether you’re dressing up for a night out or keeping it stylish for a day event, this jumpsuit is your go-to choice for a polished look.\nColor: Printed BluePattern: JumpsuitLength Type: FullSleeve: SleevelessFit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 1499,
+    "salePrice": 2999,
+    "sku": "printed-women-jumpsuit",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/printed-women-jumpsuit-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 127,
+    "tags": "[\"Jumpsuit\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:46:32.086Z",
+    "updatedAt": "2026-06-08T00:46:32.086Z",
+    "images": [
+      {
+        "id": 127,
+        "url": "/../../public/images/products/woman-co-ords-set/printed-women-jumpsuit-1@1x.webp",
+        "productId": 54
+      },
+      {
+        "id": 128,
+        "url": "/../../public/images/products/woman-co-ords-set/printed-women-jumpsuit-2@1x.webp",
+        "productId": 54
+      },
+      {
+        "id": 129,
+        "url": "/../../public/images/products/woman-co-ords-set/printed-women-jumpsuit-3@1x.webp",
+        "productId": 54
+      },
+      {
+        "id": 130,
+        "url": "/../../public/images/products/woman-co-ords-set/printed-women-jumpsuit-4@1x.webp",
+        "productId": 54
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Rosé Blush Scrunchie Set",
+    "slug": "rose-blush-scrunchie-set",
+    "description": "Rosé Blush Scrunchie Set by KIKI'S Hair\nIndulge in the elegance of soft hues with the Rosé Blush Scrunchie Set. Crafted from lightweight georgette fabric, these scrunchies add a sophisticated touch while being gentle on your hair. Whether you're styling a chic bun, a ponytail, or wearing it on your wrist, this set is perfect for effortless glam.\nSet Includes:Mauve Magic (Dusty Purple) – Subtle, classy, and versatile.Mocha Bliss (Chocolate Brown) – Rich, earthy, and timeless.Peach Glow (Muted Orange) – Warm and inviting for a soft, feminine look.Rosé Charm (Bright Pink) – Playful, vibrant, and full of life.Lilac Love (Lavender Pink) – A dreamy shade for a delicate touch.\nWhy You'll Love It:✔ Soft &amp; Lightweight Fabric – Comfortable all-day wear✔ No Hair Damage – Prevents breakage &amp; tangling✔ Trendy &amp; Versatile Shades – Matches any outfit effortlessly✔ Perfect Gift for Any Occasion – A must-have for scrunchie lovers\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 299,
+    "salePrice": 499,
+    "sku": "rose-blush-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/rose-blush-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 131,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:38.764Z",
+    "updatedAt": "2026-06-08T00:46:38.764Z",
+    "images": [
+      {
+        "id": 131,
+        "url": "/../../public/images/products/combo/rose-blush-scrunchie-set-1@1x.webp",
+        "productId": 55
+      },
+      {
+        "id": 132,
+        "url": "/../../public/images/products/combo/rose-blush-scrunchie-set-2@1x.webp",
+        "productId": 55
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Royal Twilight Georgette Scrunchie",
+    "slug": "royal-twilight-georgette-scrunchie",
+    "description": "Royal Twilight Georgette Scrunchie by KIKI'S Hair\nEnhance your hairstyle with the Royal Twilight Georgette Scrunchie, a perfect blend of luxury and elegance. Made from premium georgette fabric, this scrunchie offers a soft, lightweight, and airy texture that ensures a secure yet gentle hold for all hair types. The rich midnight blue shade adds a sophisticated touch, making it an ideal accessory for both formal events and everyday chic looks. Whether you're styling a high ponytail, messy bun, or a simple low knot, this scrunchie will elevate your hair game effortlessly.\nMaterial: Soft &amp; Flowing GeorgetteColor: Midnight BlueStyle: Elegant, Timeless &amp; VersatileSize: Regular\nUpgrade your hair accessories collection with KIKI’S Hair!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "royal-twilight-georgette-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/royal-twilight-georgette-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 133,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:42.965Z",
+    "updatedAt": "2026-06-08T00:46:42.965Z",
+    "images": [
+      {
+        "id": 133,
+        "url": "/../../public/images/products/one/royal-twilight-georgette-scrunchie-1@1x.webp",
+        "productId": 56
+      },
+      {
+        "id": 134,
+        "url": "/../../public/images/products/one/royal-twilight-georgette-scrunchie-2@1x.webp",
+        "productId": 56
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Ruby Flair – Red Leather Textured Hair Bow with Twin Large Leaf Tails",
+    "slug": "ruby-flair-red-leather-textured-hair-bow-with-twin-large-leaf-tails",
+    "description": "Ruby Flair – Red Leather Textured Hair Bow with Twin Large Leaf Tails | Elegant Faux Leather Statement Bow Clip for Girls &amp; Women | Bold Hair Accessory for Ponytails &amp; Special Occasions\nMake a bold and graceful statement with the Ruby Flair — a stunning red faux leather bow designed with two oversized leaf-style tails for an extra touch of drama and elegance. Whether you're dressing up for a special occasion or adding flair to your everyday look, this bow is made to stand out.\nWhy You’ll Love It:✔ Twin Large Leaf Tails – Flowing, petal-like extensions that add volume and charm✔ Rich Faux Leather Finish – Smooth, structured texture in a vibrant red tone✔ Statement Size – Perfect for creating bold ponytails, buns, or half-up styles✔ Comfortable &amp; Lightweight – Designed to stay secure without weighing down✔ Versatile Styling – Ideal for festive occasions, photoshoots, parties &amp; more\nWith its sleek finish and eye-catching silhouette, the Ruby Flair bow is your go-to accessory for bold beauty and timeless elegance.",
+    "price": 499,
+    "salePrice": 799,
+    "sku": "ruby-flair-red-leather-textured-hair-bow-with-twin-large-leaf-tails",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/ruby-flair-red-leather-textured-hair-bow-with-twin-large-leaf-tails-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 135,
+    "tags": "[\"bow\",\"hair accessories\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:46:49.584Z",
+    "updatedAt": "2026-06-08T00:46:49.584Z",
+    "images": [
+      {
+        "id": 135,
+        "url": "/../../public/images/products/one/ruby-flair-red-leather-textured-hair-bow-with-twin-large-leaf-tails-1@1x.webp",
+        "productId": 57
+      },
+      {
+        "id": 136,
+        "url": "/../../public/images/products/one/ruby-flair-red-leather-textured-hair-bow-with-twin-large-leaf-tails-2@1x.webp",
+        "productId": 57
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Ruffle Riot Crop Top",
+    "slug": "ruffle-riot-crop-top",
+    "description": "Color: Fierce RedFabric: Textured Stretch NetDesign Details: Sweetheart neckline, short puffed sleeves, ruffle edges, see-through textureFit: Slim fitLength: Cropped with detailed hem bandStyle Add-on: Pair it with shades and attitudeOccasion: Brunch Dates, Rooftop Parties, Music Fests\nProduct Description:Turn heads, break rules. The Ruffle Riot Crop Top is a fiery fusion of bold design and feminine flair. Made with stretch net that hugs your body just right, this top features delicate puff sleeves and a ruffled sweetheart neckline that oozes retro-glam vibes. The hem detail adds structure, making it perfect for pairing with denims or skirts. Add your favorite sunglasses and you’re not just dressed—you’re the moment.",
+    "price": 1399,
+    "salePrice": 2699,
+    "sku": "ruffle-riot-crop-top",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/ruffle-riot-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 137,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:46:56.480Z",
+    "updatedAt": "2026-06-08T00:46:56.480Z",
+    "images": [
+      {
+        "id": 137,
+        "url": "/../../public/images/products/one/ruffle-riot-crop-top-1@1x.webp",
+        "productId": 58
+      },
+      {
+        "id": 138,
+        "url": "/../../public/images/products/one/ruffle-riot-crop-top-2@1x.webp",
+        "productId": 58
+      },
+      {
+        "id": 139,
+        "url": "/../../public/images/products/one/ruffle-riot-crop-top-3@1x.webp",
+        "productId": 58
+      },
+      {
+        "id": 140,
+        "url": "/../../public/images/products/one/ruffle-riot-crop-top-4@1x.webp",
+        "productId": 58
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Rust Reverie Scrunchie",
+    "slug": "rust-reverie-scrunchie",
+    "description": "Rust Reverie Scrunchie by KIKI'S Hair\nInfuse your look with a touch of earthy charm with the Rust Reverie Scrunchie. Crafted from soft, breathable georgette fabric, this scrunchie is both lightweight and durable, ensuring a comfortable hold without damaging your hair.\nWhy You’ll Love It:Color: Rustic Orange – Bold &amp; earthyMaterial: Lightweight, breathable GeorgetteStyle: Gentle on hair, prevents breakagePerfect for: Bohemian styles, casual wear &amp; wrist styling\nLet your free spirit shine with the Rust Reverie Scrunchie—because effortless beauty is always in style!\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 99,
+    "salePrice": 149,
+    "sku": "rust-reverie-scrunchie",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/rust-reverie-scrunchie-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 141,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:00.074Z",
+    "updatedAt": "2026-06-08T00:47:00.074Z",
+    "images": [
+      {
+        "id": 141,
+        "url": "/../../public/images/products/one/rust-reverie-scrunchie-1@1x.webp",
+        "productId": 59
+      },
+      {
+        "id": 142,
+        "url": "/../../public/images/products/one/rust-reverie-scrunchie-2@1x.webp",
+        "productId": 59
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Satin Luxe Scrunchies Combo",
+    "slug": "satin-luxe-scrunchies-combo",
+    "description": "Rich shine. Elegant touch. Effortless luxury.\nThe Satin Luxe Set features a sophisticated selection of satin scrunchies designed to add a hint of glam to your daily hair routine. With their silky-smooth texture and luminous finish, these scrunchies are crafted for both comfort and chic style—no tugging, no creases, just pure satin elegance.\n\nWhy You'll Love It:\n✔️ Luxurious Satin Feel – Smooth and shiny for that polished look✔️ Gentle on Hair – Protects from breakage, frizz, and pulling✔️ Perfect for Any Occasion – From casual brunches to formal evenings✔️ Strong Yet Soft Grip – Holds all hair types securely✔️ Timeless Gift Option – A thoughtful, stylish pick for all ages\nRedefine everyday styling with this refined set made to feel as good as it looks.",
+    "price": 179,
+    "salePrice": 249,
+    "sku": "satin-luxe-scrunchies-combo",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/satin-luxe-scrunchies-combo-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 143,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:01.978Z",
+    "updatedAt": "2026-06-08T00:47:01.978Z",
+    "images": [
+      {
+        "id": 143,
+        "url": "/../../public/images/products/combo/satin-luxe-scrunchies-combo-1@1x.webp",
+        "productId": 60
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 61,
+    "name": "Satin Serenity Scrunchies Set",
+    "slug": "satin-serenity-scrunchies-set",
+    "description": "Soft feel. Calm tones. Pure comfort.\nThe Satin Serenity Scrunchies Set is a beautifully curated collection of satin scrunchies in soothing shades that bring peace to your style routine. With their silky-smooth texture and relaxed color palette, these scrunchies offer a gentle hold while adding a touch of quiet elegance to any look.\n\nWhy You'll Love It:\n✔️ Serene, Soft Shades – Inspired by nature and calm moments✔️ Satin Smooth Finish – Glossy texture that’s gentle on hair✔️ Comfort First – No breakage, no tugging, no stress✔️ Versatile Wear – For casual mornings or slow weekends✔️ Peaceful Gift Option – A thoughtful set for anyone who loves simplicity and softness\nLet your hair rest easy in style with this peaceful, polished satin set.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "satin-serenity-scrunchies-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/satin-serenity-scrunchies-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 144,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:03.851Z",
+    "updatedAt": "2026-06-08T00:47:03.851Z",
+    "images": [
+      {
+        "id": 144,
+        "url": "/../../public/images/products/combo/satin-serenity-scrunchies-set-1@1x.webp",
+        "productId": 61
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 62,
+    "name": "Scarlet Texture Crop Top with Matching Sleeve",
+    "slug": "scarlet-texture-crop-top-with-matching-sleeve",
+    "description": "Color: Cherry RedFabric: Sheer Stretch Net with Wavy Ribbed TextureDesign Details: High draped neckline, see-through texture, matching detachable sleeveFit: Body-huggingLength: CropStyle Add-on: Single matching textured arm sleeve for an edgy lookOccasion: Night Outs, Concert Looks, Fashion Shoots, Statement Styling\nProduct Description:Light up the scene in this Scarlet Texture Crop Top that redefines bold fashion. Crafted from sheer stretch net and adorned with a tactile ribbed texture, this fiery piece hugs your curves just right. The draped neckline adds a hint of elegance, while the unique matching sleeve brings unexpected drama. Pair it with denims or layer it over a bralette—this one’s made for spotlight moments only.",
+    "price": 1399,
+    "salePrice": 2499,
+    "sku": "scarlet-texture-crop-top-with-matching-sleeve",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/scarlet-texture-crop-top-with-matching-sleeve-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 145,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:10.187Z",
+    "updatedAt": "2026-06-08T00:47:10.187Z",
+    "images": [
+      {
+        "id": 145,
+        "url": "/../../public/images/products/one/scarlet-texture-crop-top-with-matching-sleeve-1@1x.webp",
+        "productId": 62
+      },
+      {
+        "id": 146,
+        "url": "/../../public/images/products/one/scarlet-texture-crop-top-with-matching-sleeve-2@1x.webp",
+        "productId": 62
+      },
+      {
+        "id": 147,
+        "url": "/../../public/images/products/one/scarlet-texture-crop-top-with-matching-sleeve-3@1x.webp",
+        "productId": 62
+      },
+      {
+        "id": 148,
+        "url": "/../../public/images/products/one/scarlet-texture-crop-top-with-matching-sleeve-4@1x.webp",
+        "productId": 62
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Seraphic Silk Scrunchies Set",
+    "slug": "seraphic-silk-scrunchies-set",
+    "description": "Heavenly hues. Silky smooth. Divine elegance.\nThe Seraphic Silk Collection is a refined set of satin scrunchies crafted to evoke a sense of celestial grace. Featuring soft, angelic tones and a luxuriously smooth satin finish, this collection brings a touch of heavenly sophistication to your everyday hairstyles.\nIt Includes:\nBlush Bloom Scrunchie\nBerry Blush Flexi Scrunchie\nWhy You'll Love It:✔️ Angelic Color Palette – Gentle pastels and soft neutrals inspired by serenity✔️ Silky Satin Texture – Smooth and gentle, protecting your hair with every wear✔️ No Tug, No Damage – Flexible stretch for a comfortable, secure hold✔️ Perfect for Every Hair Type – From fine strands to thick locks, always kind✔️ Elegant Gift Choice – Wrapped with care, ready to inspire\nElevate your style with the divine charm of the Seraphic Silk Collection.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "seraphic-silk-scrunchies-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/seraphic-silk-scrunchies-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 149,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:12.157Z",
+    "updatedAt": "2026-06-08T00:47:12.157Z",
+    "images": [
+      {
+        "id": 149,
+        "url": "/../../public/images/products/combo/seraphic-silk-scrunchies-set-1@1x.webp",
+        "productId": 63
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 64,
+    "name": "Shimmer Textured One-Shoulder Flared Mini Dress",
+    "slug": "shimmer-textured-one-shoulder-flared-mini-dress",
+    "description": "Color: Teal BluePattern: Textured / Sequin EmbellishedLength Type: MiniSleeve: One Shoulder / Short SleeveIdeal For: Women\nDescription Example:Shine with confidence in this stunning Shimmer Textured One-Shoulder Mini Dress. With its eye-catching teal blue hue, intricate sequin detailing, and flattering flared silhouette, this dress is made for unforgettable evenings. The asymmetrical neckline adds a bold twist, perfect for cocktail parties, glam nights out, or special occasions where you want to steal the spotlight.",
+    "price": 1599,
+    "salePrice": 2999,
+    "sku": "shimmer-textured-one-shoulder-flared-mini-dress",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/shimmer-textured-one-shoulder-flared-mini-dress-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 150,
+    "tags": "[\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:21.434Z",
+    "updatedAt": "2026-06-08T00:47:21.434Z",
+    "images": [
+      {
+        "id": 150,
+        "url": "/../../public/images/products/one/shimmer-textured-one-shoulder-flared-mini-dress-1@1x.webp",
+        "productId": 64
+      },
+      {
+        "id": 151,
+        "url": "/../../public/images/products/one/shimmer-textured-one-shoulder-flared-mini-dress-2@1x.webp",
+        "productId": 64
+      },
+      {
+        "id": 152,
+        "url": "/../../public/images/products/one/shimmer-textured-one-shoulder-flared-mini-dress-3@1x.webp",
+        "productId": 64
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 65,
+    "name": "Silk Dreams Scrunchie Set",
+    "slug": "silk-dreams-scrunchie-set",
+    "description": "Scrunchie Set by KIKI'S Hair \nMeet the Silk Dreams Scrunchie Set — a luxe collection for every hair mood! Crafted from buttery-soft satin, these scrunchies are gentle on your hair and effortlessly chic.\n5 Set Includes:\n\n\nClassic Midnight Black — Bold, sleek, and versatile\n\n\nIvory Cloud White — Pure sophistication\n\n\nRosé Blush Pink — Soft romantic vibes\n\n\nBaby Pink Bloom — Sweet and playful\n\n\nRoyal Sapphire Blue — Rich and statement-making\n\n\nWhy You’ll Love Them:Prevents Breakage – Smooth satin reduces frictionStretchy Yet Secure – Holds hair without pullingAll-Day Comfort – No tugging, no headachesDress Up or Down – From everyday errands to party glam\nPerfect for gifting—or for keeping all to yourself. \nKIKI'S Hair – Celebrate Your Crowning Glory.",
+    "price": 299,
+    "salePrice": 499,
+    "sku": "silk-dreams-scrunchie-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/silk-dreams-scrunchie-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 153,
+    "tags": "[\"hair accessories\",\"Scrunchie\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:23.657Z",
+    "updatedAt": "2026-06-08T00:47:23.657Z",
+    "images": [
+      {
+        "id": 153,
+        "url": "/../../public/images/products/combo/silk-dreams-scrunchie-set-1@1x.webp",
+        "productId": 65
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 66,
+    "name": "Silken Dreams Scrunchies Set",
+    "slug": "silken-dreams-scrunchies-set",
+    "description": "Dreamy hues. Luxurious feel. Effortless elegance.\nThe Silken Dreams Set is a beautiful collection of satin scrunchies crafted to bring a touch of softness and sophistication to your hair. With silky smooth texture and muted, dreamy shades, this set transforms everyday hairstyles into graceful statements.\nWhy You'll Love It:✔️ Soft, Soothing Colors – Pastel and neutral tones inspired by serene dreams✔️ Silky Satin Finish – Gentle on hair with a smooth, glossy shine✔️ Damage-Free Hold – Stretchy fabric that won’t pull or crease✔️ Perfect for All Hair Types – Comfortable and secure for every texture✔️ Ideal Gift Option – Wrapped with care, ready to delight\nWrap your hair in softness and style with the Silken Dreams Set.",
+    "price": 219,
+    "salePrice": 349,
+    "sku": "silken-dreams-scrunchies-set",
+    "categoryId": 4,
+    "imageUrl": "/../../public/images/products/combo/silken-dreams-scrunchies-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 154,
+    "tags": "[\"hair accessories\",\"Scrunchie\",\"Woman\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:25.612Z",
+    "updatedAt": "2026-06-08T00:47:25.612Z",
+    "images": [
+      {
+        "id": 154,
+        "url": "/../../public/images/products/combo/silken-dreams-scrunchies-set-1@1x.webp",
+        "productId": 66
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 4,
+      "name": "Combo",
+      "slug": "combo"
+    }
+  },
+  {
+    "id": 67,
+    "name": "Sleeveless Beige Wrap Dress with Floral Embroidery",
+    "slug": "sleeveless-beige-wrap-dress-with-floral-embroidery",
+    "description": "Color: Beige with Navy Floral EmbroideryPattern: Floral Embroidered OverlayFabric: Textured KnitNeckline: V-NeckStyle: Wrap-Style Dress with Side SlitLength: Knee-LengthSleeve: SleevelessFit: Slim Fit, Draped SilhouetteOccasion: Brunch, Date Night, Casual Outings, Summer Soirées\nProduct Description:Elevate your elegance in this Beige Wrap-Style Dress adorned with intricate navy floral embroidery. Designed to hug your curves in all the right places, this sleeveless number features a flattering V-neck and a graceful side slit for that perfect hint of sass. The textured knit adds depth to the design, while the embroidered florals bring a fresh, artistic flair. Ideal for sunny brunches or date nights where you want to feel effortlessly chic.",
+    "price": 999,
+    "salePrice": 2499,
+    "sku": "sleeveless-beige-wrap-dress-with-floral-embroidery",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/sleeveless-beige-wrap-dress-with-floral-embroidery-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 155,
+    "tags": "[\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:30.806Z",
+    "updatedAt": "2026-06-08T00:47:30.806Z",
+    "images": [
+      {
+        "id": 155,
+        "url": "/../../public/images/products/one/sleeveless-beige-wrap-dress-with-floral-embroidery-1@1x.webp",
+        "productId": 67
+      },
+      {
+        "id": 156,
+        "url": "/../../public/images/products/one/sleeveless-beige-wrap-dress-with-floral-embroidery-2@1x.webp",
+        "productId": 67
+      },
+      {
+        "id": 157,
+        "url": "/../../public/images/products/one/sleeveless-beige-wrap-dress-with-floral-embroidery-3@1x.webp",
+        "productId": 67
+      },
+      {
+        "id": 158,
+        "url": "/../../public/images/products/one/sleeveless-beige-wrap-dress-with-floral-embroidery-4@1x.webp",
+        "productId": 67
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 68,
+    "name": "Sleeveless Blazer Co-Ord Set For Women",
+    "slug": "sleeveless-blazer-co-ord-set-for-women",
+    "description": "Turn heads with this chic sleeveless blazer coord set, designed in luxurious taffeta silk that adds a subtle sheen and a structured fit. The multicolor palette brings a vibrant edge, making it a statement piece for parties, events, or elegant evenings. Crafted for modern sophistication, this set offers both comfort and premium style in one ensemble.\nFabric &amp; Care\n\n\nTaffeta Silk\n\n\nSleeveless, tailored coord set\n\n\nGentle hand wash or dry clean recommended",
+    "price": 2800,
+    "salePrice": 3999,
+    "sku": "sleeveless-blazer-co-ord-set-for-women",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/sleeveless-blazer-co-ord-set-for-women-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 159,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:35.108Z",
+    "updatedAt": "2026-06-08T00:47:35.108Z",
+    "images": [
+      {
+        "id": 159,
+        "url": "/../../public/images/products/woman-co-ords-set/sleeveless-blazer-co-ord-set-for-women-1@1x.webp",
+        "productId": 68
+      },
+      {
+        "id": 160,
+        "url": "/../../public/images/products/woman-co-ords-set/sleeveless-blazer-co-ord-set-for-women-2@1x.webp",
+        "productId": 68
+      },
+      {
+        "id": 161,
+        "url": "/../../public/images/products/woman-co-ords-set/sleeveless-blazer-co-ord-set-for-women-3@1x.webp",
+        "productId": 68
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Square Neck Midi For Women",
+    "slug": "square-neck-midi-for-women",
+    "description": "Here’s a polished description for your Square Neck Midi Dress in blue lycra floral print:\nStep into effortless elegance with this sleeveless square-neck midi dress, crafted in premium lycra fabric with a delicate floral print. The flattering silhouette and flowy design make it perfect for both daytime charm and evening grace. With its vibrant blue base, this dress adds a refreshing touch to your wardrobe, combining comfort with chic sophistication.\nFabric &amp; Care\n\n\nLycra with floral print\n\n\nSleeveless, midi length\n\n\nGentle hand wash or machine wash safe",
+    "price": 2099,
+    "salePrice": 3499,
+    "sku": "square-neck-midi-for-women",
+    "categoryId": 2,
+    "imageUrl": "/../../public/images/products/uncategorized/square-neck-midi-for-women-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 162,
+    "tags": "[\"midi\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:39.518Z",
+    "updatedAt": "2026-06-08T00:47:39.518Z",
+    "images": [
+      {
+        "id": 162,
+        "url": "/../../public/images/products/uncategorized/square-neck-midi-for-women-1@1x.webp",
+        "productId": 69
+      },
+      {
+        "id": 163,
+        "url": "/../../public/images/products/uncategorized/square-neck-midi-for-women-2@1x.webp",
+        "productId": 69
+      },
+      {
+        "id": 164,
+        "url": "/../../public/images/products/uncategorized/square-neck-midi-for-women-3@1x.webp",
+        "productId": 69
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 2,
+      "name": "uncategorized",
+      "slug": "uncategorized"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Stylish Round Neck Women Crop Top",
+    "slug": "stylish-round-neck-women-crop-top",
+    "description": "Refresh your wardrobe with this Stylish Round Neck Women’s Crop Top, available in elegant cream and vibrant blue shades. Featuring a trendy printed design, full sleeves, and a flattering cropped length, this top blends comfort with style. The regular fit makes it perfect for both party wear and casual western wear looks. Pair it with high-waisted jeans, skirts, or shorts for a chic, fashion-forward outfit.\nColor: Cream / BluePattern: Printed / Crop TopLength Type: Crop TopSleeve: FullFit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 899,
+    "salePrice": 1499,
+    "sku": "stylish-round-neck-women-crop-top",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/stylish-round-neck-women-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 165,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Color\":[\"cream\",\"Blue\"],\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:47:46.564Z",
+    "updatedAt": "2026-06-08T00:47:46.564Z",
+    "images": [
+      {
+        "id": 165,
+        "url": "/../../public/images/products/woman-top/stylish-round-neck-women-crop-top-1@1x.webp",
+        "productId": 70
+      },
+      {
+        "id": 166,
+        "url": "/../../public/images/products/woman-top/stylish-round-neck-women-crop-top-2@1x.webp",
+        "productId": 70
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Sunshine Elegance Bow",
+    "slug": "sunshine-elegance-bow",
+    "description": "Sunshine Elegance Bow by KIKI'S Hair\nStep into the spotlight with the Sunshine Elegance Bow, a radiant accessory that channels positivity, warmth, and grace. Crafted in a vibrant yellow fabric, it’s perfectly framed with a scalloped border of delicate pearls, adding just the right amount of dazzle.\nWhy It’s a Must-Have:✔ Eye-Catching Color – A cheerful yellow that brightens up your entire look✔ Pearl Detailing – Classy embellishment that defines elegance✔ Soft &amp; Strong – Comfortable yet firm grip to hold your hairstyle beautifully✔ Versatile Charm – Pairs effortlessly with casual, festive, or ethnic outfits\nWhether you're heading out for brunch, a day at college, or a festive event, the Sunshine Elegance Bow is your go-to for that breezy, graceful glow.\nKIKI'S Hair – A Samm Renaissance Brand.",
+    "price": 499,
+    "salePrice": 699,
+    "sku": "sunshine-elegance-bow",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/sunshine-elegance-bow-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 167,
+    "tags": "[\"bow\",\"hair accessories\",\"women's hair scrunchies\"]",
+    "specifications": "{\"Title\":[\"Default Title\"]}",
+    "createdAt": "2026-06-08T00:47:55.561Z",
+    "updatedAt": "2026-06-08T00:47:55.561Z",
+    "images": [
+      {
+        "id": 167,
+        "url": "/../../public/images/products/one/sunshine-elegance-bow-1@1x.webp",
+        "productId": 71
+      },
+      {
+        "id": 168,
+        "url": "/../../public/images/products/one/sunshine-elegance-bow-2@1x.webp",
+        "productId": 71
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 72,
+    "name": "Trendy Attractive Women Hot Pink Co-ord Set",
+    "slug": "trendy-attractive-women-hot-pink-co-ord-set",
+    "description": "Make a bold style statement with this Trendy Attractive Hot Pink Co-ord Set, designed for the fashion-forward woman. Featuring a vibrant hue and a chic full-sleeve, full-length design, this regular fit set blends comfort with elegance. Perfect for party wear or stylish western wear outings, it offers a polished, coordinated look that’s effortlessly versatile. Pair it with heels for an evening-ready vibe or sneakers for a trendy daytime ensemble.\nPattern: Co-ord SetLength Type: FullSleeve: FullFit Type: Regular/PartySuitable For: Western Wear",
+    "price": 1499,
+    "salePrice": 1799,
+    "sku": "SR042415",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/trendy-attractive-women-hot-pink-co-ord-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 169,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:48:00.987Z",
+    "updatedAt": "2026-06-08T00:48:00.987Z",
+    "images": [
+      {
+        "id": 169,
+        "url": "/../../public/images/products/woman-co-ords-set/trendy-attractive-women-hot-pink-co-ord-set-1@1x.webp",
+        "productId": 72
+      },
+      {
+        "id": 170,
+        "url": "/../../public/images/products/woman-co-ords-set/trendy-attractive-women-hot-pink-co-ord-set-2@1x.webp",
+        "productId": 72
+      },
+      {
+        "id": 171,
+        "url": "/../../public/images/products/woman-co-ords-set/trendy-attractive-women-hot-pink-co-ord-set-3@1x.webp",
+        "productId": 72
+      },
+      {
+        "id": 172,
+        "url": "/../../public/images/products/woman-co-ords-set/trendy-attractive-women-hot-pink-co-ord-set-4@1x.webp",
+        "productId": 72
+      }
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "sku": "SR042415",
+        "price": 1499,
+        "salePrice": 1799,
+        "attributes": null,
+        "productId": 72
+      },
+      {
+        "id": 2,
+        "sku": "SR042416",
+        "price": 1499,
+        "salePrice": 1799,
+        "attributes": null,
+        "productId": 72
+      },
+      {
+        "id": 3,
+        "sku": "SR042417",
+        "price": 1499,
+        "salePrice": 1799,
+        "attributes": null,
+        "productId": 72
+      }
+    ],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 73,
+    "name": "V Neck Waist Coat Top For Women",
+    "slug": "v-neck-waist-coat-top-for-women",
+    "description": "Step into effortless sophistication with this sleeveless V-neck waist coat top, crafted in nylon lycra printed fabric for a sleek and modern silhouette. Its tailored fit and breathable stretch material ensure both style and comfort, making it a versatile wardrobe essential. Available in Blue, Black, and Light Orange, this top brings a refined edge to every look.\nFabric &amp; Care\n\n\nNylon Lycra printed fabric\n\n\nSleeveless with structured finish\n\n\nGentle hand wash or machine wash safe",
+    "price": 1099,
+    "salePrice": null,
+    "sku": "v-neck-waist-coat-top-for-women",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/v-neck-waist-coat-top-for-women-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 173,
+    "tags": "[\"Tops\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"2XL\",\"XL\"],\"Color\":[\"Blue\",\"Black\",\"Orange\"]}",
+    "createdAt": "2026-06-08T00:48:10.018Z",
+    "updatedAt": "2026-06-08T00:48:10.018Z",
+    "images": [
+      {
+        "id": 173,
+        "url": "/../../public/images/products/woman-top/v-neck-waist-coat-top-for-women-1@1x.webp",
+        "productId": 73
+      },
+      {
+        "id": 174,
+        "url": "/../../public/images/products/woman-top/v-neck-waist-coat-top-for-women-2@1x.webp",
+        "productId": 73
+      },
+      {
+        "id": 175,
+        "url": "/../../public/images/products/woman-top/v-neck-waist-coat-top-for-women-3@1x.webp",
+        "productId": 73
+      },
+      {
+        "id": 176,
+        "url": "/../../public/images/products/woman-top/v-neck-waist-coat-top-for-women-4@1x.webp",
+        "productId": 73
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 74,
+    "name": "Wild Instinct Satin Co-ords set",
+    "slug": "wild-instinct-satin-co-ords-set",
+    "description": "Color: Monochrome Black &amp; SilverPattern: Animal Print (Leopard-inspired)Fabric: Satin-finish BlendSleeve: Half SleevesFit Type: Tailored FitIdeal For: Women\nDescription Example:Unleash your fierce side with the Wild Instinct Satin  Co-ords set. This chic, animal print one-piece is crafted in a silky satin-finish fabric that glides over your frame for a polished silhouette. Featuring a structured collar, front-button detail, and half sleeves, it's the perfect fusion of power and poise. Pair with bold heels or metallic accessories to command attention, day or night.",
+    "price": 2699,
+    "salePrice": 4899,
+    "sku": "wild-instinct-satin-co-ords-set",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/wild-instinct-satin-co-ords-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 177,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:48:21.471Z",
+    "updatedAt": "2026-06-08T00:48:21.471Z",
+    "images": [
+      {
+        "id": 177,
+        "url": "/../../public/images/products/one/wild-instinct-satin-co-ords-set-1@1x.webp",
+        "productId": 74
+      },
+      {
+        "id": 178,
+        "url": "/../../public/images/products/one/wild-instinct-satin-co-ords-set-2@1x.webp",
+        "productId": 74
+      },
+      {
+        "id": 179,
+        "url": "/../../public/images/products/one/wild-instinct-satin-co-ords-set-3@1x.webp",
+        "productId": 74
+      },
+      {
+        "id": 180,
+        "url": "/../../public/images/products/one/wild-instinct-satin-co-ords-set-4@1x.webp",
+        "productId": 74
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Women's  Frill Sleeveless Top",
+    "slug": "womens-frill-sleeveless-top",
+    "description": "Bring effortless charm to your wardrobe with this Women’s Frill Sleeveless Top, available in elegant blue and maroon shades. Designed with delicate frill detailing, this full-length top adds a touch of femininity to any look. The regular fit ensures comfort, while its versatile style makes it perfect for both party wear and everyday western wear. Pair it with jeans, skirts, or tailored pants for a chic and timeless outfit.\nColor: Blue / MaroonPattern: TopLength Type: FullSleeve: SleevelessFit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 1599,
+    "salePrice": null,
+    "sku": "womens-frill-sleeveless-top",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/womens-frill-sleeveless-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 181,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Color\":[\"Blue\",\"maroon\"],\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:48:34.137Z",
+    "updatedAt": "2026-06-08T00:48:34.137Z",
+    "images": [
+      {
+        "id": 181,
+        "url": "/../../public/images/products/woman-top/womens-frill-sleeveless-top-1@1x.webp",
+        "productId": 75
+      },
+      {
+        "id": 182,
+        "url": "/../../public/images/products/woman-top/womens-frill-sleeveless-top-2@1x.webp",
+        "productId": 75
+      },
+      {
+        "id": 183,
+        "url": "/../../public/images/products/woman-top/womens-frill-sleeveless-top-3@1x.webp",
+        "productId": 75
+      },
+      {
+        "id": 184,
+        "url": "/../../public/images/products/woman-top/womens-frill-sleeveless-top-4@1x.webp",
+        "productId": 75
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 76,
+    "name": "Women's Animal Print Sleeve less Co-ord Set with Crop Top",
+    "slug": "womens-animal-print-sleeve-less-co-ord-set-with-crop-top",
+    "description": "Turn heads with this Women’s Animal Print Co-ord Set, a bold blend of style and confidence. Crafted in a striking blue hue with a trendy animal print, this set features a chic crop top paired with matching full-length bottoms for a coordinated, fashion-forward look. Designed with a regular fit that flatters all body types, it transitions seamlessly from party wear to casual western wear occasions. Pair it with heels for a glamorous night out or sneakers for an effortlessly cool day vibe.\nColor: BluePattern: Co-ord SetLength Type: FullSleeve: Sleeveless (Crop Top)Fit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 2999,
+    "salePrice": 4599,
+    "sku": "womens-animal-print-sleeve-less-co-ord-set-with-crop-top",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/womens-animal-print-sleeve-less-co-ord-set-with-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 185,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:48:47.690Z",
+    "updatedAt": "2026-06-08T00:48:47.690Z",
+    "images": [
+      {
+        "id": 185,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-animal-print-sleeve-less-co-ord-set-with-crop-top-1@1x.webp",
+        "productId": 76
+      },
+      {
+        "id": 186,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-animal-print-sleeve-less-co-ord-set-with-crop-top-2@1x.webp",
+        "productId": 76
+      },
+      {
+        "id": 187,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-animal-print-sleeve-less-co-ord-set-with-crop-top-3@1x.webp",
+        "productId": 76
+      },
+      {
+        "id": 188,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-animal-print-sleeve-less-co-ord-set-with-crop-top-4@1x.webp",
+        "productId": 76
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 77,
+    "name": "Women's Button-Front Spaghetti Strap Mini Dress",
+    "slug": "womens-button-front-spaghetti-strap-mini-dress",
+    "description": "Color: RedPattern: SolidLength Type: MiniSleeve: Sleeveless (Spaghetti Straps)Ideal For: Women\nDescription Example:Turn up the heat in this bold and beautiful Women's Button-Front Spaghetti Strap Mini Dress in vibrant red. Featuring a body-flattering silhouette with a sleek button-down front and subtle slit detail, this mini dress brings together effortless charm and a touch of sass. The spaghetti straps and lightweight fabric make it perfect for parties, club nights, or a stylish summer brunch.",
+    "price": 999,
+    "salePrice": 2499,
+    "sku": "womens-button-front-spaghetti-strap-mini-dress",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-button-front-spaghetti-strap-mini-dress-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 189,
+    "tags": "[\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:48:57.438Z",
+    "updatedAt": "2026-06-08T00:48:57.438Z",
+    "images": [
+      {
+        "id": 189,
+        "url": "/../../public/images/products/one/womens-button-front-spaghetti-strap-mini-dress-1@1x.webp",
+        "productId": 77
+      },
+      {
+        "id": 190,
+        "url": "/../../public/images/products/one/womens-button-front-spaghetti-strap-mini-dress-2@1x.webp",
+        "productId": 77
+      },
+      {
+        "id": 191,
+        "url": "/../../public/images/products/one/womens-button-front-spaghetti-strap-mini-dress-3@1x.webp",
+        "productId": 77
+      },
+      {
+        "id": 192,
+        "url": "/../../public/images/products/one/womens-button-front-spaghetti-strap-mini-dress-4@1x.webp",
+        "productId": 77
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 78,
+    "name": "Women's Designer Draped Ruffle Gown",
+    "slug": "womens-designer-draped-ruffle-gown",
+    "description": "Color: Hot PinkPattern: SolidLength Type: Full LengthSleeve: SleevelessIdeal For: Women\nDescription Example:Make a striking entrance in this Women's Designer Draped Ruffle Gown in vibrant hot pink. Crafted with elegant drapes and cascading front ruffles, this sleeveless gown is designed to flatter every curve. The deep neckline adds a bold edge, while the floor-length silhouette exudes red-carpet glam. Perfect for evening parties, fashion events, or cocktail nights where you want to steal the spotlight.",
+    "price": 2799,
+    "salePrice": 4999,
+    "sku": "womens-designer-draped-ruffle-gown",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 193,
+    "tags": "[\"bodycon\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:09.169Z",
+    "updatedAt": "2026-06-08T00:49:09.169Z",
+    "images": [
+      {
+        "id": 193,
+        "url": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-1@1x.webp",
+        "productId": 78
+      },
+      {
+        "id": 194,
+        "url": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-2@1x.webp",
+        "productId": 78
+      },
+      {
+        "id": 195,
+        "url": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-3@1x.webp",
+        "productId": 78
+      },
+      {
+        "id": 196,
+        "url": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-4@1x.webp",
+        "productId": 78
+      },
+      {
+        "id": 197,
+        "url": "/../../public/images/products/one/womens-designer-draped-ruffle-gown-5@1x.webp",
+        "productId": 78
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 79,
+    "name": "Women's Ethnic-Inspired Printed Co-ord Set with Shorts and Open Jacket",
+    "slug": "womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket",
+    "description": "Color: Multicolor (Dominant tones: Red, Black, Beige)Pattern: Ethnic/Tribal PrintLength Type: Short (Shorts) | Hip-Length (Jacket)Sleeve: 3/4th Sleeves (Jacket)Ideal For: Women\nDescription Example:Make a bold statement with this Women's Ethnic-Inspired Printed Co-ord Set featuring high-waisted shorts and a relaxed-fit open jacket in vibrant tribal patterns. The look is completed with a shimmering beige crop top for a chic contrast. Perfect for casual outings, music festivals, or summer getaways. Style it with minimal jewelry and sneakers or strappy sandals for a laid-back yet fashion-forward look.",
+    "price": 1799,
+    "salePrice": 1599,
+    "sku": "womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 198,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:14.507Z",
+    "updatedAt": "2026-06-08T00:49:14.507Z",
+    "images": [
+      {
+        "id": 198,
+        "url": "/../../public/images/products/one/womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket-1@1x.webp",
+        "productId": 79
+      },
+      {
+        "id": 199,
+        "url": "/../../public/images/products/one/womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket-2@1x.webp",
+        "productId": 79
+      },
+      {
+        "id": 200,
+        "url": "/../../public/images/products/one/womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket-3@1x.webp",
+        "productId": 79
+      },
+      {
+        "id": 201,
+        "url": "/../../public/images/products/one/womens-ethnic-inspired-printed-co-ord-set-with-shorts-and-open-jacket-4@1x.webp",
+        "productId": 79
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 80,
+    "name": "Women's High-Waist Ruched Satin Midi Skirt",
+    "slug": "womens-high-waist-ruched-satin-midi-skirt",
+    "description": "Color: Champagne GoldPattern: SolidLength Type: MidiSleeve: NA (Bottom Wear)Ideal For: Women\nDescription Example:Elevate your elegance with this chic Women's High-Waist Ruched Satin Midi Skirt in a luxurious champagne gold hue. Crafted from smooth satin with a subtle sheen, this skirt features a gathered ruched detail on the side for a flattering silhouette and flowy drape. Perfect for parties, date nights, or special occasions, pair it with a lace blouse or fitted crop top and heels to create a head-turning ensemble.",
+    "price": 1499,
+    "salePrice": 2199,
+    "sku": "womens-high-waist-ruched-satin-midi-skirt",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-high-waist-ruched-satin-midi-skirt-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 202,
+    "tags": "[\"bottom wear\",\"skirt\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:19.954Z",
+    "updatedAt": "2026-06-08T00:49:19.954Z",
+    "images": [
+      {
+        "id": 202,
+        "url": "/../../public/images/products/one/womens-high-waist-ruched-satin-midi-skirt-1@1x.webp",
+        "productId": 80
+      },
+      {
+        "id": 203,
+        "url": "/../../public/images/products/one/womens-high-waist-ruched-satin-midi-skirt-2@1x.webp",
+        "productId": 80
+      },
+      {
+        "id": 204,
+        "url": "/../../public/images/products/one/womens-high-waist-ruched-satin-midi-skirt-3@1x.webp",
+        "productId": 80
+      },
+      {
+        "id": 205,
+        "url": "/../../public/images/products/one/womens-high-waist-ruched-satin-midi-skirt-4@1x.webp",
+        "productId": 80
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 81,
+    "name": "Women's Leopard Print Blazer and Pants Co-Ord Set",
+    "slug": "womens-leopard-print-blazer-and-pants-co-ord-set",
+    "description": "Color: Brown and BlackPattern: Animal Print (Leopard)Length Type: Full LengthSleeve: Full SleevesIdeal For: Women\nDescription Example:Unleash your wild side with this fierce Women's Leopard Print Blazer and Pants Co-Ord Set. Featuring a sharp, structured blazer and matching high-waist trousers, this animal print outfit makes a bold fashion statement. Crafted for confident, trend-setting women, it’s perfect for parties, fashion events, or a powerful evening look. Pair it with a black inner top and heels for maximum impact.",
+    "price": 2999,
+    "salePrice": 4999,
+    "sku": "womens-leopard-print-blazer-and-pants-co-ord-set",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-leopard-print-blazer-and-pants-co-ord-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 206,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:27.719Z",
+    "updatedAt": "2026-06-08T00:49:27.719Z",
+    "images": [
+      {
+        "id": 206,
+        "url": "/../../public/images/products/one/womens-leopard-print-blazer-and-pants-co-ord-set-1@1x.webp",
+        "productId": 81
+      },
+      {
+        "id": 207,
+        "url": "/../../public/images/products/one/womens-leopard-print-blazer-and-pants-co-ord-set-2@1x.webp",
+        "productId": 81
+      },
+      {
+        "id": 208,
+        "url": "/../../public/images/products/one/womens-leopard-print-blazer-and-pants-co-ord-set-3@1x.webp",
+        "productId": 81
+      },
+      {
+        "id": 209,
+        "url": "/../../public/images/products/one/womens-leopard-print-blazer-and-pants-co-ord-set-4@1x.webp",
+        "productId": 81
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 82,
+    "name": "Women's Off-Shoulder Crop Top and Tiered Mini Skirt Co-Ord Set",
+    "slug": "womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set",
+    "description": "Color: RedPattern: Textured / StripedLength Type: ShortSleeve: Long Sleeves (Off-Shoulder)Ideal For: Women\nDescription Example:Turn heads with this bold and stylish Women's Off-Shoulder Crop Top and Tiered Mini Skirt Co-Ord Set in vibrant red. Designed with a flattering off-shoulder neckline and full sleeves, the crop top ties at the front for a playful finish. The coordinated mini skirt features layered tiers with a textured stripe pattern, adding volume and flair. Perfect for parties, club nights, or festive evenings — this set combines elegance with a confident, modern vibe.",
+    "price": 2299,
+    "salePrice": 4599,
+    "sku": "womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 210,
+    "tags": "[\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:37.026Z",
+    "updatedAt": "2026-06-08T00:49:37.026Z",
+    "images": [
+      {
+        "id": 210,
+        "url": "/../../public/images/products/one/womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set-1@1x.webp",
+        "productId": 82
+      },
+      {
+        "id": 211,
+        "url": "/../../public/images/products/one/womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set-2@1x.webp",
+        "productId": 82
+      },
+      {
+        "id": 212,
+        "url": "/../../public/images/products/one/womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set-3@1x.webp",
+        "productId": 82
+      },
+      {
+        "id": 213,
+        "url": "/../../public/images/products/one/womens-off-shoulder-crop-top-and-tiered-mini-skirt-co-ord-set-4@1x.webp",
+        "productId": 82
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 83,
+    "name": "Women's Ribbed Bodycon Knee-Length Skirt with Front Slit",
+    "slug": "womens-ribbed-bodycon-knee-length-skirt-with-front-slit",
+    "description": "Color: BeigePattern: Ribbed / Striped TextureLength Type: Knee-LengthSleeve: NA (Bottom Wear)Ideal For: Women\nDescription Example:Step out in subtle sophistication with this Women's Ribbed Bodycon Knee-Length Skirt with Front Slit in a soft beige tone. Featuring a flattering figure-hugging fit and a sleek front slit for added edge, this rib-textured skirt is both comfortable and chic. Ideal for casual outings, brunch dates, or office wear with a stylish twist. Pair it with a tucked-in blouse or crop top and heels for a complete look.",
+    "price": 1799,
+    "salePrice": 2199,
+    "sku": "womens-ribbed-bodycon-knee-length-skirt-with-front-slit",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-ribbed-bodycon-knee-length-skirt-with-front-slit-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 214,
+    "tags": "[\"bottom wear\",\"skirt\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:44.190Z",
+    "updatedAt": "2026-06-08T00:49:44.190Z",
+    "images": [
+      {
+        "id": 214,
+        "url": "/../../public/images/products/one/womens-ribbed-bodycon-knee-length-skirt-with-front-slit-1@1x.webp",
+        "productId": 83
+      },
+      {
+        "id": 215,
+        "url": "/../../public/images/products/one/womens-ribbed-bodycon-knee-length-skirt-with-front-slit-2@1x.webp",
+        "productId": 83
+      },
+      {
+        "id": 216,
+        "url": "/../../public/images/products/one/womens-ribbed-bodycon-knee-length-skirt-with-front-slit-3@1x.webp",
+        "productId": 83
+      },
+      {
+        "id": 217,
+        "url": "/../../public/images/products/one/womens-ribbed-bodycon-knee-length-skirt-with-front-slit-4@1x.webp",
+        "productId": 83
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  },
+  {
+    "id": 84,
+    "name": "Women's Round Neck Sleeveless Top With Detachble Sleeves",
+    "slug": "womens-round-neck-sleeveless-top-with-detachble-sleeves",
+    "description": "Add versatility to your wardrobe with this Women’s Round Neck Sleeveless Top with Detachable Sleeves. Available in brown, red, and grey, this stylish crop top features a chic short length and a modern design that lets you switch effortlessly between sleeveless and half-sleeve looks. The regular fit offers comfort without compromising style, making it perfect for both party wear and everyday western wear. Pair it with jeans, skirts, or trousers for endless outfit possibilities.\nColor: Brown / Red / GreyPattern: Crop TopLength Type: ShortSleeve: Half (Detachable)Fit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 1199,
+    "salePrice": 899,
+    "sku": "womens-round-neck-sleeveless-top-with-detachble-sleeves",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/womens-round-neck-sleeveless-top-with-detachble-sleeves-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 218,
+    "tags": "[\"Tops\",\"Woman\"]",
+    "specifications": "{\"Color\":[\"Red\",\"Brown\",\"Gray\"],\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:49:52.830Z",
+    "updatedAt": "2026-06-08T00:49:52.830Z",
+    "images": [
+      {
+        "id": 218,
+        "url": "/../../public/images/products/woman-top/womens-round-neck-sleeveless-top-with-detachble-sleeves-1@1x.webp",
+        "productId": 84
+      },
+      {
+        "id": 219,
+        "url": "/../../public/images/products/woman-top/womens-round-neck-sleeveless-top-with-detachble-sleeves-2@1x.webp",
+        "productId": 84
+      },
+      {
+        "id": 220,
+        "url": "/../../public/images/products/woman-top/womens-round-neck-sleeveless-top-with-detachble-sleeves-3@1x.webp",
+        "productId": 84
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 85,
+    "name": "Women's Sheer Mesh High Neck Crop Top",
+    "slug": "womens-sheer-mesh-high-neck-crop-top",
+    "description": "Color: BlackPattern: Striped MeshLength Type: CropSleeve: Half SleevesIdeal For: Women\nDescription Example:Elevate your style with this chic Women's Sheer Mesh High Neck Crop Top in classic black. Featuring a unique striped mesh pattern and high neck design, this top adds an edgy yet elegant vibe to any outfit. The crop length and half sleeves make it perfect for layering or styling solo for casual outings or night events. Ideal for fashion-forward women who love a bold yet graceful look.",
+    "price": 999,
+    "salePrice": 1799,
+    "sku": "womens-sheer-mesh-high-neck-crop-top",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/womens-sheer-mesh-high-neck-crop-top-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 221,
+    "tags": "[\"Tops\"]",
+    "specifications": "{\"Color\":[\"Pink\",\"Black\"],\"Size\":[\"S\",\"M\",\"L\"]}",
+    "createdAt": "2026-06-08T00:49:55.511Z",
+    "updatedAt": "2026-06-08T00:49:55.511Z",
+    "images": [
+      {
+        "id": 221,
+        "url": "/../../public/images/products/woman-top/womens-sheer-mesh-high-neck-crop-top-1@1x.webp",
+        "productId": 85
+      },
+      {
+        "id": 222,
+        "url": "/../../public/images/products/woman-top/womens-sheer-mesh-high-neck-crop-top-2@1x.webp",
+        "productId": 85
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 86,
+    "name": "Women's Sleeveless Crop Tank Top and Split Hem Short Mini Skirt Set",
+    "slug": "womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set",
+    "description": "Color: Red and BlackPattern: Floral PrintedLength Type: ShortSleeve: SleevelessIdeal For: Women\nDescription Example:Turn heads in this stunning Women's Sleeveless Crop Tank Top and Split Hem Mini Skirt Set, featuring a bold red and black floral print. The top comes in a fitted, sleeveless tank style with an edgy cut-out waist, paired perfectly with a flattering mini skirt featuring a stylish front slit. Designed for the modern woman who loves to make a statement—ideal for parties, casual outings, or vacation looks.",
+    "price": 1099,
+    "salePrice": 3499,
+    "sku": "womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 223,
+    "tags": "[\"co-ords-set\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:50:02.377Z",
+    "updatedAt": "2026-06-08T00:50:02.377Z",
+    "images": [
+      {
+        "id": 223,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set-1@1x.webp",
+        "productId": 86
+      },
+      {
+        "id": 224,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set-2@1x.webp",
+        "productId": 86
+      },
+      {
+        "id": 225,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set-3@1x.webp",
+        "productId": 86
+      },
+      {
+        "id": 226,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-sleeveless-crop-tank-top-and-split-hem-short-mini-skirt-set-4@1x.webp",
+        "productId": 86
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 87,
+    "name": "Women's V Neck Ruched Wrap Slit Hem Sleeveless Spaghetti Strap Midi Bodycon Dress",
+    "slug": "womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress",
+    "description": "Turn heads with this Women’s V-Neck Ruched Wrap Slit Hem Midi Bodycon Dress in a stunning golden hue. Featuring delicate spaghetti straps, a flattering wrap design, and elegant ruched detailing, this full-length dress is perfect for creating a sophisticated, figure-enhancing look. The sultry side slit adds a touch of allure, making it ideal for party wear and glamorous western wear occasions. Pair it with statement heels and accessories for a show-stopping evening ensemble.\nColor: GoldenPattern: MidiLength Type: FullSleeve: SleevelessFit Type: Regular/PartyIdeal For: WomenSuitable For: Western Wear",
+    "price": 2799,
+    "salePrice": 3499,
+    "sku": "womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress",
+    "categoryId": 5,
+    "imageUrl": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 227,
+    "tags": "[\"bodycon\",\"Woman\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:50:20.108Z",
+    "updatedAt": "2026-06-08T00:50:20.108Z",
+    "images": [
+      {
+        "id": 227,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-1@1x.webp",
+        "productId": 87
+      },
+      {
+        "id": 228,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-2@1x.webp",
+        "productId": 87
+      },
+      {
+        "id": 229,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-3@1x.webp",
+        "productId": 87
+      },
+      {
+        "id": 230,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-4@1x.webp",
+        "productId": 87
+      },
+      {
+        "id": 231,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-5@1x.webp",
+        "productId": 87
+      },
+      {
+        "id": 232,
+        "url": "/../../public/images/products/woman-co-ords-set/womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress-6@1x.webp",
+        "productId": 87
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 5,
+      "name": "Woman co-ords-set",
+      "slug": "woman-co-ords-set"
+    }
+  },
+  {
+    "id": 88,
+    "name": "Women's V-Neck Waist Top with Textured Jacquard Print",
+    "slug": "womens-v-neck-waist-top-with-textured-jacquard-print",
+    "description": "Step into style with our charming Pink Sleeveless Cropped Top. This trendy and unique top is perfect for adding a touch of elegance to any outfit. It features a stylish V-neck design and a full button-down front, creating a classic vest-inspired look. The fabric has a delicate jacquard-like textured pattern, which adds a subtle, high-end feel.\nMade from a soft, lightweight knitted net fabric with a distinctive dot pattern, this top offers a comfortable and breathable fit. The material has a slight stretch, ensuring a great silhouette that's both flattering and comfortable to wear. The sleeveless design makes it ideal for warmer weather or for layering under a jacket.\nPair this versatile crop top with high-waisted skirts, trousers, or jeans for a chic and fashionable look that's perfect for a night out, a casual day, or a special occasion.\n \nFeatures:\n \n\n\nColor: Light Pink\n\n\nStyle: Sleeveless, V-neck, and button-down front\n\n\nMaterial: Soft, lightweight, knitted net fabric\n\n\nPattern: Textured dots\n\n\nFit: Cropped, comfortable, and flattering\n\n\n \nSizing &amp; Measurements:\n \nThis top is available in sizes S, M, and L. Please refer to the measurements below to find your perfect fit.\n\n\nSize S: Length 18\", Chest 34\", Waist 26\"\n\n\nSize M: Length 18\", Chest 36\", Waist 28\"\n\n\nSize L: Length 18\", Chest 38\", Waist 30\"\n\n\nNote: The shoulder width is 14.5\" for all sizes.",
+    "price": 1299,
+    "salePrice": null,
+    "sku": "womens-v-neck-waist-top-with-textured-jacquard-print",
+    "categoryId": 3,
+    "imageUrl": "/../../public/images/products/woman-top/womens-v-neck-waist-top-with-textured-jacquard-print-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 233,
+    "tags": "[\"Tops\"]",
+    "specifications": "{\"Size\":[\"S\",\"M\",\"L\",\"XL\",\"2XL\"]}",
+    "createdAt": "2026-06-08T00:50:26.357Z",
+    "updatedAt": "2026-06-08T00:50:26.357Z",
+    "images": [
+      {
+        "id": 233,
+        "url": "/../../public/images/products/woman-top/womens-v-neck-waist-top-with-textured-jacquard-print-1@1x.webp",
+        "productId": 88
+      },
+      {
+        "id": 234,
+        "url": "/../../public/images/products/woman-top/womens-v-neck-waist-top-with-textured-jacquard-print-2@1x.webp",
+        "productId": 88
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 3,
+      "name": "Woman Top",
+      "slug": "woman-top"
+    }
+  },
+  {
+    "id": 89,
+    "name": "Women’s Corset Jumpsuit - High-Waisted Wide Leg One-Piece Bodice Suit",
+    "slug": "womens-corset-jumpsuit-high-waisted-wide-leg-one-piece-bodice-suit",
+    "description": "Elevate your evening wardrobe with this Premium Velvet Printed Corset Jumpsuit, designed specifically for the modern, sophisticated woman. Crafted from high-quality, ultra-soft velvet, this one-piece features an intricate metallic-inspired print that catches the light from every angle.\nProduct Specifications\n\n\nTarget Group: Adult Women\n\n\nFabric: Premium Quality Printed Velvet\n\n\nPattern: Structured Jumpsuit / One-Piece Bodice Suit\n\n\nNeckline: Strapless / Tube Style\n\n\nAvailable Colors: Maroon, Blue, Green, Golden",
+    "price": 7299,
+    "salePrice": 13999,
+    "sku": "womens-corset-jumpsuit-high-waisted-wide-leg-one-piece-bodice-suit",
+    "categoryId": 1,
+    "imageUrl": "/../../public/images/products/one/womens-corset-jumpsuit-high-waisted-wide-leg-one-piece-bodice-suit-1@1x.webp",
+    "stock": 0,
+    "featured": false,
+    "featuredImageId": 235,
+    "tags": "[\"Jumpsuit\",\"midi\",\"one-piece\",\"Woman\"]",
+    "specifications": "{\"Color\":[\"maroon\",\"blue\",\"Green\",\"golden\"]}",
+    "createdAt": "2026-06-08T00:50:31.145Z",
+    "updatedAt": "2026-06-08T00:50:31.145Z",
+    "images": [
+      {
+        "id": 235,
+        "url": "/../../public/images/products/one/womens-corset-jumpsuit-high-waisted-wide-leg-one-piece-bodice-suit-1@1x.webp",
+        "productId": 89
+      },
+      {
+        "id": 236,
+        "url": "/../../public/images/products/one/womens-corset-jumpsuit-high-waisted-wide-leg-one-piece-bodice-suit-2@1x.webp",
+        "productId": 89
+      }
+    ],
+    "variants": [],
+    "category": {
+      "id": 1,
+      "name": "one",
+      "slug": "one"
+    }
+  }
+]
