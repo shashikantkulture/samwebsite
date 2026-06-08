@@ -8,7 +8,7 @@
     "seed": "ts-node ./prisma/seed.ts",
     "optimize": "ts-node ./scripts/optimize-image.ts",
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "prisma": "prisma",
