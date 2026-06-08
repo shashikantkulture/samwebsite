@@ -108,7 +108,6 @@ export const Footer: React.FC = () => {
         <div>
           <h4 className="text-white uppercase tracking-widest font-semibold mb-4 text-[10px]">Resources</h4>
           <ul className="space-y-2 text-zinc-500">
-            <li><Link href="/#transformations" className="hover:text-white transition">Before & Afters</Link></li>
             <li><Link href="/#education" className="hover:text-white transition">Hair Care Hub</Link></li>
             <li><Link href="/#faqs" className="hover:text-white transition">FAQ Accordions</Link></li>
             <li><Link href="/admin" className="hover:text-white transition">CMS Admin Portal</Link></li>

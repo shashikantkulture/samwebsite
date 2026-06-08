@@ -381,49 +381,7 @@ export default function Home() {
 
 
 
-      {/* 9. Hair Transformations Gallery (Before vs After) */}
-      <motion.section
-        id="transformations"
-        initial={{ opacity: 0, y: 35 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-      >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
-          <div className="lg:col-span-5 space-y-6 text-center lg:text-left">
-            <span className="text-[9px] uppercase tracking-widest font-bold text-luxury-gold-dark bg-luxury-champagne px-2.5 py-1 rounded inline-block">
-              Proven Results
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-luxury-charcoal tracking-wide">
-              Real Wear.<br />Real Transformations.
-            </h2>
-            <p className="text-xs sm:text-sm text-zinc-500 normal-case leading-relaxed">
-              Drag the interactive slider to view the seamless styling power of our designer jumpsuits and kids gowns. See how they elevate plain appearances to runway-level styles instantly.
-            </p>
-            <div className="grid grid-cols-3 gap-4 pt-4 max-w-md mx-auto lg:mx-0 border-t border-zinc-150 text-center">
-              <div>
-                <p className="text-lg sm:text-xl font-serif font-black text-luxury-gold-dark">10k+</p>
-                <p className="text-[9px] uppercase tracking-widest text-zinc-400 font-bold">Fittings Completed</p>
-              </div>
-              <div>
-                <p className="text-lg sm:text-xl font-serif font-black text-luxury-gold-dark">4.9 ★</p>
-                <p className="text-[9px] uppercase tracking-widest text-zinc-400 font-bold">Satisfied Rating</p>
-              </div>
-              <div>
-                <p className="text-lg sm:text-xl font-serif font-black text-luxury-gold-dark">100%</p>
-                <p className="text-[9px] uppercase tracking-widest text-zinc-400 font-bold">Custom Tailored</p>
-              </div>
-            </div>
-          </div>
 
-          <div className="lg:col-span-7 flex justify-center">
-            <BeforeAfterSlider />
-          </div>
-
-        </div>
-      </motion.section>
 
       {/* 10. Shop The Look Section (Hotspots) */}
       <motion.section

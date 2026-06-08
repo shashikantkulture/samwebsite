@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import slugify from 'slugify';
 import { PrismaClient } from '@prisma/client';
-import { optimizeImage } from './optimize-image';
+import { optimizeImage } from './optimize-image.ts';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

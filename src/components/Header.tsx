@@ -67,7 +67,7 @@ export const Header: React.FC = () => {
     <>
       <header className={`fixed top-10 left-0 right-0 z-40 transition-all duration-300 ${headerBg}`}>
         {/* Navigation Wrapper */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
@@ -156,23 +156,20 @@ export const Header: React.FC = () => {
             <Link href="/#reviews" className={`transition-colors ${textClass}`}>
               Reviews
             </Link>
-            <Link href="/#transformations" className={`transition-colors ${textClass}`}>
-              Transformations
-            </Link>
             <Link href="/account" className={`transition-colors ${textClass}`}>
               Dashboard
             </Link>
           </nav>
 
           {/* Header Action Icons */}
-          <div className="flex items-center space-x-5 sm:space-x-6">
+          <div className="flex items-center space-x-3 sm:space-x-5 md:space-x-6">
             {/* Search Toggle */}
             <button
               onClick={() => setIsSearchOpen(true)}
               className={`p-1.5 transition-colors ${iconClass}`}
               aria-label="Open Search"
             >
-              <Search size={23} />
+              <Search size={21} />
             </button>
 
             {/* Wishlist */}
@@ -181,7 +178,7 @@ export const Header: React.FC = () => {
               className={`p-1.5 transition-colors relative ${iconClass}`}
               aria-label="Wishlist"
             >
-              <Heart size={23} />
+              <Heart size={21} />
               {wishlist.length > 0 && (
                 <span className="absolute -top-1 -right-1 bg-luxury-gold text-white text-[8px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center border border-white">
                   {wishlist.length}
@@ -195,7 +192,7 @@ export const Header: React.FC = () => {
               className={`p-1.5 transition-colors ${iconClass}`}
               aria-label="Account Dashboard"
             >
-              <User size={23} />
+              <User size={21} />
             </Link>
 
             {/* Shopping Bag Trigger */}
@@ -204,7 +201,7 @@ export const Header: React.FC = () => {
               className={`p-1.5 transition-colors relative ${iconClass}`}
               aria-label="Open Cart"
             >
-              <ShoppingBag size={23} />
+              <ShoppingBag size={21} />
               {totalCartQty > 0 && (
                 <span className="absolute -top-1 -right-1 bg-luxury-charcoal text-luxury-nude text-[8px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center border border-white animate-pulse">
                   {totalCartQty}
@@ -218,7 +215,7 @@ export const Header: React.FC = () => {
               className={`lg:hidden p-1.5 transition-colors ${iconClass}`}
               aria-label="Toggle Menu"
             >
-              <Menu size={25} />
+              <Menu size={23} />
             </button>
           </div>
         </div>
