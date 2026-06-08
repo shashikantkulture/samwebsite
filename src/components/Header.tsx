@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center space-x-10 font-semibold text-[13px] uppercase tracking-widest">
+          <nav className="hidden xl:flex items-center space-x-6 2xl:space-x-10 font-semibold text-[12px] 2xl:text-[13px] uppercase tracking-widest">
             <Link href="/" className={`transition-colors ${textClass}`}>
               Home
             </Link>
@@ -212,7 +212,7 @@ export const Header: React.FC = () => {
             {/* Mobile Menu Icon */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className={`lg:hidden p-1.5 transition-colors ${iconClass}`}
+              className={`xl:hidden p-1.5 transition-colors ${iconClass}`}
               aria-label="Toggle Menu"
             >
               <Menu size={23} />
@@ -224,7 +224,7 @@ export const Header: React.FC = () => {
       {/* Mobile Drawer Navigation */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <div className="fixed inset-0 z-50 overflow-hidden lg:hidden">
+          <div className="fixed inset-0 z-50 overflow-hidden xl:hidden">
             {/* Backdrop overlay */}
             <motion.div
               initial={{ opacity: 0 }}
