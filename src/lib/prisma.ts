@@ -2,21 +2,24 @@ import { PrismaClient } from '@prisma/client';
 
 let prisma: PrismaClient;
 
+const getPrismaOptions = () => {
+  const options: any = {};
+  if (process.env.DATABASE_URL) {
+    options.datasources = { db: { url: process.env.DATABASE_URL } };
+  } else {
+    // Fallback default for local SQLite build environment stability
+    options.datasources = { db: { url: "file:./prisma/dev.db" } };
+  }
+  return options;
+};
+
 if (process.env.NODE_ENV === 'production') {
-  // In production, reuse the same PrismaClient instance across function calls
-  // to prevent exhausting connection limits.
   if (!(global as any).prisma) {
-    (global as any).prisma = new PrismaClient({
-      datasources: { db: { url: process.env.DATABASE_URL } },
-    });
+    (global as any).prisma = new PrismaClient(getPrismaOptions());
   }
   prisma = (global as any).prisma;
 } else {
-  // In development, a new instance per module reload is fine.
-  prisma = new PrismaClient({
-    datasources: { db: { url: process.env.DATABASE_URL } },
-  });
+  prisma = new PrismaClient(getPrismaOptions());
 }
-
 
 export default prisma;
