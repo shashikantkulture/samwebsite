@@ -321,26 +321,48 @@ export default function Home() {
           </h2>
         </div>
 
-        {/* Tab Buttons */}
-        <div className="flex justify-center gap-3 overflow-x-auto pb-4 no-scrollbar max-w-2xl mx-auto mb-10 border-b border-zinc-100">
-          {[
-            { id: "partywear", label: "Party Wear" },
-            { id: "casual", label: "Casual Luxury" },
-            { id: "kids", label: "Kids Collections" },
-            { id: "festive", label: "Festive Wear" }
-          ].map((tab) => (
-            <button
-              key={tab.id}
-              onClick={() => setSelectedSolutionTab(tab.id)}
-              className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition ${
-                selectedSolutionTab === tab.id
-                  ? "bg-luxury-charcoal text-white shadow-xs"
-                  : "bg-luxury-nude text-zinc-655 hover:bg-luxury-nude-dark border border-transparent"
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
+        {/* Tab Buttons - Sliding loop */}
+        <div className="relative w-full overflow-hidden mb-10 border-b border-zinc-100 pb-4 select-none">
+          <div className="flex w-max animate-marquee space-x-6 hover:[animation-play-state:paused]">
+            {/* Set 1 */}
+            {[
+              { id: "partywear", label: "Party Wear" },
+              { id: "casual", label: "Casual Luxury" },
+              { id: "kids", label: "Kids Collections" },
+              { id: "festive", label: "Festive Wear" }
+            ].map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setSelectedSolutionTab(tab.id)}
+                className={`px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
+                  selectedSolutionTab === tab.id
+                    ? "bg-luxury-charcoal text-white shadow-xs scale-105"
+                    : "bg-luxury-nude text-zinc-655 hover:bg-luxury-nude-dark border border-transparent"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+            {/* Set 2 (Duplicate for loop) */}
+            {[
+              { id: "partywear", label: "Party Wear" },
+              { id: "casual", label: "Casual Luxury" },
+              { id: "kids", label: "Kids Collections" },
+              { id: "festive", label: "Festive Wear" }
+            ].map((tab) => (
+              <button
+                key={`${tab.id}-dup1`}
+                onClick={() => setSelectedSolutionTab(tab.id)}
+                className={`px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
+                  selectedSolutionTab === tab.id
+                    ? "bg-luxury-charcoal text-white shadow-xs scale-105"
+                    : "bg-luxury-nude text-zinc-655 hover:bg-luxury-nude-dark border border-transparent"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Dynamic Solution Products Grid */}
