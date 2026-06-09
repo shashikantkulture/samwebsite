@@ -118,16 +118,20 @@ export default function Home() {
       <Header />
 
       {/* 3. Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-zinc-950 text-white">
-        {/* Background Image / Video Fallback */}
+      <section className="relative min-h-screen lg:h-screen flex items-center justify-center pt-48 pb-16 overflow-hidden bg-zinc-950 text-white">
+        {/* Background Video */}
         <div className="absolute inset-0">
-          <img
-            src={settings.heroImage}
-            alt="Premium designer wear campaign"
-            className="w-full h-full object-cover opacity-60 filter brightness-90 transform scale-105"
-          />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover opacity-50 filter brightness-75 contrast-105 transform scale-105"
+          >
+            <source src="/blue dress video.mp4" type="video/mp4" />
+          </video>
           {/* Subtle Parallax gradient vignette */}
-          <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-zinc-950/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-zinc-950/50" />
         </div>
 
         {/* Content Box */}
@@ -183,33 +187,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* 4. Celebrity & Media Recognition "As Seen On" */}
-      <section className="bg-luxury-nude py-12 border-b border-luxury-nude-dark overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-[10px] uppercase font-bold tracking-widest text-zinc-400 mb-6">
-            Recognized & Featured In
-          </p>
-          <div className="relative w-full overflow-hidden">
-            <div className="animate-marquee flex items-center space-x-12 sm:space-x-20 text-lg sm:text-2xl font-serif font-black tracking-widest text-zinc-450 uppercase whitespace-nowrap">
-              <span>VOGUE</span>
-              <span>ELLE</span>
-              <span>COSMOPOLITAN</span>
-              <span>HARPER'S BAZAAR</span>
-              <span>FILMFARE</span>
-              <span>LIFESTYLE MEDIA</span>
-              <span>GLAMOUR</span>
-              {/* Duplicate for infinite marquee wrap */}
-              <span>VOGUE</span>
-              <span>ELLE</span>
-              <span>COSMOPOLITAN</span>
-              <span>HARPER'S BAZAAR</span>
-              <span>FILMFARE</span>
-              <span>LIFESTYLE MEDIA</span>
-              <span>GLAMOUR</span>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* 5. New Launch Collection */}
       <motion.section
@@ -789,18 +767,7 @@ export default function Home() {
 
 
 
-      {/* 18. Virtual Try-On Feature */}
-      <motion.section
-        initial={{ opacity: 0, y: 35 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className="py-20 bg-zinc-50 border-t border-b border-zinc-100"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <VirtualTryOn />
-        </div>
-      </motion.section>
+
 
 
 

@@ -21,47 +21,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-luxury-charcoal text-zinc-400 text-xs tracking-wider border-t border-zinc-900 font-sans">
       
-      {/* Top Newsletter section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12 border-b border-zinc-900">
-        <div className="lg:col-span-2 space-y-4">
-          <h3 className="font-serif text-lg sm:text-2xl text-white tracking-wide font-medium uppercase">
-            Join the SAMM Renaissance Circle
-          </h3>
-          <p className="max-w-md text-zinc-400 leading-relaxed normal-case">
-            Subscribe to receive private invitations to runway launches, size fitting tips, and 10% off your first designer order.
-          </p>
-        </div>
-        <div>
-          {subscribed ? (
-            <div className="bg-zinc-900 border border-luxury-gold/30 p-4 text-center rounded-lg">
-              <p className="text-white font-medium uppercase text-[10px] tracking-widest text-luxury-gold">
-                Welcome to the Circle!
-              </p>
-              <p className="text-zinc-400 mt-1 text-[11px] normal-case">Check your inbox for your 10% discount code.</p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubscribe} className="flex gap-2">
-              <div className="relative flex-1">
-                <input
-                  type="email"
-                  placeholder="ENTER YOUR EMAIL"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-zinc-900 border border-zinc-800 focus:border-luxury-gold px-4 py-3 text-white text-xs tracking-widest focus:outline-none uppercase rounded-md"
-                />
-                <Mail size={14} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-zinc-500" />
-              </div>
-              <button
-                type="submit"
-                className="bg-white hover:bg-luxury-gold text-luxury-charcoal hover:text-luxury-charcoal px-6 py-3 font-semibold uppercase tracking-widest transition duration-300 rounded-md"
-              >
-                Join
-              </button>
-            </form>
-          )}
-        </div>
-      </div>
+
 
       {/* Main Links grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
@@ -89,6 +49,11 @@ export const Footer: React.FC = () => {
                 <path d="M23.498 6.163c-.272-1.025-1.077-1.83-2.101-2.102C19.537 3.5 12 3.5 12 3.5s-7.537 0-9.397.561c-1.025.272-1.83 1.077-2.102 2.102C0 8.023 0 12 0 12s0 3.977.503 5.837c.272 1.025 1.077 1.83 2.102 2.102C4.463 20.5 12 20.5 12 20.5s7.537 0 9.397-.561c1.024-.272 1.83-1.077 2.101-2.102C24 15.977 24 12 24 12s0-3.977-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
             </a>
+            <a href="https://in.pinterest.com/sammrenaissanceofficial" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-white transition flex items-center">
+              <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                <path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.63-.13-1.6.03-2.3l1.43-6.04s-.36-.73-.36-1.8c0-1.7 1-2.97 2.2-2.97 1.05 0 1.55.79 1.55 1.73 0 1.06-.67 2.63-1.02 4.1-.3 1.22.6 2.22 1.8 2.22 2.16 0 3.82-2.28 3.82-5.58 0-2.9-2.1-4.94-5.08-4.94-3.46 0-5.5 2.6-5.5 5.28 0 1.05.4 2.18.9 2.8a.33.33 0 0 1 .08.27l-.33 1.37c-.05.22-.2.3-.43.18-1.57-.73-2.55-3.03-2.55-4.88 0-3.98 2.9-7.65 8.35-7.65 4.38 0 7.8 3.12 7.8 7.3 0 4.36-2.75 7.87-6.56 7.87-1.28 0-2.48-.67-2.9-1.46l-.78 3c-.28 1.09-1 2.45-1.5 3.26A12 12 0 1 0 12 0z"/>
+              </svg>
+            </a>
           </div>
         </div>
 
@@ -106,20 +71,9 @@ export const Footer: React.FC = () => {
         </div>
 
         <div>
-          <h4 className="text-white uppercase tracking-widest font-semibold mb-4 text-[10px]">Resources</h4>
-          <ul className="space-y-2 text-zinc-500">
-            <li><Link href="/#education" className="hover:text-white transition">Hair Care Hub</Link></li>
-            <li><Link href="/#faqs" className="hover:text-white transition">FAQ Accordions</Link></li>
-            <li><Link href="/admin" className="hover:text-white transition">CMS Admin Portal</Link></li>
-          </ul>
-        </div>
-
-        <div>
           <h4 className="text-white uppercase tracking-widest font-semibold mb-4 text-[10px]">Customer Care</h4>
           <ul className="space-y-2 text-zinc-500">
             <li><Link href="/account" className="hover:text-white transition">Order Tracking</Link></li>
-            <li><Link href="/account?tab=addresses" className="hover:text-white transition">Saved Addresses</Link></li>
-            <li><Link href="/account?tab=rewards" className="hover:text-white transition">Loyalty Rewards</Link></li>
             <li><Link href="/#contact" className="hover:text-white transition">Contact Support</Link></li>
           </ul>
         </div>

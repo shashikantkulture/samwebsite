@@ -113,9 +113,14 @@ export default function AdminCMS() {
       .then((data) => {
         if (data.authenticated && data.user && data.user.role === "admin") {
           setIsAdminVerified(true);
+        } else {
+          window.location.href = "/";
         }
       })
-      .catch((e) => console.error("Admin verification fetch failed:", e));
+      .catch((e) => {
+        console.error("Admin verification fetch failed:", e);
+        window.location.href = "/";
+      });
   }, []);
 
   // Fetch orders from database when admin is verified
@@ -511,75 +516,9 @@ export default function AdminCMS() {
 
   if (!isAdminVerified) {
     return (
-      <div className="min-h-screen bg-[#f0f0f1] flex items-center justify-center font-sans p-4 select-none">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="w-full max-w-md bg-white rounded-3xl border border-zinc-200 shadow-xl overflow-hidden"
-        >
-          {/* Logo / Header banner */}
-          <div className="bg-[#1d2327] py-6 px-8 flex items-center gap-3 border-b border-zinc-800 text-white">
-            <div className="w-8 h-8 rounded bg-luxury-gold flex items-center justify-center font-serif text-luxury-charcoal font-black text-lg">
-              W
-            </div>
-            <div>
-              <h2 className="font-serif font-black text-sm uppercase tracking-wider text-white">SAMM WP-Admin</h2>
-              <p className="text-[9px] text-luxury-gold uppercase tracking-widest font-bold">Admin Panel Access</p>
-            </div>
-          </div>
-
-          <div className="p-8 space-y-6">
-            <div className="text-center space-y-1">
-              <h3 className="font-serif text-lg font-bold text-luxury-charcoal uppercase tracking-wider">CMS Security Shield</h3>
-              <p className="text-xs text-zinc-500 normal-case leading-relaxed">Sign in with authorized administrator credentials to manage products, reviews, bookings, and homepage settings.</p>
-            </div>
-
-            {adminLoginError && (
-              <div className="bg-red-50 text-red-650 border border-red-150 p-3.5 rounded-xl text-xs font-semibold text-center">
-                ⚠️ {adminLoginError}
-              </div>
-            )}
-
-            <form onSubmit={handleAdminLogin} className="space-y-4">
-              <div className="space-y-1">
-                <label className="text-[9px] uppercase font-bold tracking-widest text-zinc-500">Admin Email</label>
-                <input
-                  type="email"
-                  required
-                  placeholder="e.g. admin@sam.com"
-                  value={adminEmail}
-                  onChange={(e) => setAdminEmail(e.target.value)}
-                  className="w-full border border-zinc-200 focus:border-luxury-gold px-3.5 py-3 text-xs rounded-xl focus:outline-none bg-zinc-50 focus:bg-white transition"
-                />
-              </div>
-
-              <div className="space-y-1">
-                <label className="text-[9px] uppercase font-bold tracking-widest text-zinc-550">Password</label>
-                <input
-                  type="password"
-                  required
-                  placeholder="••••••••"
-                  value={adminPassword}
-                  onChange={(e) => setAdminPassword(e.target.value)}
-                  className="w-full border border-zinc-200 focus:border-luxury-gold px-3.5 py-3 text-xs rounded-xl focus:outline-none bg-zinc-50 focus:bg-white transition"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-3.5 bg-luxury-charcoal hover:bg-luxury-gold text-white hover:text-luxury-charcoal text-[10px] uppercase font-bold tracking-widest rounded-xl transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer"
-              >
-                Unlock Control Panel
-              </button>
-            </form>
-
-            <div className="text-center pt-2">
-              <Link href="/" className="text-[10px] uppercase font-bold tracking-widest text-zinc-400 hover:text-luxury-gold-dark hover:underline">
-                &larr; Back to home page
-              </Link>
-            </div>
-          </div>
-        </motion.div>
+      <div className="min-h-screen flex flex-col items-center justify-center bg-white font-sans text-xs uppercase tracking-widest text-zinc-400">
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-luxury-gold mb-2"></div>
+        Loading...
       </div>
     );
   }

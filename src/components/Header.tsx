@@ -84,80 +84,47 @@ export const Header: React.FC = () => {
               Home
             </Link>
 
-            {/* Shop with Mega Menu */}
-            <div className="relative group py-4">
-              <Link href="/shop" className={`flex items-center gap-1 transition-colors ${textClass}`}>
-                Shop <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
-              </Link>
-              
-              {/* Mega Menu Panel */}
-              <div className="absolute top-full left-1/2 -translate-x-1/2 w-[700px] bg-white text-luxury-charcoal p-8 grid grid-cols-3 gap-8 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 rounded-b-xl border border-zinc-100">
-                <div>
-                  <h3 className="font-serif text-sm font-semibold tracking-wider border-b border-zinc-100 pb-2 mb-3 text-luxury-gold-dark">
-                    Designer Apparel
-                  </h3>
-                  <ul className="space-y-2 text-xs tracking-wider normal-case font-normal text-zinc-600">
-                    <li><Link href="/shop?category=jumpsuits" className="hover:text-luxury-gold transition">Women's Corset Jumpsuits</Link></li>
-                    <li><Link href="/shop?category=coords" className="hover:text-luxury-gold transition">Sleeveless Blazer Co-Ords</Link></li>
-                    <li><Link href="/shop?category=coords" className="hover:text-luxury-gold transition">Vibrant Pink Co-Ord Sets</Link></li>
-                    <li><Link href="/shop?category=tops" className="hover:text-luxury-gold transition">Designer Waist Coats & Tops</Link></li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-serif text-sm font-semibold tracking-wider border-b border-zinc-100 pb-2 mb-3 text-luxury-gold-dark">
-                    Fairy Gowns & Accessories
-                  </h3>
-                  <ul className="space-y-2 text-xs tracking-wider normal-case font-normal text-zinc-650">
-                    <li><Link href="/shop?category=gowns" className="hover:text-luxury-gold transition">Kids Fairy-Style Gowns</Link></li>
-                    <li><Link href="/shop?category=dresses" className="hover:text-luxury-gold transition">Toddler & Baby Tulle Dresses</Link></li>
-                    <li><Link href="/kikis-hair" className="hover:text-luxury-gold transition">Satin Luxe Scrunchies (Kikis Hair)</Link></li>
-                    <li><Link href="/shop?category=accessories" className="hover:text-luxury-gold transition">Textured Hair Bows</Link></li>
-                  </ul>
-                </div>
-                <div className="bg-luxury-nude p-4 rounded-lg flex flex-col justify-between">
-                  <div>
-                    <h4 className="font-serif text-xs font-bold text-luxury-charcoal uppercase tracking-widest mb-1">
-                      New Launch
-                    </h4>
-                    <p className="text-[10px] text-zinc-500 normal-case mb-3 leading-relaxed">
-                      Discover our new premium printed velvet corset jumpsuits for instant elegance.
-                    </p>
-                  </div>
-                  <Link
-                    href="/shop?category=jumpsuits"
-                    className="inline-block text-[10px] uppercase font-bold tracking-widest text-luxury-gold-dark hover:text-luxury-charcoal transition"
-                  >
-                    View Collection &rarr;
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            {/* Solutions Dropdown */}
+            {/* Woman Dropdown */}
             <div className="relative group py-4">
               <span className={`flex items-center gap-1 cursor-pointer transition-colors ${textClass}`}>
-                Shop By Style <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
+                Woman <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
               </span>
               
-              <div className="absolute top-full left-0 w-56 bg-white text-luxury-charcoal p-4 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 border border-zinc-100 rounded-md">
-                <ul className="space-y-3 text-xs tracking-widest uppercase font-medium">
-                  <li><Link href="/shop?solution=partywear" className="hover:text-luxury-gold transition block">Party Wear</Link></li>
-                  <li><Link href="/shop?solution=casual" className="hover:text-luxury-gold transition block">Casual Luxury</Link></li>
-                  <li><Link href="/shop?solution=kids" className="hover:text-luxury-gold transition block">Kids Collections</Link></li>
-                  <li><Link href="/shop?solution=festive" className="hover:text-luxury-gold transition block">Festive Wear</Link></li>
-                  <li><Link href="/shop?solution=styling" className="hover:text-luxury-gold transition block">Designer Accents</Link></li>
+              <div className="absolute top-full left-0 w-44 bg-white text-luxury-charcoal p-3 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 border border-zinc-100 rounded-md z-50">
+                <ul className="space-y-2 text-[11px] tracking-widest uppercase font-medium text-left">
+                  <li><Link href="/shop?category=bodycon" className="hover:text-luxury-gold transition block">Bodycon</Link></li>
+                  <li><Link href="/shop?category=bottomwear" className="hover:text-luxury-gold transition block">Bottom Wear</Link></li>
+                  <li><Link href="/shop?category=coords" className="hover:text-luxury-gold transition block">Co-ords-set</Link></li>
+                  <li><Link href="/shop?category=jumpsuits" className="hover:text-luxury-gold transition block">Jumpsuit</Link></li>
+                  <li><Link href="/shop?category=mididress" className="hover:text-luxury-gold transition block">Midi-dress</Link></li>
+                  <li><Link href="/shop?category=onepiece" className="hover:text-luxury-gold transition block">one-piece</Link></li>
+                  <li><Link href="/shop?category=skirts" className="hover:text-luxury-gold transition block">skirts</Link></li>
+                  <li><Link href="/shop?category=topwear" className="hover:text-luxury-gold transition block">topwear</Link></li>
                 </ul>
               </div>
             </div>
 
-            <Link href="/kikis-hair" className={`transition-colors ${textClass} font-semibold text-luxury-gold-dark`}>
-              Kikis Hair
+            {/* Kiki's Product Dropdown */}
+            <div className="relative group py-4">
+              <span className={`flex items-center gap-1 cursor-pointer transition-colors ${textClass}`}>
+                Kiki's Product <ChevronDown size={12} className="group-hover:rotate-180 transition-transform duration-200" />
+              </span>
+              
+              <div className="absolute top-full left-0 w-44 bg-white text-luxury-charcoal p-3 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-300 border border-zinc-100 rounded-md z-50">
+                <ul className="space-y-2 text-[11px] tracking-widest uppercase font-medium text-left">
+                  <li><Link href="/shop?category=accessories" className="hover:text-luxury-gold transition block">Scrunchies</Link></li>
+                  <li><Link href="/shop?category=accessories" className="hover:text-luxury-gold transition block">Hair Bows</Link></li>
+                  <li><Link href="/kikis-hair" className="hover:text-luxury-gold transition block">All Kikis Hair</Link></li>
+                </ul>
+              </div>
+            </div>
+
+            <Link href="/shop?category=gowns" className={`transition-colors ${textClass}`}>
+              Kids Wear
             </Link>
-            <Link href="/#reviews" className={`transition-colors ${textClass}`}>
-              Reviews
-            </Link>
-            <Link href="/account" className={`transition-colors ${textClass}`}>
-              Dashboard
+
+            <Link href="/#contact" className={`transition-colors ${textClass}`}>
+              About
             </Link>
           </nav>
 
@@ -250,27 +217,42 @@ export const Header: React.FC = () => {
                 </button>
               </div>
               
-              <nav className="flex-1 flex flex-col space-y-5 text-sm uppercase tracking-widest font-semibold pt-6">
+              <nav className="flex-1 flex flex-col space-y-5 text-sm uppercase tracking-widest font-semibold pt-6 overflow-y-auto no-scrollbar">
                 <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
                   Home
                 </Link>
-                <Link href="/shop" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition border-b border-zinc-50 pb-2">
-                  Shop Collection
-                </Link>
-                <div className="space-y-2 pl-4">
-                  <p className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider">Style Finder</p>
-                  <Link href="/shop?solution=partywear" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Party Wear</Link>
-                  <Link href="/shop?solution=casual" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Casual Luxury</Link>
-                  <Link href="/shop?solution=kids" onClick={() => setIsMobileMenuOpen(false)} className="block text-xs text-zinc-600 hover:text-luxury-gold normal-case">Kids Collections</Link>
+                
+                {/* Woman section */}
+                <div className="space-y-2 border-t border-zinc-100 pt-3">
+                  <p className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider">Woman</p>
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-2.5 pl-2">
+                    <Link href="/shop?category=bodycon" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Bodycon</Link>
+                    <Link href="/shop?category=bottomwear" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Bottom Wear</Link>
+                    <Link href="/shop?category=coords" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Co-ords-set</Link>
+                    <Link href="/shop?category=jumpsuits" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Jumpsuit</Link>
+                    <Link href="/shop?category=mididress" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Midi-dress</Link>
+                    <Link href="/shop?category=onepiece" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">one-piece</Link>
+                    <Link href="/shop?category=skirts" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">skirts</Link>
+                    <Link href="/shop?category=topwear" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">topwear</Link>
+                  </div>
                 </div>
-                <Link href="/kikis-hair" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition text-luxury-gold-dark">
-                  Kikis Hair
+
+                {/* Kiki's Product section */}
+                <div className="space-y-2 border-t border-zinc-100 pt-3">
+                  <p className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider">Kiki's Product</p>
+                  <div className="flex flex-col gap-2.5 pl-2">
+                    <Link href="/shop?category=accessories" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Scrunchies</Link>
+                    <Link href="/shop?category=accessories" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case">Hair Bows</Link>
+                    <Link href="/kikis-hair" onClick={() => setIsMobileMenuOpen(false)} className="text-xs text-zinc-600 hover:text-luxury-gold normal-case font-bold text-luxury-gold-dark">All Kikis Hair</Link>
+                  </div>
+                </div>
+
+                <Link href="/shop?category=gowns" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition border-t border-zinc-100 pt-3">
+                  Kids Wear
                 </Link>
-                <Link href="/#reviews" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
-                  Reviews
-                </Link>
-                <Link href="/account" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition">
-                  My Dashboard
+
+                <Link href="/#contact" onClick={() => setIsMobileMenuOpen(false)} className="hover:text-luxury-gold transition border-t border-zinc-100 pt-3">
+                  About
                 </Link>
               </nav>
               
