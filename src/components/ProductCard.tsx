@@ -78,7 +78,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
           src={activeImg}
           alt={product.name}
           className={`w-full h-full transition-transform duration-700 group-hover:scale-105 ${
-            product.category === "accessories" ? "object-contain" : "object-cover object-top"
+            "object-contain"
           }`}
         />
 
