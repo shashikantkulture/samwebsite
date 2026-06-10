@@ -68,7 +68,7 @@ export default function AdminCMS() {
   // Product Editor Form states
   const [editingProductId, setEditingProductId] = useState<string | null>(null);
   const [formName, setFormName] = useState("");
-  const [formCategory, setFormCategory] = useState<"gowns" | "jumpsuits" | "dresses" | "coords" | "tops" | "accessories">("jumpsuits");
+  const [formCategory, setFormCategory] = useState<"gowns" | "jumpsuits" | "dresses" | "coords" | "tops" | "accessories" | "bodycon" | "bottomwear" | "mididress" | "onepiece" | "skirts" | "topwear">("jumpsuits");
   const [formPrice, setFormPrice] = useState("");
   const [formSalePrice, setFormSalePrice] = useState("");
   const [formDescription, setFormDescription] = useState("");
@@ -897,12 +897,16 @@ export default function AdminCMS() {
                           onChange={(e) => setFormCategory(e.target.value as any)}
                           className="w-full border border-zinc-200 focus:border-luxury-gold px-3 py-2.5 rounded-lg focus:outline-none bg-white font-semibold uppercase tracking-wider text-[10px]"
                         >
-                          <option value="jumpsuits">Corset Jumpsuits</option>
-                          <option value="gowns">Kids Fairy Gowns</option>
-                          <option value="dresses">Midi & Dresses</option>
-                          <option value="coords">Co-Ord Sets</option>
-                          <option value="tops">Designer Tops</option>
+                          <option value="bodycon">Bodycon</option>
+                          <option value="bottomwear">Bottom Wear</option>
+                          <option value="coords">Co-ords-set</option>
+                          <option value="jumpsuits">Jumpsuit</option>
+                          <option value="mididress">Midi-dress</option>
+                          <option value="onepiece">One-piece</option>
+                          <option value="skirts">Skirts</option>
+                          <option value="topwear">Topwear</option>
                           <option value="accessories">Accessories</option>
+                          <option value="gowns">Kids Wear</option>
                         </select>
                       </div>
 

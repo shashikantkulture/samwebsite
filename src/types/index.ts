@@ -22,7 +22,7 @@ export interface Product {
   id: string;
   name: string;
   slug: string;
-  category: "gowns" | "jumpsuits" | "dresses" | "coords" | "tops" | "accessories";
+  category: "gowns" | "jumpsuits" | "dresses" | "coords" | "tops" | "accessories" | "bodycon" | "bottomwear" | "mididress" | "onepiece" | "skirts" | "topwear";
   solutions: string[]; // ["volume", "length", "coverage", "color", "styling", "hairline", "thinning"]
   price: number;
   salePrice?: number;

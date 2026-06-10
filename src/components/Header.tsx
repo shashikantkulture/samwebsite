@@ -74,7 +74,7 @@ export const Header: React.FC = () => {
             <img 
               src="https://www.sammrenaissance.com/cdn/shop/files/Samm_logo_png.png?v=1745690099&width=300" 
               alt="SAMM Renaissance" 
-              className={`h-16 w-auto object-contain transition-all duration-300 ${isScrolled || !isHome ? "" : "brightness-0 invert"}`} 
+              className="h-16 w-auto object-contain transition-all duration-300" 
             />
           </Link>
 

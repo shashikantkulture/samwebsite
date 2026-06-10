@@ -25,8 +25,8 @@ export default function Home() {
 
   const defaultSettings = {
     heroImage: "https://www.sammrenaissance.com/cdn/shop/files/PRELIMENARY_-_43.png?v=1770894391",
-    heroTitle: "Unveil Your Elegance.\nExquisite Custom Wear.",
-    heroSubtitle: "Exquisite corset jumpsuits, kids fairy-style gowns, co-ords, and luxury accessories designed to make every occasion a fairytale.",
+    heroTitle: "SammRenaissance",
+    heroSubtitle: "Where Luxury Meets Confidence in Every Outfit.",
     categoryJumpsuitsImage: "https://cdn.shopify.com/s/files/1/0932/4796/3414/files/PRELIMENARY-34.png?v=1771478209",
     categoryGownsImage: "https://cdn.shopify.com/s/files/1/0932/4796/3414/files/Untitleddesign_2.png?v=1771474477",
     categoryAccessoriesImage: "https://www.sammrenaissance.com/cdn/shop/files/5_d0f6184b-9364-41f7-af7d-2386c70cb427.png?v=1745742797",
@@ -52,10 +52,10 @@ export default function Home() {
     productName: "Classic 7-Set Clip-In Hair Extensions"
   });
   const [reviewSubmitted, setReviewSubmitted] = useState(false);
-
+ 
   // Active FAQ Accordion state
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
-
+ 
   // Handle Review submission
   const handleReviewSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -70,7 +70,7 @@ export default function Home() {
       text: reviewForm.text,
       verified: true
     });
-
+ 
     setReviewSubmitted(true);
     setReviewForm({
       name: "",
@@ -81,18 +81,22 @@ export default function Home() {
     });
     setTimeout(() => setReviewSubmitted(false), 3000);
   };
-
+ 
   const toggleFaq = (index: number) => {
     setActiveFaq(activeFaq === index ? null : index);
   };
-
+ 
   const newLaunches = products.filter((p) => p.isNew && !p.name.toLowerCase().includes("scrunch")).slice(0, 3);
   const bestsellers = products.filter((p) => p.isBestseller && !p.name.toLowerCase().includes("scrunch")).slice(0, 4);
-
+ 
   const FAQS = [
     {
       q: "Does SAMM Renaissance provide custom sizing?",
       a: "Yes! Many of our pieces (such as the Kids Fairy Gowns and Women's Jumpsuits) can be tailored to your specific measurements. Feel free to contact our customer support team to discuss custom sizing options."
+    },
+    {
+      q: "How do I choose the correct size for kids dresses?",
+      a: "Our kids collection is designed with age-appropriate sizing (e.g., 1-3Y, 3-5Y). Each product page features a detailed size chart. If your child is between sizes, we recommend sizing up or contacting us for custom sizing."
     },
     {
       q: "How do I choose the correct size for kids dresses?",
@@ -107,16 +111,16 @@ export default function Home() {
       a: "Yes, we offer standard returns and size exchanges on unworn, unwashed apparel items with tags intact within 14 days of delivery. Custom-sized creations are made to order and are final sale."
     }
   ];
-
+ 
   return (
     <div className="relative min-h-screen bg-white">
       
       {/* 1. Announcement Bar */}
       <AnnouncementBar />
-
+ 
       {/* 2. Premium Navigation Header */}
       <Header />
-
+ 
       {/* 3. Hero Section */}
       <section className="relative min-h-screen lg:h-screen flex items-center justify-center pt-48 pb-16 overflow-hidden bg-zinc-950 text-white">
         {/* Background Video */}
@@ -133,7 +137,7 @@ export default function Home() {
           {/* Subtle Parallax gradient vignette */}
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/30 to-zinc-950/50" />
         </div>
-
+ 
         {/* Content Box */}
         <motion.div
           initial={{ opacity: 0, y: 35 }}
@@ -155,13 +159,13 @@ export default function Home() {
           <p className="text-sm sm:text-lg max-w-xl mx-auto font-light text-zinc-200 tracking-wide leading-relaxed normal-case">
             {settings.heroSubtitle}
           </p>
-
+ 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <Link
               href="/shop"
               className="w-full sm:w-auto px-8 py-4 bg-white hover:bg-luxury-gold text-luxury-charcoal hover:text-luxury-charcoal text-xs uppercase font-bold tracking-widest transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl hover:scale-[1.03]"
             >
-              Shop Collection
+              Shop Now
             </Link>
           </div>
 
@@ -321,37 +325,18 @@ export default function Home() {
           </h2>
         </div>
 
-        {/* Tab Buttons - Sliding loop */}
         <div className="relative w-full overflow-hidden mb-10 border-b border-zinc-100 pb-4 select-none">
           <div className="flex w-max animate-marquee space-x-6 hover:[animation-play-state:paused]">
-            {/* Set 1 */}
-            {[
-              { id: "partywear", label: "Party Wear" },
-              { id: "casual", label: "Casual Luxury" },
-              { id: "kids", label: "Kids Collections" },
-              { id: "festive", label: "Festive Wear" }
-            ].map((tab) => (
+            {[...Array(6)].flatMap((_, i) =>
+              [
+                { id: "partywear", label: "Party Wear" },
+                { id: "casual", label: "Casual Luxury" },
+                { id: "kids", label: "Kids Collections" },
+                { id: "festive", label: "Festive Wear" }
+              ].map((tab, idx) => ({ ...tab, uniqueKey: `${tab.id}-${i}-${idx}` }))
+            ).map((tab) => (
               <button
-                key={tab.id}
-                onClick={() => setSelectedSolutionTab(tab.id)}
-                className={`px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
-                  selectedSolutionTab === tab.id
-                    ? "bg-luxury-charcoal text-white shadow-xs scale-105"
-                    : "bg-luxury-nude text-zinc-655 hover:bg-luxury-nude-dark border border-transparent"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-            {/* Set 2 (Duplicate for loop) */}
-            {[
-              { id: "partywear", label: "Party Wear" },
-              { id: "casual", label: "Casual Luxury" },
-              { id: "kids", label: "Kids Collections" },
-              { id: "festive", label: "Festive Wear" }
-            ].map((tab) => (
-              <button
-                key={`${tab.id}-dup1`}
+                key={tab.uniqueKey}
                 onClick={() => setSelectedSolutionTab(tab.id)}
                 className={`px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 ${
                   selectedSolutionTab === tab.id

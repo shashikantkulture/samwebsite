@@ -1,4 +1,4 @@
-﻿import { Product, Review, BlogArticle } from "../types";
+import { Product, Review, BlogArticle } from "../types";
 
 export const MOCK_PRODUCTS: Product[] = [
   {
@@ -373,7 +373,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p6",
     "name": "Stylish Round Neck Women Crop Top",
     "slug": "stylish-round-neck-women-crop-top",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -508,7 +508,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p7",
     "name": "Flowy Lantern Sleeve Butterfly Top with Textured Pattern",
     "slug": "flowy-lantern-sleeve-butterfly-top-with-textured-pattern",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -590,7 +590,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p8",
     "name": "V Neck Waist Coat Top For Women",
     "slug": "v-neck-waist-coat-top",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "partywear",
       "styling"
@@ -752,7 +752,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p9",
     "name": "Blazer Neck Waist Coat For Women",
     "slug": "blazer-neck-waist-coat",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "partywear",
       "styling"
@@ -840,7 +840,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p10",
     "name": "Square Neck Midi For Women",
     "slug": "square-neck-midi-for-women",
-    "category": "dresses",
+    "category": "mididress",
     "solutions": [
       "casual",
       "styling"
@@ -929,7 +929,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p11",
     "name": "Chic Animal Print Crop-Top for Women",
     "slug": "chic-animal-print-crop-top-for-women",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -1010,7 +1010,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p12",
     "name": "Women's V-Neck Waist Top with Textured Jacquard Print",
     "slug": "womens-v-neck-waist-top-with-textured-jacquard-print",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -1092,7 +1092,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p13",
     "name": "Fancy Halter Neck Sleeveless Mimi Cropped Tank Top",
     "slug": "fancy-halter-neck-sleeveless-mimi-cropped-tank-top",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -1409,7 +1409,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p16",
     "name": "Women's Round Neck Sleeveless Top With Detachble Sleeves",
     "slug": "womens-round-neck-sleeveless-top-with-detachble-sleeves",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -1570,7 +1570,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p17",
     "name": "Women's  Frill Sleeveless Top",
     "slug": "womens-frill-sleeveless-top",
-    "category": "tops",
+    "category": "topwear",
     "solutions": [
       "casual",
       "styling"
@@ -1696,7 +1696,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "id": "p18",
     "name": "Women's V Neck Ruched Wrap Slit Hem Sleeveless Spaghetti Strap Midi Bodycon Dress",
     "slug": "womens-v-neck-ruched-wrap-slit-hem-sleeveless-spaghetti-strap-midi-bodycon-dress",
-    "category": "dresses",
+    "category": "bodycon",
     "solutions": [
       "partywear",
       "festive"
@@ -2405,6 +2405,144 @@ export const MOCK_PRODUCTS: Product[] = [
       "Dry clean recommended or gentle hand wash in cold water.",
       "Do not bleach or tumble dry.",
       "Iron on low heat with a protective barrier."
+    ]
+  },
+  {
+    "id": "p31",
+    "name": "Premium High-Waisted Tailored Trousers",
+    "slug": "premium-high-waisted-tailored-trousers",
+    "category": "bottomwear",
+    "solutions": [
+      "casual",
+      "styling"
+    ],
+    "price": 3499,
+    "salePrice": 1999,
+    "rating": 4.8,
+    "reviewCount": 18,
+    "images": [
+      "/products/SR042415_4.jpg"
+    ],
+    "variantOptions": [
+      {
+        "name": "Length",
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      {
+        "color": "Default",
+        "length": "S",
+        "price": 3499,
+        "salePrice": 1999,
+        "sku": "SR-BOT-0",
+        "stock": 10
+      }
+    ],
+    "isBestseller": true,
+    "isNew": true,
+    "isPromo": false,
+    "stockStatus": "in_stock",
+    "description": "Luxurious tailored trousers designed to pair perfectly with our crop tops and waistcoats.",
+    "detailsList": [
+      "Premium luxury fit",
+      "High-quality stitching",
+      "Tailored waist detailing"
+    ],
+    "careInstructions": [
+      "Dry clean only."
+    ]
+  },
+  {
+    "id": "p32",
+    "name": "Luxury Pleated Satin Midi Skirt",
+    "slug": "luxury-pleated-satin-midi-skirt",
+    "category": "skirts",
+    "solutions": [
+      "partywear",
+      "styling"
+    ],
+    "price": 3999,
+    "salePrice": 2299,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "images": [
+      "/products/SR042424_4.jpg"
+    ],
+    "variantOptions": [
+      {
+        "name": "Length",
+        "values": ["S", "M", "L"]
+      }
+    ],
+    "variants": [
+      {
+        "color": "Default",
+        "length": "S",
+        "price": 3999,
+        "salePrice": 2299,
+        "sku": "SR-SKT-0",
+        "stock": 12
+      }
+    ],
+    "isBestseller": false,
+    "isNew": true,
+    "isPromo": false,
+    "stockStatus": "in_stock",
+    "description": "An elegant pleated satin skirt featuring a luxurious flow and subtle shimmer.",
+    "detailsList": [
+      "Premium satin fabric",
+      "Elasticated back waist",
+      "Delicate pleated design"
+    ],
+    "careInstructions": [
+      "Gentle hand wash."
+    ]
+  },
+  {
+    "id": "p33",
+    "name": "Elegant Silk One-Piece Flared Dress",
+    "slug": "elegant-silk-one-piece-flared-dress",
+    "category": "onepiece",
+    "solutions": [
+      "partywear",
+      "festive"
+    ],
+    "price": 5499,
+    "salePrice": 3299,
+    "rating": 5.0,
+    "reviewCount": 15,
+    "images": [
+      "/products/DSC09985.jpg"
+    ],
+    "variantOptions": [
+      {
+        "name": "Length",
+        "values": ["S", "M", "L", "XL"]
+      }
+    ],
+    "variants": [
+      {
+        "color": "Default",
+        "length": "S",
+        "price": 5499,
+        "salePrice": 3299,
+        "sku": "SR-OPD-0",
+        "stock": 15
+      }
+    ],
+    "isBestseller": true,
+    "isNew": false,
+    "isPromo": true,
+    "stockStatus": "in_stock",
+    "description": "An exquisite silk one-piece dress featuring an elegant flared silhouette and premium detailing.",
+    "detailsList": [
+      "100% premium silk",
+      "Flattering flared silhouette",
+      "Exquisite tailoring"
+    ],
+    "careInstructions": [
+      "Dry clean recommended."
     ]
   }
 ];

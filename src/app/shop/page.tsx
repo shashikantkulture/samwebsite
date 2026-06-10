@@ -42,12 +42,16 @@ function ShopContent() {
   // Available Categories lists
   const CATEGORIES = [
     { value: "all", label: "All Categories" },
-    { value: "jumpsuits", label: "Corset Jumpsuits" },
-    { value: "gowns", label: "Kids Fairy Gowns" },
-    { value: "dresses", label: "Midi & Dresses" },
-    { value: "coords", label: "Co-Ord Sets" },
-    { value: "tops", label: "Designer Tops" },
-    { value: "accessories", label: "Textured Hair Bows" }
+    { value: "bodycon", label: "Bodycon" },
+    { value: "bottomwear", label: "Bottom Wear" },
+    { value: "coords", label: "Co-ords-set" },
+    { value: "jumpsuits", label: "Jumpsuit" },
+    { value: "mididress", label: "Midi-dress" },
+    { value: "onepiece", label: "One-piece" },
+    { value: "skirts", label: "Skirts" },
+    { value: "topwear", label: "Topwear" },
+    { value: "accessories", label: "Accessories" },
+    { value: "gowns", label: "Kids Wear" }
   ];
 
   const SOLUTIONS = [
