@@ -37,6 +37,8 @@ export default function ProductDetail({ params }: ProductPageProps) {
     (p) => p.slug === paramId || p.id === paramId
   );
 
+  const isScrunchie = product ? (product.name.toLowerCase().includes("scrunch") || product.slug.toLowerCase().includes("scrunch") || product.category === "accessories") : false;
+
   // States
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedLength, setSelectedLength] = useState("");
@@ -44,9 +46,10 @@ export default function ProductDetail({ params }: ProductPageProps) {
   const [qty, setQty] = useState(1);
   const [activeImg, setActiveImg] = useState("");
   const [quickViewId, setQuickViewId] = useState<string | null>(null);
+  const [isSizeChartOpen, setIsSizeChartOpen] = useState(false);
 
   // Interactive Tab details
-  const [activeTab, setActiveTab] = useState<"description" | "instructions" | "shipping">("description");
+  const [activeTab, setActiveTab] = useState<"description" | "instructions" | "shipping" | "sizeChart">("description");
 
   // Zooming Feature State & Styles
   const [zoomStyle, setZoomStyle] = useState<React.CSSProperties>({
@@ -363,9 +366,19 @@ export default function ProductDetail({ params }: ProductPageProps) {
                     {/* Length Selector */}
                     {lengthOpt && (
                       <div>
-                        <span className="text-zinc-400 uppercase tracking-widest block mb-2 text-[10px]">
-                          Select {lengthOpt.name}: <span className="text-luxury-charcoal font-bold">{selectedLength}</span>
-                        </span>
+                        <div className="flex justify-between items-center mb-2">
+                          <span className="text-zinc-400 uppercase tracking-widest block text-[10px]">
+                            Select {lengthOpt.name}: <span className="text-luxury-charcoal font-bold">{selectedLength}</span>
+                          </span>
+                          {!isScrunchie && (
+                            <button
+                              onClick={() => setIsSizeChartOpen(true)}
+                              className="text-luxury-gold-dark hover:text-luxury-gold text-[10px] uppercase font-bold tracking-wider underline flex items-center gap-1 cursor-pointer bg-transparent border-none p-0"
+                            >
+                              📏 Size Guide
+                            </button>
+                          )}
+                        </div>
                         <div className="flex gap-2">
                           {(lengthOpt.values ?? []).map((val) => (
                             <button
@@ -542,13 +555,21 @@ export default function ProductDetail({ params }: ProductPageProps) {
 
             {/* Tab specs accordion */}
             <div className="border-t border-zinc-150 pt-6">
-              <div className="flex gap-6 border-b border-zinc-100 pb-2 text-xs uppercase font-bold tracking-widest text-zinc-400">
+              <div className="flex gap-6 border-b border-zinc-100 pb-2 text-xs uppercase font-bold tracking-widest text-zinc-400 flex-wrap">
                 <button
                   onClick={() => setActiveTab("description")}
                   className={`pb-2 border-b-2 transition ${activeTab === "description" ? "border-luxury-charcoal text-luxury-charcoal font-black" : "border-transparent"}`}
                 >
                   Product Details
                 </button>
+                {!isScrunchie && (
+                  <button
+                    onClick={() => setActiveTab("sizeChart")}
+                    className={`pb-2 border-b-2 transition ${activeTab === "sizeChart" ? "border-luxury-charcoal text-luxury-charcoal font-black" : "border-transparent"}`}
+                  >
+                    Size Guide
+                  </button>
+                )}
                 <button
                   onClick={() => setActiveTab("instructions")}
                   className={`pb-2 border-b-2 transition ${activeTab === "instructions" ? "border-luxury-charcoal text-luxury-charcoal font-black" : "border-transparent"}`}
@@ -563,13 +584,71 @@ export default function ProductDetail({ params }: ProductPageProps) {
                 </button>
               </div>
 
-              <div className="pt-4 text-xs text-zinc-550 leading-relaxed normal-case">
+              <div className="pt-4 text-xs text-zinc-555 leading-relaxed normal-case">
                 {activeTab === "description" && (
                   <ul className="list-disc pl-4 space-y-2">
                     {product.detailsList.map((li, idx) => (
                       <li key={idx}>{li}</li>
                     ))}
                   </ul>
+                )}
+                {!isScrunchie && activeTab === "sizeChart" && (
+                  <div className="overflow-x-auto rounded-xl border border-zinc-150 p-1 bg-white">
+                    <table className="min-w-full divide-y divide-zinc-200 text-left text-xs text-luxury-charcoal">
+                      <thead>
+                        <tr className="bg-zinc-50 uppercase tracking-wider font-bold text-[9px] text-zinc-550">
+                          <th className="px-4 py-2.5 border-b">Size</th>
+                          <th className="px-4 py-2.5 border-b">Chest</th>
+                          <th className="px-4 py-2.5 border-b">Waist</th>
+                          <th className="px-4 py-2.5 border-b">Hip</th>
+                          <th className="px-4 py-2.5 border-b">Full Length</th>
+                          <th className="px-4 py-2.5 border-b">Bottom</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-zinc-200">
+                        <tr className="hover:bg-zinc-50/50">
+                          <td className="px-4 py-2.5 font-bold border-b text-luxury-gold-dark">S</td>
+                          <td className="px-4 py-2.5 border-b">32"</td>
+                          <td className="px-4 py-2.5 border-b">30"</td>
+                          <td className="px-4 py-2.5 border-b">34"</td>
+                          <td className="px-4 py-2.5 border-b">57"</td>
+                          <td className="px-4 py-2.5 border-b">20"</td>
+                        </tr>
+                        <tr className="hover:bg-zinc-50/50">
+                          <td className="px-4 py-2.5 font-bold border-b text-luxury-gold-dark">M</td>
+                          <td className="px-4 py-2.5 border-b">34"</td>
+                          <td className="px-4 py-2.5 border-b">32"</td>
+                          <td className="px-4 py-2.5 border-b">36"</td>
+                          <td className="px-4 py-2.5 border-b">57"</td>
+                          <td className="px-4 py-2.5 border-b">20"</td>
+                        </tr>
+                        <tr className="hover:bg-zinc-50/50">
+                          <td className="px-4 py-2.5 font-bold border-b text-luxury-gold-dark">L</td>
+                          <td className="px-4 py-2.5 border-b">36"</td>
+                          <td className="px-4 py-2.5 border-b">34"</td>
+                          <td className="px-4 py-2.5 border-b">38"</td>
+                          <td className="px-4 py-2.5 border-b">57"</td>
+                          <td className="px-4 py-2.5 border-b">20"</td>
+                        </tr>
+                        <tr className="hover:bg-zinc-50/50">
+                          <td className="px-4 py-2.5 font-bold border-b text-luxury-gold-dark">XL</td>
+                          <td className="px-4 py-2.5 border-b">38"</td>
+                          <td className="px-4 py-2.5 border-b">36"</td>
+                          <td className="px-4 py-2.5 border-b">40"</td>
+                          <td className="px-4 py-2.5 border-b">57"</td>
+                          <td className="px-4 py-2.5 border-b">20"</td>
+                        </tr>
+                        <tr className="hover:bg-zinc-50/50">
+                          <td className="px-4 py-2.5 font-bold border-b text-luxury-gold-dark">XXL</td>
+                          <td className="px-4 py-2.5 border-b">40"</td>
+                          <td className="px-4 py-2.5 border-b">38"</td>
+                          <td className="px-4 py-2.5 border-b">42"</td>
+                          <td className="px-4 py-2.5 border-b">57"</td>
+                          <td className="px-4 py-2.5 border-b">20"</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 )}
                 {activeTab === "instructions" && (
                   <ul className="list-decimal pl-4 space-y-2">
@@ -623,7 +702,117 @@ export default function ProductDetail({ params }: ProductPageProps) {
             onClose={() => setQuickViewId(null)}
           />
         )}
+        {isSizeChartOpen && (
+          <SizeChartModal onClose={() => setIsSizeChartOpen(false)} />
+        )}
       </AnimatePresence>
+    </div>
+  );
+}
+
+interface SizeChartModalProps {
+  onClose: () => void;
+}
+
+function SizeChartModal({ onClose }: SizeChartModalProps) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      {/* Backdrop */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={onClose}
+        className="absolute inset-0 bg-black/60 backdrop-blur-xs cursor-pointer"
+      />
+      
+      {/* Content */}
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.95, opacity: 0 }}
+        transition={{ type: "spring", duration: 0.4 }}
+        className="relative w-full max-w-lg bg-white rounded-2xl p-6 shadow-2xl z-10 border border-zinc-100 font-sans"
+      >
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 text-zinc-400 hover:text-luxury-charcoal transition p-1 cursor-pointer"
+          aria-label="Close modal"
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <div className="mb-6">
+          <h3 className="font-serif text-xl font-bold text-luxury-charcoal">Size Guide</h3>
+          <p className="text-[10px] text-zinc-400 uppercase tracking-widest mt-1">Standard Measurements in Inches</p>
+        </div>
+
+        <div className="overflow-x-auto rounded-xl border border-zinc-150">
+          <table className="min-w-full divide-y divide-zinc-200 text-left text-xs text-luxury-charcoal">
+            <thead>
+              <tr className="bg-zinc-50 uppercase tracking-wider font-bold text-[9px] text-zinc-550">
+                <th className="px-4 py-3 border-b text-center">Size</th>
+                <th className="px-4 py-3 border-b">Chest</th>
+                <th className="px-4 py-3 border-b">Waist</th>
+                <th className="px-4 py-3 border-b">Hip</th>
+                <th className="px-4 py-3 border-b">Full Length</th>
+                <th className="px-4 py-3 border-b">Bottom</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-zinc-200 bg-white">
+              <tr className="hover:bg-zinc-50/30 transition">
+                <td className="px-4 py-3 font-bold border-b text-luxury-gold-dark bg-zinc-50/30 text-center">S</td>
+                <td className="px-4 py-3 border-b">32"</td>
+                <td className="px-4 py-3 border-b">30"</td>
+                <td className="px-4 py-3 border-b">34"</td>
+                <td className="px-4 py-3 border-b">57"</td>
+                <td className="px-4 py-3 border-b">20"</td>
+              </tr>
+              <tr className="hover:bg-zinc-50/30 transition">
+                <td className="px-4 py-3 font-bold border-b text-luxury-gold-dark bg-zinc-50/30 text-center">M</td>
+                <td className="px-4 py-3 border-b">34"</td>
+                <td className="px-4 py-3 border-b">32"</td>
+                <td className="px-4 py-3 border-b">36"</td>
+                <td className="px-4 py-3 border-b">57"</td>
+                <td className="px-4 py-3 border-b">20"</td>
+              </tr>
+              <tr className="hover:bg-zinc-50/30 transition">
+                <td className="px-4 py-3 font-bold border-b text-luxury-gold-dark bg-zinc-50/30 text-center">L</td>
+                <td className="px-4 py-3 border-b">36"</td>
+                <td className="px-4 py-3 border-b">34"</td>
+                <td className="px-4 py-3 border-b">38"</td>
+                <td className="px-4 py-3 border-b">57"</td>
+                <td className="px-4 py-3 border-b">20"</td>
+              </tr>
+              <tr className="hover:bg-zinc-50/30 transition">
+                <td className="px-4 py-3 font-bold border-b text-luxury-gold-dark bg-zinc-50/30 text-center">XL</td>
+                <td className="px-4 py-3 border-b">38"</td>
+                <td className="px-4 py-3 border-b">36"</td>
+                <td className="px-4 py-3 border-b">40"</td>
+                <td className="px-4 py-3 border-b">57"</td>
+                <td className="px-4 py-3 border-b">20"</td>
+              </tr>
+              <tr className="hover:bg-zinc-50/30 transition">
+                <td className="px-4 py-3 font-bold border-b text-luxury-gold-dark bg-zinc-50/30 text-center">XXL</td>
+                <td className="px-4 py-3 border-b">40"</td>
+                <td className="px-4 py-3 border-b">38"</td>
+                <td className="px-4 py-3 border-b">42"</td>
+                <td className="px-4 py-3 border-b">57"</td>
+                <td className="px-4 py-3 border-b">20"</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="mt-6 flex items-center gap-2 bg-luxury-champagne/45 p-3.5 rounded-xl border border-luxury-gold/15">
+          <Info size={14} className="text-luxury-gold-dark flex-shrink-0" />
+          <p className="text-[10px] text-zinc-550 leading-relaxed">
+            Need custom fitting? Our design house offers bespoke tailored sizes. Please book a virtual consult or specify your exact measurements in the cart notes.
+          </p>
+        </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import prisma from "../../../lib/prisma";
+import { getDb, saveDb } from "../../../lib/db";
 import { verifySessionToken } from "../../../lib/auth";
 import { Product } from "../../../types";
-import { MOCK_PRODUCTS } from "../../../data/mockDb";
 
 async function checkAdmin() {
   const cookieStore = await cookies();
@@ -20,9 +19,8 @@ export async function GET(req: Request) {
     const category = searchParams.get("category");
     const search = searchParams.get("search");
 
-    // Use MOCK_PRODUCTS — the current Prisma schema stores variantOptions/variants
-    // as relational tables, not as the JSON shape the frontend expects.
-    let products: Product[] = [...MOCK_PRODUCTS];
+    const db = getDb();
+    let products: Product[] = [...db.products];
 
     if (category) {
       products = products.filter((p) => p.category === category);
@@ -64,8 +62,6 @@ export async function POST(req: Request) {
       solutions,
       detailsList,
       careInstructions,
-      stock,
-      featured,
       stockStatus,
     } = body;
 
@@ -81,26 +77,28 @@ export async function POST(req: Request) {
 
     const productId = `p-${Date.now()}`;
 
-    const newProduct = await prisma.product.create({
-      data: {
-        id: productId as any,
-        name,
-        slug,
-        description: description || "",
-        price: Number(price),
-        salePrice: salePrice ? Number(salePrice) : null,
-        category,
-        images: images || [],
-        stock: stock !== undefined ? Number(stock) : 15,
-        featured: !!featured,
-        solutions: solutions || [],
-        detailsList: detailsList || [],
-        careInstructions: careInstructions || [],
-        variants: variants || [],
-        variantOptions: variantOptions || [],
-        stockStatus: stockStatus || "in_stock",
-      } as any,
-    });
+    const newProduct: Product = {
+      id: productId,
+      name,
+      slug,
+      description: description || "",
+      price: Number(price),
+      salePrice: salePrice ? Number(salePrice) : undefined,
+      category,
+      images: images || [],
+      solutions: solutions || [],
+      detailsList: detailsList || [],
+      careInstructions: careInstructions || [],
+      variants: variants || [],
+      variantOptions: variantOptions || [],
+      stockStatus: stockStatus || "in_stock",
+      rating: 4.8,
+      reviewCount: 15,
+    };
+
+    const db = getDb();
+    db.products.push(newProduct);
+    saveDb(db);
 
     return NextResponse.json({ success: true, product: newProduct });
   } catch (error: any) {
@@ -130,8 +128,6 @@ export async function PUT(req: Request) {
       solutions,
       detailsList,
       careInstructions,
-      stock,
-      featured,
       stockStatus,
     } = body;
 
@@ -145,30 +141,32 @@ export async function PUT(req: Request) {
       .replace(/[^a-z0-9\s-]/g, "")
       .replace(/\s+/g, "-");
 
-    await prisma.product.update({
-      where: { id } as any,
-      data: {
-        name,
-        slug,
-        description: description || "",
-        price: Number(price),
-        salePrice: salePrice ? Number(salePrice) : null,
-        category,
-        images: images || [],
-        stock: Number(stock),
-        featured: !!featured,
-        solutions: solutions || [],
-        detailsList: detailsList || [],
-        careInstructions: careInstructions || [],
-        variants: variants || [],
-        variantOptions: variantOptions || [],
-        stockStatus: stockStatus || "in_stock",
-      } as any,
-    });
-    const updatedProduct = await prisma.product.findUnique({ where: { id } as any });
-    if (!updatedProduct) {
+    const db = getDb();
+    const idx = db.products.findIndex((p) => p.id === id);
+    if (idx === -1) {
       return NextResponse.json({ error: "Product not found" }, { status: 404 });
     }
+
+    const updatedProduct: Product = {
+      ...db.products[idx],
+      name,
+      slug,
+      description: description || "",
+      price: Number(price),
+      salePrice: salePrice ? Number(salePrice) : undefined,
+      category,
+      images: images || [],
+      solutions: solutions || [],
+      detailsList: detailsList || [],
+      careInstructions: careInstructions || [],
+      variants: variants || [],
+      variantOptions: variantOptions || [],
+      stockStatus: stockStatus || "in_stock",
+    };
+
+    db.products[idx] = updatedProduct;
+    saveDb(db);
+
     return NextResponse.json({ success: true, product: updatedProduct });
   } catch (error: any) {
     console.error("Update product error:", error);
@@ -188,11 +186,16 @@ export async function DELETE(req: Request) {
     if (!id) {
       return NextResponse.json({ error: "Product ID is required" }, { status: 400 });
     }
-    const existing = await prisma.product.findUnique({ where: { id } as any });
-    if (!existing) {
+
+    const db = getDb();
+    const idx = db.products.findIndex((p) => p.id === id);
+    if (idx === -1) {
       return NextResponse.json({ error: "Product not found" }, { status: 404 });
     }
-    await prisma.product.delete({ where: { id } as any });
+
+    db.products.splice(idx, 1);
+    saveDb(db);
+
     return NextResponse.json({ success: true });
   } catch (error: any) {
     console.error("Delete product error:", error);

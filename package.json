@@ -4,15 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "import": "ts-node ./scripts/import-products.ts",
-    "seed": "ts-node ./prisma/seed.ts",
-    "optimize": "ts-node ./scripts/optimize-image.ts",
+    "import": "node --loader ts-node/esm ./scripts/import-products.ts",
+    "seed": "node --loader ts-node/esm ./prisma/seed.ts",
+    "optimize": "node --loader ts-node/esm ./scripts/optimize-image.ts",
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "prisma": "prisma",
-    "scrape": "npx ts-node ./scripts/scrapeProducts.ts"
+    "scrape": "node --loader ts-node/esm ./scripts/scrapeProducts.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.12.0",
