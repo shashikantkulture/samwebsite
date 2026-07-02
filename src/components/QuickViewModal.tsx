@@ -202,7 +202,8 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ productId, onClo
             )}
 
             {/* Length Swatch (Sizing/Title dynamic option) */}
-            {product.variantOptions?.find((o) => o.name === "Length" || o.name === "Size" || o.name === "Title") && (
+            {product.variantOptions?.find((o) => o.name === "Length" || o.name === "Size" || o.name === "Title") &&
+             product.variantOptions.find((o) => o.name === "Length" || o.name === "Size" || o.name === "Title")?.name !== "Title" && (
               <div>
                 <span className="text-zinc-400 uppercase tracking-widest block mb-2 text-[10px]">
                   Select {product.variantOptions.find((o) => o.name === "Length" || o.name === "Size" || o.name === "Title")?.name}: <span className="text-luxury-charcoal font-bold">{selectedLength}</span>

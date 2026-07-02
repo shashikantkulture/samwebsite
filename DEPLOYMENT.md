@@ -31,6 +31,15 @@ Log in to your Hostinger account and navigate to **Websites > Manage > Node.js D
    - **Environment Variables**: Add these key-values:
      - `NODE_ENV` = `production`
      - `SESSION_SECRET` = `choose_a_long_random_alphanumeric_string_for_security`
+     - `DATABASE_URL` = `mysql://your_db_user:your_db_password@localhost:3306/your_db_name` (For MySQL Database)
+     - `CLOUDINARY_CLOUD_NAME` = `your_cloudinary_cloud_name` (Optional Cloudinary option)
+     - `CLOUDINARY_API_KEY` = `your_cloudinary_api_key`
+     - `CLOUDINARY_API_SECRET` = `your_cloudinary_api_secret`
+     - `CLOUDFLARE_R2_ACCOUNT_ID` = `your_cloudflare_r2_account_id` (For Cloudflare R2 Image Uploads)
+     - `CLOUDFLARE_R2_ACCESS_KEY_ID` = `your_cloudflare_r2_access_key_id`
+     - `CLOUDFLARE_R2_SECRET_ACCESS_KEY` = `your_cloudflare_r2_secret_access_key`
+     - `CLOUDFLARE_R2_BUCKET_NAME` = `your_cloudflare_r2_bucket_name`
+     - `CLOUDFLARE_R2_PUBLIC_URL` = `https://your_r2_public_url.r2.dev` (Or your custom domain pointing to R2)
 
 2. **Upload Your Code**:
    - Zip your project files **excluding** `node_modules` and `.next`.

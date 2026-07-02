@@ -69,12 +69,74 @@ const DEFAULT_SETTINGS: HomepageSettings = {
   influencer2Text: "Our co-ord sets are Sanya's go-to for smart travel luxury. Very comfortable yet tailored.",
 };
 
+function ensureSizeSelection(products: Product[]): Product[] {
+  const sizeValues = ["S", "M", "L", "XL", "2XL"];
+  return products.map((p) => {
+    const nameLower = (p.name || "").toLowerCase();
+    const slugLower = (p.slug || "").toLowerCase();
+    const isScrunchie = nameLower.includes("scrunch") || slugLower.includes("scrunch");
+
+    if (isScrunchie) return p;
+
+    // Check if it already has Size or Length options
+    const hasSizeOrLength = p.variantOptions?.some(
+      (o: any) => o.name === "Size" || o.name === "Length"
+    );
+
+    if (hasSizeOrLength) return p;
+
+    // Replace Title or add Size
+    let newVariantOptions = p.variantOptions ? [...p.variantOptions] : [];
+    newVariantOptions = newVariantOptions.filter((o: any) => o.name !== "Title");
+    newVariantOptions.push({
+      name: "Size",
+      values: sizeValues,
+    });
+
+    // Create variants for each size
+    let newVariants: any[] = [];
+    const baseVariants = p.variants && p.variants.length > 0
+      ? p.variants
+      : [{ color: "Default", length: "Default Title", price: p.price, salePrice: p.salePrice, sku: (p as any).sku || `SR-${p.id}`, stock: 15 }];
+
+    baseVariants.forEach((bv: any) => {
+      sizeValues.forEach((size) => {
+        newVariants.push({
+          ...bv,
+          length: size,
+          sku: `${bv.sku || `SR-${p.id}`}-${size}`,
+          stock: bv.stock > 0 ? bv.stock : 15,
+        });
+      });
+    });
+
+    return {
+      ...p,
+      variantOptions: newVariantOptions,
+      variants: newVariants,
+    };
+  });
+}
+
 // Seeder logic to create db.json if it does not exist
 function initializeDb(): DatabaseSchema {
   if (fs.existsSync(DB_FILE_PATH)) {
     try {
       const data = fs.readFileSync(DB_FILE_PATH, "utf8");
-      return JSON.parse(data);
+      const db = JSON.parse(data);
+      const migratedProducts = ensureSizeSelection(db.products);
+
+      // Determine if there are changes and write them back
+      const stringifiedOriginal = JSON.stringify(db.products);
+      const stringifiedMigrated = JSON.stringify(migratedProducts);
+
+      if (stringifiedOriginal !== stringifiedMigrated) {
+        db.products = migratedProducts;
+        saveDb(db);
+        console.log("✅ Migrated db.json products to include size selections");
+      }
+
+      return db;
     } catch (e) {
       console.error("Failed to parse db.json, re-initializing", e);
     }
@@ -100,7 +162,7 @@ function initializeDb(): DatabaseSchema {
         createdAt: new Date().toISOString(),
       },
     ],
-    products: MOCK_PRODUCTS,
+    products: ensureSizeSelection(MOCK_PRODUCTS),
     orders: [
       {
         orderId: "ORD-94812",

@@ -37,7 +37,8 @@ export default function ProductDetail({ params }: ProductPageProps) {
     (p) => p.slug === paramId || p.id === paramId
   );
 
-  const isScrunchie = product ? (product.name.toLowerCase().includes("scrunch") || product.slug.toLowerCase().includes("scrunch") || product.category === "accessories") : false;
+  const isScrunchie = product ? (product.name.toLowerCase().includes("scrunch") || product.slug.toLowerCase().includes("scrunch")) : false;
+  const isAccessory = product ? (product.category === "accessories") : false;
 
   // States
   const [selectedColor, setSelectedColor] = useState("");
@@ -364,13 +365,13 @@ export default function ProductDetail({ params }: ProductPageProps) {
                     )}
 
                     {/* Length Selector */}
-                    {lengthOpt && (
+                    {lengthOpt && lengthOpt.name !== "Title" && (
                       <div>
                         <div className="flex justify-between items-center mb-2">
                           <span className="text-zinc-400 uppercase tracking-widest block text-[10px]">
                             Select {lengthOpt.name}: <span className="text-luxury-charcoal font-bold">{selectedLength}</span>
                           </span>
-                          {!isScrunchie && (
+                          {!isAccessory && (
                             <button
                               onClick={() => setIsSizeChartOpen(true)}
                               className="text-luxury-gold-dark hover:text-luxury-gold text-[10px] uppercase font-bold tracking-wider underline flex items-center gap-1 cursor-pointer bg-transparent border-none p-0"
@@ -562,7 +563,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
                 >
                   Product Details
                 </button>
-                {!isScrunchie && (
+                {!isAccessory && (
                   <button
                     onClick={() => setActiveTab("sizeChart")}
                     className={`pb-2 border-b-2 transition ${activeTab === "sizeChart" ? "border-luxury-charcoal text-luxury-charcoal font-black" : "border-transparent"}`}
@@ -592,7 +593,7 @@ export default function ProductDetail({ params }: ProductPageProps) {
                     ))}
                   </ul>
                 )}
-                {!isScrunchie && activeTab === "sizeChart" && (
+                {!isAccessory && activeTab === "sizeChart" && (
                   <div className="overflow-x-auto rounded-xl border border-zinc-150 p-1 bg-white">
                     <table className="min-w-full divide-y divide-zinc-200 text-left text-xs text-luxury-charcoal">
                       <thead>

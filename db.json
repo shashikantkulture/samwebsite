@@ -44,39 +44,177 @@
             "Green",
             "golden"
           ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
+          ]
         }
       ],
       "variants": [
         {
           "color": "maroon",
-          "length": "Standard",
+          "length": "S",
           "price": 13999,
           "salePrice": 7299,
-          "sku": "SR-10416570466582-0",
+          "sku": "SR-10416570466582-0-S",
+          "stock": 15
+        },
+        {
+          "color": "maroon",
+          "length": "M",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-0-M",
+          "stock": 15
+        },
+        {
+          "color": "maroon",
+          "length": "L",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-0-L",
+          "stock": 15
+        },
+        {
+          "color": "maroon",
+          "length": "XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "maroon",
+          "length": "2XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-0-2XL",
           "stock": 15
         },
         {
           "color": "blue",
-          "length": "Standard",
+          "length": "S",
           "price": 13999,
           "salePrice": 7299,
-          "sku": "SR-10416570466582-1",
+          "sku": "SR-10416570466582-1-S",
+          "stock": 15
+        },
+        {
+          "color": "blue",
+          "length": "M",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-1-M",
+          "stock": 15
+        },
+        {
+          "color": "blue",
+          "length": "L",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-1-L",
+          "stock": 15
+        },
+        {
+          "color": "blue",
+          "length": "XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-1-XL",
+          "stock": 15
+        },
+        {
+          "color": "blue",
+          "length": "2XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-1-2XL",
           "stock": 15
         },
         {
           "color": "Green",
-          "length": "Standard",
+          "length": "S",
           "price": 13999,
           "salePrice": 7299,
-          "sku": "SR-10416570466582-2",
+          "sku": "SR-10416570466582-2-S",
+          "stock": 15
+        },
+        {
+          "color": "Green",
+          "length": "M",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-2-M",
+          "stock": 15
+        },
+        {
+          "color": "Green",
+          "length": "L",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-2-L",
+          "stock": 15
+        },
+        {
+          "color": "Green",
+          "length": "XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-2-XL",
+          "stock": 15
+        },
+        {
+          "color": "Green",
+          "length": "2XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-2-2XL",
           "stock": 15
         },
         {
           "color": "golden",
-          "length": "Standard",
+          "length": "S",
           "price": 13999,
           "salePrice": 7299,
-          "sku": "SR-10416570466582-3",
+          "sku": "SR-10416570466582-3-S",
+          "stock": 15
+        },
+        {
+          "color": "golden",
+          "length": "M",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-3-M",
+          "stock": 15
+        },
+        {
+          "color": "golden",
+          "length": "L",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-3-L",
+          "stock": 15
+        },
+        {
+          "color": "golden",
+          "length": "XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-3-XL",
+          "stock": 15
+        },
+        {
+          "color": "golden",
+          "length": "2XL",
+          "price": 13999,
+          "salePrice": 7299,
+          "sku": "SR-10416570466582-3-2XL",
           "stock": 15
         }
       ],
@@ -118,19 +256,55 @@
       ],
       "variantOptions": [
         {
-          "name": "Title",
+          "name": "Size",
           "values": [
-            "Default Title"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
           ]
         }
       ],
       "variants": [
         {
           "color": "Default",
-          "length": "Default Title",
+          "length": "S",
           "price": 8999,
           "salePrice": 3699,
-          "sku": "SR-10416562340118-0",
+          "sku": "SR-10416562340118-0-S",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "M",
+          "price": 8999,
+          "salePrice": 3699,
+          "sku": "SR-10416562340118-0-M",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "L",
+          "price": 8999,
+          "salePrice": 3699,
+          "sku": "SR-10416562340118-0-L",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "XL",
+          "price": 8999,
+          "salePrice": 3699,
+          "sku": "SR-10416562340118-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "2XL",
+          "price": 8999,
+          "salePrice": 3699,
+          "sku": "SR-10416562340118-0-2XL",
           "stock": 15
         }
       ],
@@ -173,19 +347,55 @@
       ],
       "variantOptions": [
         {
-          "name": "Title",
+          "name": "Size",
           "values": [
-            "Default Title"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
           ]
         }
       ],
       "variants": [
         {
           "color": "Default",
-          "length": "Default Title",
+          "length": "S",
           "price": 8999,
           "salePrice": 3199,
-          "sku": "SR-10416529146134-0",
+          "sku": "SR-10416529146134-0-S",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "M",
+          "price": 8999,
+          "salePrice": 3199,
+          "sku": "SR-10416529146134-0-M",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "L",
+          "price": 8999,
+          "salePrice": 3199,
+          "sku": "SR-10416529146134-0-L",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "XL",
+          "price": 8999,
+          "salePrice": 3199,
+          "sku": "SR-10416529146134-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "2XL",
+          "price": 8999,
+          "salePrice": 3199,
+          "sku": "SR-10416529146134-0-2XL",
           "stock": 15
         }
       ],
@@ -2286,19 +2496,55 @@
       ],
       "variantOptions": [
         {
-          "name": "Title",
+          "name": "Size",
           "values": [
-            "Default Title"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
           ]
         }
       ],
       "variants": [
         {
           "color": "Default",
-          "length": "Default Title",
+          "length": "S",
           "price": 799,
           "salePrice": 499,
-          "sku": "SR-10079418253590-0",
+          "sku": "SR-10079418253590-0-S",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "M",
+          "price": 799,
+          "salePrice": 499,
+          "sku": "SR-10079418253590-0-M",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "L",
+          "price": 799,
+          "salePrice": 499,
+          "sku": "SR-10079418253590-0-L",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "XL",
+          "price": 799,
+          "salePrice": 499,
+          "sku": "SR-10079418253590-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "2XL",
+          "price": 799,
+          "salePrice": 499,
+          "sku": "SR-10079418253590-0-2XL",
           "stock": 15
         }
       ],
@@ -2338,19 +2584,55 @@
       ],
       "variantOptions": [
         {
-          "name": "Title",
+          "name": "Size",
           "values": [
-            "Default Title"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
           ]
         }
       ],
       "variants": [
         {
           "color": "Default",
-          "length": "Default Title",
+          "length": "S",
           "price": 3494,
           "salePrice": 2499,
-          "sku": "SR-10066130796822-0",
+          "sku": "SR-10066130796822-0-S",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "M",
+          "price": 3494,
+          "salePrice": 2499,
+          "sku": "SR-10066130796822-0-M",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "L",
+          "price": 3494,
+          "salePrice": 2499,
+          "sku": "SR-10066130796822-0-L",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "XL",
+          "price": 3494,
+          "salePrice": 2499,
+          "sku": "SR-10066130796822-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "2XL",
+          "price": 3494,
+          "salePrice": 2499,
+          "sku": "SR-10066130796822-0-2XL",
           "stock": 15
         }
       ],
@@ -2390,19 +2672,55 @@
       ],
       "variantOptions": [
         {
-          "name": "Title",
+          "name": "Size",
           "values": [
-            "Default Title"
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL"
           ]
         }
       ],
       "variants": [
         {
           "color": "Default",
-          "length": "Default Title",
+          "length": "S",
           "price": 699,
           "salePrice": 449,
-          "sku": "SR-10065309171990-0",
+          "sku": "SR-10065309171990-0-S",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "M",
+          "price": 699,
+          "salePrice": 449,
+          "sku": "SR-10065309171990-0-M",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "L",
+          "price": 699,
+          "salePrice": 449,
+          "sku": "SR-10065309171990-0-L",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "XL",
+          "price": 699,
+          "salePrice": 449,
+          "sku": "SR-10065309171990-0-XL",
+          "stock": 15
+        },
+        {
+          "color": "Default",
+          "length": "2XL",
+          "price": 699,
+          "salePrice": 449,
+          "sku": "SR-10065309171990-0-2XL",
           "stock": 15
         }
       ],
